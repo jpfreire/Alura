@@ -1,8 +1,4 @@
-class MensagemView extends View{
-
-    update(mensagem:string):void{
-        this._elemento.innerHTML = this.template(mensagem);
-    }
+class MensagemView extends View<string>{
 
     template(mensagem:string): string {
 
