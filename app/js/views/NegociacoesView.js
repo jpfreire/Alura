@@ -1,4 +1,4 @@
-class NegociacoesView extends View {
+class NegociacoesView extends Views.View {
     template(modelo) {
         return `
         <table class="table table-hover table-bordered">
