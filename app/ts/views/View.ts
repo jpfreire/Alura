@@ -1,14 +1,14 @@
-declare var $:any;
+
 abstract class View<T> {
 
-    private _elemento:any;
+    private _elemento:JQuery;
 
     constructor(seletor:string){
         this._elemento = $(seletor);
     }
 
     update(modelo:T):void{
-        this._elemento.HTML(this.template(modelo));
+        this._elemento.html(this.template(modelo));
     }
 
     abstract template(modelo:T): string;
