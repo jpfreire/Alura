@@ -15,9 +15,10 @@ export function logarTempoDeExecucao(emSegundos:boolean=false){
             }
 
             let label = `%c tempo de execucao para %c  ${propertyKey}`;
-            console.info(target);
+            
             //@ts-ignore
-            console.group(label,AZUL,AMARELO);
+            console.groupCollapsed(label,AZUL,AMARELO);
+            console.info(target);
             console.info(`parâmetros: ${JSON.stringify(args)}`);
             let t1 = performance.now();
             const retorno = metodoOriginal.apply(this,args);

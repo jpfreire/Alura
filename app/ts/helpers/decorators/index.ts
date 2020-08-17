@@ -1,1 +1,2 @@
-export { logarTempoDeExecucao } from './TempoDeExecucao';
+export * from './TempoDeExecucao';
+export * from './DomInject';

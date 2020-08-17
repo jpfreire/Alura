@@ -13,8 +13,8 @@ System.register([], function (exports_1, context_1) {
                     divisor = 1000;
                 }
                 let label = `%c tempo de execucao para %c  ${propertyKey}`;
+                console.groupCollapsed(label, AZUL, AMARELO);
                 console.info(target);
-                console.group(label, AZUL, AMARELO);
                 console.info(`parâmetros: ${JSON.stringify(args)}`);
                 let t1 = performance.now();
                 const retorno = metodoOriginal.apply(this, args);
