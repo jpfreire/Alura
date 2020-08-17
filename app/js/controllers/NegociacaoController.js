@@ -49,7 +49,12 @@ System.register(["../views/index", "../models/index", "../helpers/decorators/ind
                         dia.getDay() != DiaDaSemana.Domingo;
                 }
                 importarDados() {
-                    console.log('importarDados');
+                    fetch('http://localhost:8080/dados')
+                        .then(res => res.json())
+                        .then((dados) => dados.map(dado => new index_2.Negociacao(new Date(), dado.vezes, dado.montante)))
+                        .then(dados => dados.forEach(dado => this._negociacoes.adiciona(dado)))
+                        .then(() => this._negociacoesView.update(this._negociacoes))
+                        .catch(err => console.error('Erro ao importar dados', err));
                 }
             };
             __decorate([

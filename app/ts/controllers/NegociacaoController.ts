@@ -50,7 +50,13 @@ export class NegociacaoController{
     }
 
     importarDados(){
-        console.log('importarDados');
+        fetch('http://localhost:8080/dados')
+        .then(res=>res.json())
+        .then((dados:any[])=>dados.map(dado => new Negociacao(new Date(),dado.vezes,dado.montante)))
+        .then(dados=>dados.forEach(dado=>this._negociacoes.adiciona(dado)))
+        .then(()=>this._negociacoesView.update(this._negociacoes))
+        .catch(err => console.error('Erro ao importar dados',err))
+
     }
 
 }
