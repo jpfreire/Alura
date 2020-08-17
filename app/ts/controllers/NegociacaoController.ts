@@ -1,6 +1,6 @@
 import { NegociacoesView, MensagemView } from '../views/index';
 import { Negociacoes, Negociacao, NegociacaoParcial } from '../models/index';
-import { domInject, meuDecoratorDeClasse } from '../helpers/decorators/index';
+import { domInject, meuDecoratorDeClasse, throttle } from '../helpers/decorators/index';
 @meuDecoratorDeClasse()
 export class NegociacaoController{
 
@@ -23,8 +23,9 @@ export class NegociacaoController{
         this._negociacoesView.update(this._negociacoes);
     }
 
-    adiciona(event:Event){
-        event.preventDefault();
+    @throttle()
+    adiciona(){
+    
         let dia = new Date(this._inputData.val().replace(/-/g,','));
         if (!this._ehDiaUtil(dia)){
             this._mensagemView.update('Favor incluir apenas dias úteis');
@@ -49,6 +50,7 @@ export class NegociacaoController{
                 dia.getDay()!=DiaDaSemana.Domingo;
     }
 
+    @throttle()
     importarDados(){
         fetch('http://localhost:8080/dados')
         .then(res=>res.json())

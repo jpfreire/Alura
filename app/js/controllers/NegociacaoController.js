@@ -29,8 +29,7 @@ System.register(["../views/index", "../models/index", "../helpers/decorators/ind
                     this._mensagemView = new index_1.MensagemView('#mensagemView');
                     this._negociacoesView.update(this._negociacoes);
                 }
-                adiciona(event) {
-                    event.preventDefault();
+                adiciona() {
                     let dia = new Date(this._inputData.val().replace(/-/g, ','));
                     if (!this._ehDiaUtil(dia)) {
                         this._mensagemView.update('Favor incluir apenas dias úteis');
@@ -66,6 +65,12 @@ System.register(["../views/index", "../models/index", "../helpers/decorators/ind
             __decorate([
                 index_3.domInject('#valor')
             ], NegociacaoController.prototype, "_inputValor", void 0);
+            __decorate([
+                index_3.throttle()
+            ], NegociacaoController.prototype, "adiciona", null);
+            __decorate([
+                index_3.throttle()
+            ], NegociacaoController.prototype, "importarDados", null);
             NegociacaoController = __decorate([
                 index_3.meuDecoratorDeClasse()
             ], NegociacaoController);
