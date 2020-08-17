@@ -11,6 +11,7 @@ System.register(["./View"], function (exports_1, context_1) {
         execute: function () {
             NegociacoesView = class NegociacoesView extends View_1.View {
                 template(modelo) {
+                    console.log('gerando template para NegociacoesView', modelo);
                     return `
         <table class="table table-hover table-bordered">
             <thead>

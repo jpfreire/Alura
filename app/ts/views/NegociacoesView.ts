@@ -4,7 +4,7 @@ import { Negociacoes } from '../models/Negociacoes';
 export class NegociacoesView extends View<Negociacoes>{
 
     template(modelo:Negociacoes): string {
-
+        console.log('gerando template para NegociacoesView', modelo);
         return `
         <table class="table table-hover table-bordered">
             <thead>

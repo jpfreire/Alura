@@ -9,7 +9,7 @@
 
 <body class="container">
     
-    <h1 class="text-center">Negociações</h1>
+    <h1 class="text-center">Negociações 2</h1>
     
     <div id="mensagemView"></div>
     
@@ -17,7 +17,7 @@
         
         <div class="form-group">
             <label for="data">Data</label>
-            <input type="date" id="data" class="form-control" required autofocus/>        
+            <input type="date" id="data" class="form-control" required autofocus value="1980-10-16"/>        
         </div>    
         
         <div class="form-group">
@@ -27,7 +27,7 @@
         
         <div class="form-group">
             <label for="valor">Valor</label>
-            <input id="valor" type="number" class="form-control"  min="0.01" step="0.01" value="0.0" required />
+            <input id="valor" type="number" class="form-control"  min="0.01" step="0.01" value="20.0" required />
         </div>
         
         <button class="btn btn-primary" type="submit">Incluir</button>
@@ -40,7 +40,7 @@
     <script src="lib/jquery.min.js"></script>
     <script src="lib/system.js"></script>
     <script>
-        System.defaultJSExstension = true;
+        System.defaultJSExtensions = true;
         System.import('js/app.js').catch(err=>console.error(err));
     </script>
 </body>

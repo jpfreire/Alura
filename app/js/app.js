@@ -10,6 +10,7 @@ System.register(["./controllers/NegociacaoController"], function (exports_1, con
         ],
         execute: function () {
             controller = new NegociacaoController_1.NegociacaoController();
+            console.log('controller', controller);
             $(".form").submit((evento) => controller.adiciona(evento));
         }
     };
