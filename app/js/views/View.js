@@ -11,11 +11,14 @@ System.register([], function (exports_1, context_1) {
                     this._elemento = $(seletor);
                 }
                 update(modelo) {
+                    let t1 = performance.now();
                     let template = this.template(modelo);
                     if (this.escapar) {
                         template = template.replace(/<script>[\s\S]*?<\/script>/, '');
                     }
                     this._elemento.html(template);
+                    let t2 = performance.now();
+                    console.log(`update rodou em ${t2 - t1}ms`);
                 }
             };
             exports_1("View", View);
