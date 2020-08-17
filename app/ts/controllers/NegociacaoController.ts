@@ -1,6 +1,7 @@
 import { NegociacoesView, MensagemView } from '../views/index';
 import { Negociacoes, Negociacao } from '../models/index';
-import { domInject } from '../helpers/decorators/index';
+import { domInject, meuDecoratorDeClasse } from '../helpers/decorators/index';
+@meuDecoratorDeClasse()
 export class NegociacaoController{
 
     public momentoCriacao = performance.now();
