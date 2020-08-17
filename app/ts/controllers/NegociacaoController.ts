@@ -1,5 +1,5 @@
 import { NegociacoesView, MensagemView } from '../views/index';
-import { Negociacoes, Negociacao } from '../models/index';
+import { Negociacoes, Negociacao, NegociacaoParcial } from '../models/index';
 import { domInject, meuDecoratorDeClasse } from '../helpers/decorators/index';
 @meuDecoratorDeClasse()
 export class NegociacaoController{
@@ -52,7 +52,7 @@ export class NegociacaoController{
     importarDados(){
         fetch('http://localhost:8080/dados')
         .then(res=>res.json())
-        .then((dados:any[])=>dados.map(dado => new Negociacao(new Date(),dado.vezes,dado.montante)))
+        .then((dados:NegociacaoParcial[])=>dados.map(dado => new Negociacao(new Date(),dado.vezes,dado.montante)))
         .then(dados=>dados.forEach(dado=>this._negociacoes.adiciona(dado)))
         .then(()=>this._negociacoesView.update(this._negociacoes))
         .catch(err => console.error('Erro ao importar dados',err))
