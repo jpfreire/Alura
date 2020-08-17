@@ -20,7 +20,8 @@ export class NegociacaoController{
         event.preventDefault();
         let dia = new Date(this._inputData.val().replace(/-/g,','));
         if (!this._ehDiaUtil(dia)){
-
+            this._mensagemView.update('Favor incluir apenas dias úteis');
+            return
         }
         let negociacao = new Negociacao(
                                 dia, 

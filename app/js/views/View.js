@@ -6,8 +6,8 @@ System.register(["../helpers/decorators/index"], function (exports_1, context_1)
         else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
         return c > 3 && r && Object.defineProperty(target, key, r), r;
     };
-    var __moduleName = context_1 && context_1.id;
     var index_1, View;
+    var __moduleName = context_1 && context_1.id;
     return {
         setters: [
             function (index_1_1) {
@@ -21,18 +21,15 @@ System.register(["../helpers/decorators/index"], function (exports_1, context_1)
                     this._elemento = $(seletor);
                 }
                 update(modelo) {
-                    let t1 = performance.now();
                     let template = this.template(modelo);
                     if (this.escapar) {
                         template = template.replace(/<script>[\s\S]*?<\/script>/, '');
                     }
                     this._elemento.html(template);
-                    let t2 = performance.now();
-                    console.log(`update rodou em ${t2 - t1}ms`);
                 }
             };
             __decorate([
-                index_1.logarTempoDeExecucao()
+                index_1.logarTempoDeExecucao(true)
             ], View.prototype, "update", null);
             exports_1("View", View);
         }

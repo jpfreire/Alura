@@ -1,7 +1,7 @@
 System.register(["../views/index", "../models/index"], function (exports_1, context_1) {
     "use strict";
-    var __moduleName = context_1 && context_1.id;
     var index_1, index_2, NegociacaoController, DiaDaSemana;
+    var __moduleName = context_1 && context_1.id;
     return {
         setters: [
             function (index_1_1) {
@@ -26,6 +26,8 @@ System.register(["../views/index", "../models/index"], function (exports_1, cont
                     event.preventDefault();
                     let dia = new Date(this._inputData.val().replace(/-/g, ','));
                     if (!this._ehDiaUtil(dia)) {
+                        this._mensagemView.update('Favor incluir apenas dias úteis');
+                        return;
                     }
                     let negociacao = new index_2.Negociacao(dia, parseInt(this._inputQuantidade.val()), parseFloat(this._inputValor.val()));
                     this._negociacoes.adiciona(negociacao);
