@@ -48,6 +48,9 @@ System.register(["../views/index", "../models/index", "../helpers/decorators/ind
                     return dia.getDay() != DiaDaSemana.Sabado &&
                         dia.getDay() != DiaDaSemana.Domingo;
                 }
+                importarDados() {
+                    console.log('importarDados');
+                }
             };
             __decorate([
                 index_3.domInject('#data')
