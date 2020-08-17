@@ -2,7 +2,7 @@ export abstract class View<T> {
 
     private _elemento:JQuery;
 
-    constructor(seletor:string, private escapar?:boolean){
+    constructor(seletor:string, private escapar:boolean = true){
         this._elemento = $(seletor);
     }
 
