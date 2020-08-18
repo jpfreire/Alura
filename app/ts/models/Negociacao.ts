@@ -1,6 +1,6 @@
 import { Imprimivel } from "./Imprimivel";
 
-export class Negociacao extends Imprimivel{
+export class Negociacao implements Imprimivel{
 
     // declaração das propriedades de classe
     
@@ -8,7 +8,7 @@ export class Negociacao extends Imprimivel{
     constructor(readonly data: Date,
                 readonly quantidade: number,
                 readonly valor: number) {
-        super();
+
     }
 
     get volume() {
