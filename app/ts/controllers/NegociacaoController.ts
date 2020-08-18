@@ -1,6 +1,7 @@
 import { NegociacoesView, MensagemView } from '../views/index';
 import { Negociacoes, Negociacao, NegociacaoParcial } from '../models/index';
 import { domInject, meuDecoratorDeClasse, throttle } from '../helpers/decorators/index';
+import { NegociacaoService } from '../services/index';
 @meuDecoratorDeClasse()
 export class NegociacaoController{
 
@@ -18,6 +19,7 @@ export class NegociacaoController{
     private _negociacoes = new Negociacoes();
     private _negociacoesView = new NegociacoesView('#negociacoesView');
     private _mensagemView = new MensagemView('#mensagemView');
+    private _negociacaoService = new NegociacaoService()
 
     constructor(){
         this._negociacoesView.update(this._negociacoes);
@@ -52,13 +54,12 @@ export class NegociacaoController{
 
     @throttle()
     importarDados(){
-        fetch('http://localhost:8080/dados')
-        .then(res=>res.json())
-        .then((dados:NegociacaoParcial[])=>dados.map(dado => new Negociacao(new Date(),dado.vezes,dado.montante)))
+
+        this._negociacaoService.obterNegociacoes()
+        .then(dados=>{console.log(dados);return dados})
         .then(dados=>dados.forEach(dado=>this._negociacoes.adiciona(dado)))
         .then(()=>this._negociacoesView.update(this._negociacoes))
-        .catch(err => console.error('Erro ao importar dados',err))
-
+        // .catch(err => console.error('Erro ao importar dados',err)) 
     }
 
 }
