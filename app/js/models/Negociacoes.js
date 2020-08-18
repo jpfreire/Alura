@@ -29,6 +29,19 @@ System.register(["../helpers/decorators/index"], function (exports_1, context_1)
                     console.log('-- paraTexto --');
                     console.log(JSON.stringify(this._negociacoes));
                 }
+                contem(negociacao) {
+                    debugger;
+                    console.log('negociacao', negociacao);
+                    let contem = this._negociacoes.some(jaImportado => {
+                        console.log(' !=', jaImportado);
+                        return negociacao.ehIgual(jaImportado);
+                    });
+                    console.log(`resposta: ${contem}`);
+                    return contem;
+                }
+                ehIgual(obj) {
+                    return JSON.stringify(this._negociacoes) == JSON.stringify(obj._negociacoes);
+                }
             };
             __decorate([
                 index_1.logarTempoDeExecucao()

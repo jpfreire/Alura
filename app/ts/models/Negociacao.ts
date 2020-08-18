@@ -1,6 +1,7 @@
 import { Imprimivel } from "./Imprimivel";
+import { Igualavel } from "./Igualavel";
 
-export class Negociacao implements Imprimivel{
+export class Negociacao implements Imprimivel, Igualavel<Negociacao>{
 
     // declaração das propriedades de classe
     
@@ -24,5 +25,13 @@ export class Negociacao implements Imprimivel{
             Valor: ${this.valor}, 
             Volume: ${this.volume}`
         );
+    }
+
+    ehIgual(obj:Negociacao):boolean{
+        return this.data.getDate() == obj.data.getDate()
+                && this.data.getMonth() == obj.data.getMonth() 
+                && this.data.getFullYear() == obj.data.getFullYear() 
+                && this.quantidade == obj.quantidade
+                && this.valor == obj.valor;
     }
 }

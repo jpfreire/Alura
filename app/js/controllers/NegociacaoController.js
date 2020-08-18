@@ -53,8 +53,10 @@ System.register(["../views/index", "../models/index", "../helpers/decorators/ind
                         dia.getDay() != DiaDaSemana.Domingo;
                 }
                 importarDados() {
+                    debugger;
                     this._negociacaoService.obterNegociacoes()
-                        .then(dados => { console.log(dados); return dados; })
+                        .then(negociacoes => negociacoes
+                        .filter((negociacao) => !this._negociacoes.contem(negociacao)))
                         .then(dados => dados.forEach(dado => this._negociacoes.adiciona(dado)))
                         .then(() => this._negociacoesView.update(this._negociacoes));
                 }
