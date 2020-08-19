@@ -55,13 +55,14 @@ export class NegociacaoController{
 
     @throttle()
     importarDados(){
-        debugger;
         this._negociacaoService.obterNegociacoes()
         .then(negociacoes=>negociacoes
             .filter((negociacao)=>!this._negociacoes.contem(negociacao)))
         .then(dados=>dados.forEach(dado=>this._negociacoes.adiciona(dado)))
         .then(()=>this._negociacoesView.update(this._negociacoes))
-        // .catch(err => console.error('Erro ao importar dados',err)) 
+        .catch(err => {
+            this._mensagemView.update(err.message);
+        }) 
     }
 
 }
