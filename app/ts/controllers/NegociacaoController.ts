@@ -54,15 +54,18 @@ export class NegociacaoController{
     }
 
     @throttle()
-    importarDados(){
-        this._negociacaoService.obterNegociacoes()
-        .then(negociacoes=>negociacoes
-            .filter((negociacao)=>!this._negociacoes.contem(negociacao)))
-        .then(dados=>dados.forEach(dado=>this._negociacoes.adiciona(dado)))
-        .then(()=>this._negociacoesView.update(this._negociacoes))
-        .catch(err => {
-            this._mensagemView.update(err.message);
-        }) 
+    async importarDados(){
+        try {
+            const negociacoes = await this._negociacaoService.obterNegociacoes();
+
+        negociacoes
+            .filter((negociacao)=>!this._negociacoes.contem(negociacao))
+            .forEach(dado=>this._negociacoes.adiciona(dado));
+        this._negociacoesView.update(this._negociacoes);
+        } catch (error) {
+            this._mensagemView.update(error.message);
+        }
+        
     }
 
 }

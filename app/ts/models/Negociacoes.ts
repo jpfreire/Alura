@@ -24,7 +24,7 @@ export class Negociacoes implements MeuObjeto<Negociacoes>{
     }
 
     contem(negociacao:Negociacao):boolean{
-        debugger;
+        
         console.log('negociacao', negociacao);
         let contem = this._negociacoes.some(jaImportado=>{
             

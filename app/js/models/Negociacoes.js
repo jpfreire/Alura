@@ -30,7 +30,6 @@ System.register(["../helpers/decorators/index"], function (exports_1, context_1)
                     console.log(JSON.stringify(this._negociacoes));
                 }
                 contem(negociacao) {
-                    debugger;
                     console.log('negociacao', negociacao);
                     let contem = this._negociacoes.some(jaImportado => {
                         console.log(' !=', jaImportado);
