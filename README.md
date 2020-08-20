@@ -35,7 +35,7 @@ Repositório dos cursos da alura
         - dependencia desintalada `npm uninstall babel-plugin-transform-es2015-modules-systemjs --save-dev`
     - [x] `npm run build-dev`
 - [x] 12 - calopsita-loader?
-- [ ] 13 - O que aprendemos?
-- [ ] 14 - Consolidando seu conhecimento
+- [x] 13 - O que aprendemos?
+- [x] 14 - Consolidando seu conhecimento
 
 ## Typescript (concluído)
