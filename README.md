@@ -19,11 +19,13 @@ Repositório dos cursos da alura
     - [x] `npm uninstall systemjs --save`
     - [x] `npm install webpack@3.1.0 babel-core@6.25.0 --save-dev`
 - [x] 06 - Sobre Webpack e Babel
-- [x] 07 - O temível webpack.config.js
+- [x] 07 - O temível `webpack.config.js`
 - [x] 08 - Arquivo de configuração
-- [x] 09 - Problema no package.json
+- [x] 09 - Problema no `package.json`
     - [x] Aspas simples ao invés de duplas
-- [ ] 10 - Jogo dos nerros
+- [x] 10 - Jogo dos erros 
+    - faltou importar o pacote `path` e;
+    - o atributo `filename` na configuração
 - [ ] 11 - Babel-loader, a ponte entre o Webpack e o Babel
 - [ ] 12 - calopsita-loader?
 - [ ] 13 - O que aprendemos?
