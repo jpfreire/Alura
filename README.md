@@ -4,7 +4,9 @@ Repositório dos cursos da alura
 ## Webpack: Manipulando módulos na sua webapp (iniciado)
 ### AULA 01 - Introdução
 - [x] 01 - Webpack, o agrupador de módulos
-- [ ] 02 - (Obrigatório) Infraestrutura mínima
+- [x] 02 - (Obrigatório) Infraestrutura mínima
+  - [x] Node
+  - [x] VS Code
 - [ ] 03 - (Obrigatório) Download do projeto
 - [ ] 04 - Para saber mais: webpack e sua estreita relação com SPA
 - [ ] 05 - Preparando o terreno para o Webpack
