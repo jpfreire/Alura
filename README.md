@@ -20,9 +20,10 @@ Repositório dos cursos da alura
     - [x] `npm install webpack@3.1.0 babel-core@6.25.0 --save-dev`
 - [x] 06 - Sobre Webpack e Babel
 - [x] 07 - O temível webpack.config.js
-- [ ] 08 - Arquivo de configuração
-- [ ] 09 - Problema no package.json
-- [ ] 10 - Jogo dos erros
+- [x] 08 - Arquivo de configuração
+- [x] 09 - Problema no package.json
+    - [x] Aspas simples ao invés de duplas
+- [ ] 10 - Jogo dos nerros
 - [ ] 11 - Babel-loader, a ponte entre o Webpack e o Babel
 - [ ] 12 - calopsita-loader?
 - [ ] 13 - O que aprendemos?
