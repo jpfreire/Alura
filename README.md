@@ -15,6 +15,7 @@ Repositório dos cursos da alura
     - [x] executando `npm start` no servidor
 - [x] 04 - Para saber mais: webpack e sua estreita relação com SPA
 - [x] 05 - Preparando o terreno para o Webpack
+    - [x] ajuste no `index.html`
     - [x] `npm uninstall babel-cli --save-dev`
     - [x] `npm uninstall systemjs --save`
     - [x] `npm install webpack@3.1.0 babel-core@6.25.0 --save-dev`
@@ -27,6 +28,12 @@ Repositório dos cursos da alura
     - faltou importar o pacote `path` e;
     - o atributo `filename` na configuração
 - [ ] 11 - Babel-loader, a ponte entre o Webpack e o Babel
+    - [x] `npm install babel-loader@7.1.0 --save-dev`
+    - [x] módulos configurados em `webpack.config.js`
+    - [x] ajuste para remover o systemjs de carregamento de módulos via browser
+        - módulos do `.babelrc` ajustado: removido plugin `transform-es2015-modules-systemjs`
+        - dependencia desintalada `npm uninstall babel-plugin-transform-es2015-modules-systemjs --save-dev`
+    - [x] ``
 - [ ] 12 - calopsita-loader?
 - [ ] 13 - O que aprendemos?
 - [ ] 14 - Consolidando seu conhecimento
