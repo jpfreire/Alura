@@ -38,4 +38,14 @@ Repositório dos cursos da alura
 - [x] 13 - O que aprendemos?
 - [x] 14 - Consolidando seu conhecimento
 
+### AULA 02 - Preparando o build de produção
+- [ ] 01 - Preparando o build de produção
+- [ ] 02 - Configurando um build de produção
+- [ ] 03 - Mudando o ambiente com cross-env
+- [ ] 04 - Uma configuração a ser analisada
+- [ ] 05 - Sobre o uso do cross-env
+- [ ] 06 - O que aprendemos?
+- [ ] 07 - Consolidando seu conhecimento
+
+
 ## Typescript (concluído)
