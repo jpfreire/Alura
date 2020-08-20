@@ -27,13 +27,13 @@ Repositório dos cursos da alura
 - [x] 10 - Jogo dos erros 
     - faltou importar o pacote `path` e;
     - o atributo `filename` na configuração
-- [ ] 11 - Babel-loader, a ponte entre o Webpack e o Babel
+- [x] 11 - Babel-loader, a ponte entre o Webpack e o Babel
     - [x] `npm install babel-loader@7.1.0 --save-dev`
     - [x] módulos configurados em `webpack.config.js`
     - [x] ajuste para remover o systemjs de carregamento de módulos via browser
         - módulos do `.babelrc` ajustado: removido plugin `transform-es2015-modules-systemjs`
         - dependencia desintalada `npm uninstall babel-plugin-transform-es2015-modules-systemjs --save-dev`
-    - [x] ``
+    - [x] `npm run build-dev`
 - [ ] 12 - calopsita-loader?
 - [ ] 13 - O que aprendemos?
 - [ ] 14 - Consolidando seu conhecimento
