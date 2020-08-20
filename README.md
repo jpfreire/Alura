@@ -18,7 +18,7 @@ Repositório dos cursos da alura
     - [x] `npm uninstall babel-cli --save-dev`
     - [x] `npm uninstall systemjs --save`
     - [x] `npm install webpack@3.1.0 babel-core@6.25.0 --save-dev`
-- [ ] 06 - Sobre Webpack e Babel
+- [x] 06 - Sobre Webpack e Babel
 - [ ] 07 - O temível webpack.config.js
 - [ ] 08 - Arquivo de configuração
 - [ ] 09 - Problema no package.json
