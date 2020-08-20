@@ -13,7 +13,7 @@ Repositório dos cursos da alura
         - [x] instalando versão correta via nvm (`brew install nvm; nvm install 8`)
     - [x] executando `npm run watch` no cliente
     - [x] executando `npm start` no servidor
-- [ ] 04 - Para saber mais: webpack e sua estreita relação com SPA
+- [x] 04 - Para saber mais: webpack e sua estreita relação com SPA
 - [ ] 05 - Preparando o terreno para o Webpack
 - [ ] 06 - Sobre Webpack e Babel
 - [ ] 07 - O temível webpack.config.js
