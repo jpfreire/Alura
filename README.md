@@ -14,7 +14,10 @@ Repositório dos cursos da alura
     - [x] executando `npm run watch` no cliente
     - [x] executando `npm start` no servidor
 - [x] 04 - Para saber mais: webpack e sua estreita relação com SPA
-- [ ] 05 - Preparando o terreno para o Webpack
+- [x] 05 - Preparando o terreno para o Webpack
+    - [x] `npm uninstall babel-cli --save-dev`
+    - [x] `npm uninstall systemjs --save`
+    - [x] `npm install webpack@3.1.0 babel-core@6.25.0 --save-dev`
 - [ ] 06 - Sobre Webpack e Babel
 - [ ] 07 - O temível webpack.config.js
 - [ ] 08 - Arquivo de configuração
