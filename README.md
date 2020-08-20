@@ -34,7 +34,7 @@ Repositório dos cursos da alura
         - módulos do `.babelrc` ajustado: removido plugin `transform-es2015-modules-systemjs`
         - dependencia desintalada `npm uninstall babel-plugin-transform-es2015-modules-systemjs --save-dev`
     - [x] `npm run build-dev`
-- [ ] 12 - calopsita-loader?
+- [x] 12 - calopsita-loader?
 - [ ] 13 - O que aprendemos?
 - [ ] 14 - Consolidando seu conhecimento
 
