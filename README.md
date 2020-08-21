@@ -52,5 +52,12 @@ Repositório dos cursos da alura
 - [x] 06 - O que aprendemos?
 - [x] 07 - Consolidando seu conhecimento
 
+### AULA 03 - Webpack Dev Server e configuração
+- [ ] 01 - Adequando a aplicação
+- [ ] 02 - Instalação e configuração
+- [ ] 03 - Instalação e configuração
+- [ ] 04 - Bundle não encontrado
+- [ ] 05 - O que aprendemos?
+- [ ] 06 - Consolidando seu conhecimento
 
 ## Typescript (concluído)
