@@ -49,8 +49,8 @@ Repositório dos cursos da alura
     - [x] - congiguração do cross-env instalada em `package.json`
 - [x] 04 - Uma configuração a ser analisada
 - [x] 05 - Sobre o uso do cross-env
-- [ ] 06 - O que aprendemos?
-- [ ] 07 - Consolidando seu conhecimento
+- [x] 06 - O que aprendemos?
+- [x] 07 - Consolidando seu conhecimento
 
 
 ## Typescript (concluído)
