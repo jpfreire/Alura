@@ -43,7 +43,7 @@ Repositório dos cursos da alura
     - [x] cofiguração para build de prod adicionada em `package.json` (falhou com sucesso por causa do UglifyJs)
     - [x] plugin babili do node instalado `npm install babili-webpack-plugin@0.1.1 --save-dev`
     - [x] configuração do plugin babili em `webpack.config.js`
-- [ ] 02 - Configurando um build de produção
+- [x] 02 - Configurando um build de produção
 - [ ] 03 - Mudando o ambiente com cross-env
 - [ ] 04 - Uma configuração a ser analisada
 - [ ] 05 - Sobre o uso do cross-env
