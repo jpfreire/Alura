@@ -54,7 +54,10 @@ Repositório dos cursos da alura
 
 ### AULA 03 - Webpack Dev Server e configuração
 - [x] 01 - Adequando a aplicação
-- [ ] 02 - Instalação e configuração
+    - [x] - ajustes nas urls do front-end
+- [x] 02 - Instalação e configuração
+    - [x] - instalado o webpack-dev-server `npm install webpack-dev-server@2.5.1 --save-dev`
+    - [x] - ajustada a configuração `publicPath` em `webpack.config.js`
 - [ ] 03 - Instalação e configuração
 - [ ] 04 - Bundle não encontrado
 - [ ] 05 - O que aprendemos?
