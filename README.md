@@ -57,11 +57,12 @@ Repositório dos cursos da alura
     - [x] - ajustes nas urls do front-end
 - [x] 02 - Instalação e configuração
     - [x] - instalado o webpack-dev-server `npm install webpack-dev-server@2.5.1 --save-dev`
-    - [x] - ajustada a configuração `publicPath` em `webpack.config.js`
+    - [x] - ajustada a configuração `pub\licPath` em `webpack.config.js`
 - [x] 03 - Instalação e configuração
     - [x] - faltou a diretiva `--save-dev` na instalação do webpack-dev-server
     - [x] - o start chamou ~~`webpack`~~ ao invés de `webpack-dev-server`
-- [ ] 04 - Bundle não encontrado
+- [x] 04 - Bundle não encontrado
+    - [x] - a propriedade `publicPath` precisa ser definida dentro de `module.export.output`
 - [ ] 05 - O que aprendemos?
 - [ ] 06 - Consolidando seu conhecimento
 
