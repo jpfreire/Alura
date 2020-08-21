@@ -58,7 +58,9 @@ Repositório dos cursos da alura
 - [x] 02 - Instalação e configuração
     - [x] - instalado o webpack-dev-server `npm install webpack-dev-server@2.5.1 --save-dev`
     - [x] - ajustada a configuração `publicPath` em `webpack.config.js`
-- [ ] 03 - Instalação e configuração
+- [x] 03 - Instalação e configuração
+    - [x] - faltou a diretiva `--save-dev` na instalação do webpack-dev-server
+    - [x] - o start chamou ~~`webpack`~~ ao invés de `webpack-dev-server`
 - [ ] 04 - Bundle não encontrado
 - [ ] 05 - O que aprendemos?
 - [ ] 06 - Consolidando seu conhecimento
