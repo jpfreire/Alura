@@ -47,7 +47,7 @@ Repositório dos cursos da alura
 - [x] 03 - Mudando o ambiente com cross-env
     - [x] - instalado o cross-env `npm install cross-env@5.0.1 --save-dev`
     - [x] - congiguração do cross-env instalada em `package.json`
-- [ ] 04 - Uma configuração a ser analisada
+- [x] 04 - Uma configuração a ser analisada
 - [ ] 05 - Sobre o uso do cross-env
 - [ ] 06 - O que aprendemos?
 - [ ] 07 - Consolidando seu conhecimento
