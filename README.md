@@ -63,7 +63,7 @@ Repositório dos cursos da alura
     - [x] - o start chamou ~~`webpack`~~ ao invés de `webpack-dev-server`
 - [x] 04 - Bundle não encontrado
     - [x] - a propriedade `publicPath` precisa ser definida dentro de `module.export.output`
-- [ ] 05 - O que aprendemos?
-- [ ] 06 - Consolidando seu conhecimento
+- [x] 05 - O que aprendemos?
+- [x] 06 - Consolidando seu conhecimento
 
 ## Typescript (concluído)
