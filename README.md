@@ -53,7 +53,7 @@ Repositório dos cursos da alura
 - [x] 07 - Consolidando seu conhecimento
 
 ### AULA 03 - Webpack Dev Server e configuração
-- [ ] 01 - Adequando a aplicação
+- [x] 01 - Adequando a aplicação
 - [ ] 02 - Instalação e configuração
 - [ ] 03 - Instalação e configuração
 - [ ] 04 - Bundle não encontrado
