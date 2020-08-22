@@ -85,7 +85,12 @@ Repositório dos cursos da alura
     - [x] - arquivo importado em `app.js`
 - [x] 06 - Diferentes importações
     -[x] - as importações em `node_module` não fazem uso de `./` ou `../`
-- [ ] 07 - Resolvendo o FOUC (Flash of Unstyled Content)
+- [x] 07 - Resolvendo o FOUC (Flash of Unstyled Content)
+    - [x] - arquivo `index.html` ajustado com link para `styles.css`
+    - [x] - `npm install extract-text-webpack-plugin@3.0.0 --save-dev`
+    - [x] - `webpack.config.js` configurado com plugin
+
+
 - [ ] 08 - Um apanhando sobre importações
 - [ ] 09 - Resolvemos um problema e criamos outro, mas tem solução!
 - [ ] 10 - O que aprendemos?
