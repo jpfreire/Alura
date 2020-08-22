@@ -116,7 +116,7 @@ Repositório dos cursos da alura
 ### AULA 06 - Boas práticas
 - [x] 01 - Otimizando o build com Scope Hoisting
     - [x] adicionado `ModuleConcatenationPlugin` em `webpack.config.js`
-- [ ] 02 - Resumo
+- [x] 02 - Resumo
 - [ ] 03 - Separando o nosso código das bibliotecas
 - [ ] 04 - CommonsChunkPlugin
 - [ ] 05 - Gerando a página principal automaticamente
