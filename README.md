@@ -71,7 +71,7 @@ Repositório dos cursos da alura
     - [x] - remover o bootstrap de `index.html`
     - [x] - arquivos de css apagados
     - [x] - instalado o pacote do  bootstrap `npm install bootstrap@3.3.7 --save`
-- [ ] 02 - Gerenciamento de dependências frontend
+- [x] 02 - Gerenciamento de dependências frontend
 - [ ] 03 - Importando Bootstrap como um módulo
 - [ ] 04 - A importação que não rolou
 - [ ] 05 - Importando um CSS qualquer
