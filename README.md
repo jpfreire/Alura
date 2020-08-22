@@ -143,7 +143,7 @@ Repositório dos cursos da alura
         - [x] criação de variável
         - [x] utilização do plugin `webpack.DefinePlugin`
     - [x] utilização da variável definida em `webpack.config.js` em `NegociacaoService.js`
-- [ ] 11 - API de desenvolvimento e de produção
+- [x] 11 - API de desenvolvimento e de produção
 - [ ] 12 - O que aprendemos?
 - [ ] 13 - Consolidando seu conhecimento
 - [ ] 14 - Considerações finais
