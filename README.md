@@ -90,7 +90,10 @@ Repositório dos cursos da alura
     - [x] - `npm install extract-text-webpack-plugin@3.0.0 --save-dev`
     - [x] - `webpack.config.js` configurado com plugin
 - [x] 08 - Um apanhando sobre importações
-- [ ] 09 - Resolvemos um problema e criamos outro, mas tem solução!
+- [x] 09 - Resolvemos um problema e criamos outro, mas tem solução!
+    - [x] - `npm install optimize-css-assets-webpack-plugin@2.0.0 --save-dev`
+    - [x] - `npm install cssnano@3.10.0 --save-dev`
+    - [x] - `webpack.config.js` configurado
 - [ ] 10 - O que aprendemos?
 - [ ] 11 - Sobre Webpack Dev Server
 - [ ] 12 - Consolidando seu conhecimento
