@@ -123,7 +123,11 @@ Repositório dos cursos da alura
     - [x] adicionando o `vendor.bundle.js` em `index.html` 
 - [x] 04 - CommonsChunkPlugin
     - [x] além de adicionar o plugin é necesário também adicionar os pacotes importados ao entry
-- [ ] 05 - Gerando a página principal automaticamente
+- [x] 05 - Gerando a página principal automaticamente
+    - [x] `npm install html-webpack-plugin@2.29.0 --save-dev`
+    - [x] removidas as referências de css e javascript do `index.html`
+    - [x] renomear o `index.html` para `main.html`  com o comando `git mv ./index.html ./main.html`
+    - [x] configuração do `html-webpack-plugin` adicionada em `webpack.config.js`
 - [ ] 06 - Code splitting e Lazy loading
 - [ ] 07 - System.import vs import
 - [ ] 08 - Sobre code splitting e lazy loading

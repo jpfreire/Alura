@@ -4,10 +4,22 @@ const etwpp = require('extract-text-webpack-plugin')
 const ocawpp = require('optimize-css-assets-webpack-plugin');
 const cssnano = require('cssnano')
 const webpack = require('webpack')
+const htmlwpp = require('html-webpack-plugin')
 
 let plugins = []
 
 plugins.push(new etwpp('styles.css'))
+
+plugins.push(new htmlwpp({
+    hash:true,
+    minify:{
+        html5:true,
+        collapseWhitespace: true,
+        removeComments: true,
+    },
+    filename: 'index.html',
+    template: __dirname + '/main.html'
+}))
 
 plugins.push(new webpack.ProvidePlugin({
     '$':'jquery/dist/jquery.js',
@@ -41,7 +53,6 @@ module.exports = { //module do nodejs
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname,'dist'),
-        publicPath: 'dist'
     },
     module: {
         rules: [
