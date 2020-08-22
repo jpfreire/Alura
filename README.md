@@ -99,6 +99,9 @@ Repositório dos cursos da alura
 - [x] 12 - Consolidando seu conhecimento
 ### AULA 05 - Importando scripts
 - [ ] 01 - Importando scripts
+    - [x] importar `bootstrap/js/modal.js` (erro: falta jQuery)
+    - [x] instalando `npm install jquery@3.2.1 --save`
+    - [x] jquery importado mas não presente no escopo global
 - [ ] 02 - Sobre a importação de scripts
 - [ ] 03 - Lidando com dependências globais
 - [ ] 04 - Test your might!
