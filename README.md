@@ -94,7 +94,7 @@ Repositório dos cursos da alura
     - [x] - `npm install optimize-css-assets-webpack-plugin@2.0.0 --save-dev`
     - [x] - `npm install cssnano@3.10.0 --save-dev`
     - [x] - `webpack.config.js` configurado
-- [ ] 10 - O que aprendemos?
-- [ ] 11 - Sobre Webpack Dev Server
-- [ ] 12 - Consolidando seu conhecimento
+- [x] 10 - O que aprendemos?
+- [x] 11 - Sobre Webpack Dev Server
+- [x] 12 - Consolidando seu conhecimento
 ## Typescript (concluído)
