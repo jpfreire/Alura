@@ -97,4 +97,12 @@ Repositório dos cursos da alura
 - [x] 10 - O que aprendemos?
 - [x] 11 - Sobre Webpack Dev Server
 - [x] 12 - Consolidando seu conhecimento
+### AULA 05 - Importando scripts
+- [ ] 01 - Importando scripts
+- [ ] 02 - Sobre a importação de scripts
+- [ ] 03 - Lidando com dependências globais
+- [ ] 04 - Test your might!
+- [ ] 05 - Jogo dos erros!
+- [ ] 06 - O que aprendemos?
+- [ ] 07 - Consolidando seu conhecimento
 ## Typescript (concluído)
