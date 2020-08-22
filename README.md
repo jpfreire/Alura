@@ -135,8 +135,9 @@ Repositório dos cursos da alura
     - [x] ajustando `System.import` para `import` em `NegociacaoController` (futuro padrao ecmascript, mas dá problema no babel)
     - [x] `npm install babel-plugin-syntax-dynamic-import@6.18.0 --save-dev`
     - [x] ajuste necessário em `.babelrc`
-- [ ] 08 - Sobre code splitting e lazy loading
-- [ ] 09 - Quais são os arquivos para distribuição?
+- [x] 08 - Sobre code splitting e lazy loading
+    - [x] A) falsa: instalação não pois o `CommonsChunkPlugin` já vem instalado
+- [x] 09 - Quais são os arquivos para distribuição?
 - [ ] 10 - Alterando o endereço da API no build de produção
 - [ ] 11 - API de desenvolvimento e de produção
 - [ ] 12 - O que aprendemos?
