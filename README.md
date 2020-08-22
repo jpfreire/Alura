@@ -110,6 +110,6 @@ Repositório dos cursos da alura
 - [x] 04 - Test your might!
 - [x] 05 - Jogo dos erros!
     - [x] - errei por achar que o jQuery deveria estar com aspas também -1 erro: 2 apenas.
-- [ ] 06 - O que aprendemos?
-- [ ] 07 - Consolidando seu conhecimento
+- [x] 06 - O que aprendemos?
+- [x] 07 - Consolidando seu conhecimento
 ## Typescript (concluído)
