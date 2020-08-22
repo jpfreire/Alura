@@ -6,6 +6,7 @@ const cssnano = require('cssnano')
 const webpack = require('webpack')
 const htmlwpp = require('html-webpack-plugin')
 
+
 let plugins = []
 
 plugins.push(new etwpp('styles.css'))
@@ -31,7 +32,11 @@ plugins.push(new webpack.optimize.CommonsChunkPlugin({
     filename:'vendor.bundle.js'
 }))
 
+let SERVICE_URL = JSON.stringify('http://localhost:3000');
+
 if(process.env.NODE_ENV == 'production'){
+
+    SERVICE_URL = JSON.stringify('http://prod:3000/')
     plugins.push(new webpack.optimize.ModuleConcatenationPlugin());
     plugins.push(new babiliPlugin())
     plugins.push(new ocawpp({
@@ -44,6 +49,8 @@ if(process.env.NODE_ENV == 'production'){
         canPrint:true
     }))
 }
+
+plugins.push(new webpack.DefinePlugin({ SERVICE_URL }))
 
 module.exports = { //module do nodejs
     entry: {

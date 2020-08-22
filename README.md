@@ -138,7 +138,11 @@ Repositório dos cursos da alura
 - [x] 08 - Sobre code splitting e lazy loading
     - [x] A) falsa: instalação não pois o `CommonsChunkPlugin` já vem instalado
 - [x] 09 - Quais são os arquivos para distribuição?
-- [ ] 10 - Alterando o endereço da API no build de produção
+- [x] 10 - Alterando o endereço da API no build de produção
+    - [x] em `webpack.config.js`:
+        - [x] criação de variável
+        - [x] utilização do plugin `webpack.DefinePlugin`
+    - [x] utilização da variável definida em `webpack.config.js` em `NegociacaoService.js`
 - [ ] 11 - API de desenvolvimento e de produção
 - [ ] 12 - O que aprendemos?
 - [ ] 13 - Consolidando seu conhecimento
