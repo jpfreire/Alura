@@ -14,6 +14,11 @@ plugins.push(new webpack.ProvidePlugin({
     'jQuery': 'jquery/dist/jquery.js'
 }))
 
+plugins.push(new webpack.optimize.CommonsChunkPlugin({
+    name: 'vendor',
+    filename:'vendor.bundle.js'
+}))
+
 if(process.env.NODE_ENV == 'production'){
     plugins.push(new webpack.optimize.ModuleConcatenationPlugin());
     plugins.push(new babiliPlugin())
@@ -29,7 +34,10 @@ if(process.env.NODE_ENV == 'production'){
 }
 
 module.exports = { //module do nodejs
-    entry: './app-src/app.js',
+    entry: {
+        app: './app-src/app.js',
+        vendor: ['bootstrap','jquery','reflect-metadata']
+    },
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname,'dist'),

@@ -118,6 +118,9 @@ Repositório dos cursos da alura
     - [x] adicionado `ModuleConcatenationPlugin` em `webpack.config.js`
 - [x] 02 - Resumo
 - [ ] 03 - Separando o nosso código das bibliotecas
+    - [x] adicionando o plugin `CommonsChunkPlugin` em `webpack.config.js` 
+    - [x] suprimindo o `reflect-metadata` em `index.html` (ja importado pelo webpack)
+    - [x] adicionando o `vendor.bundle.js` em `index.html` 
 - [ ] 04 - CommonsChunkPlugin
 - [ ] 05 - Gerando a página principal automaticamente
 - [ ] 06 - Code splitting e Lazy loading
