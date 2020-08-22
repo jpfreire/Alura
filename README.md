@@ -83,7 +83,8 @@ Repositório dos cursos da alura
 - [x] 05 - Importando um CSS qualquer
     - [x] - arquivo `main.css` adicionado ao projeto
     - [x] - arquivo importado em `app.js`
-- [ ] 06 - Diferentes importações
+- [x] 06 - Diferentes importações
+    -[x] - as importações em `node_module` não fazem uso de `./` ou `../`
 - [ ] 07 - Resolvendo o FOUC (Flash of Unstyled Content)
 - [ ] 08 - Um apanhando sobre importações
 - [ ] 09 - Resolvemos um problema e criamos outro, mas tem solução!
