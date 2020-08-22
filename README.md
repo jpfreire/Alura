@@ -128,7 +128,9 @@ Repositório dos cursos da alura
     - [x] removidas as referências de css e javascript do `index.html`
     - [x] renomear o `index.html` para `main.html`  com o comando `git mv ./index.html ./main.html`
     - [x] configuração do `html-webpack-plugin` adicionada em `webpack.config.js`
-- [ ] 06 - Code splitting e Lazy loading
+- [x] 06 - Code splitting e Lazy loading
+    - [x] adição de `System.import` no carregamento do serviço em `NegociacaoController` 
+    - [x] remoção do carregamento estático no index
 - [ ] 07 - System.import vs import
 - [ ] 08 - Sobre code splitting e lazy loading
 - [ ] 09 - Quais são os arquivos para distribuição?
