@@ -66,4 +66,20 @@ Repositório dos cursos da alura
 - [x] 05 - O que aprendemos?
 - [x] 06 - Consolidando seu conhecimento
 
+### AULA 04 - Tratando arquivos CSS como módulos
+- [x] 01 - Utilizando o npm para gerenciar dependências front-end
+    - [x] - remover o bootstrap de `index.html`
+    - [x] - arquivos de css apagados
+    - [x] - instalado o pacote do  bootstrap `npm install bootstrap@3.3.7 --save`
+- [ ] 02 - Gerenciamento de dependências frontend
+- [ ] 03 - Importando Bootstrap como um módulo
+- [ ] 04 - A importação que não rolou
+- [ ] 05 - Importando um CSS qualquer
+- [ ] 06 - Diferentes importações
+- [ ] 07 - Resolvendo o FOUC (Flash of Unstyled Content)
+- [ ] 08 - Um apanhando sobre importações
+- [ ] 09 - Resolvemos um problema e criamos outro, mas tem solução!
+- [ ] 10 - O que aprendemos?
+- [ ] 11 - Sobre Webpack Dev Server
+- [ ] 12 - Consolidando seu conhecimento
 ## Typescript (concluído)
