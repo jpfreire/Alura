@@ -98,7 +98,7 @@ Repositório dos cursos da alura
 - [x] 11 - Sobre Webpack Dev Server
 - [x] 12 - Consolidando seu conhecimento
 ### AULA 05 - Importando scripts
-- [ ] 01 - Importando scripts
+- [x] 01 - Importando scripts
     - [x] importar `bootstrap/js/modal.js` (erro: falta jQuery)
     - [x] instalando `npm install jquery@3.2.1 --save`
     - [x] jquery importado mas não presente no escopo global
@@ -112,4 +112,22 @@ Repositório dos cursos da alura
     - [x] - errei por achar que o jQuery deveria estar com aspas também -1 erro: 2 apenas.
 - [x] 06 - O que aprendemos?
 - [x] 07 - Consolidando seu conhecimento
+
+### AULA 06 - Boas práticas
+- [ ] 01 - Otimizando o build com Scope Hoisting
+- [ ] 02 - Resumo
+- [ ] 03 - Separando o nosso código das bibliotecas
+- [ ] 04 - CommonsChunkPlugin
+- [ ] 05 - Gerando a página principal automaticamente
+- [ ] 06 - Code splitting e Lazy loading
+- [ ] 07 - System.import vs import
+- [ ] 08 - Sobre code splitting e lazy loading
+- [ ] 09 - Quais são os arquivos para distribuição?
+- [ ] 10 - Alterando o endereço da API no build de produção
+- [ ] 11 - API de desenvolvimento e de produção
+- [ ] 12 - O que aprendemos?
+- [ ] 13 - Consolidando seu conhecimento
+- [ ] 14 - Considerações finais
+- [ ] 15 - Download do projeto final
+- [ ] 16 - Entendendo o que fizemos
 ## Typescript (concluído)
