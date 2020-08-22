@@ -121,7 +121,8 @@ Repositório dos cursos da alura
     - [x] adicionando o plugin `CommonsChunkPlugin` em `webpack.config.js` 
     - [x] suprimindo o `reflect-metadata` em `index.html` (ja importado pelo webpack)
     - [x] adicionando o `vendor.bundle.js` em `index.html` 
-- [ ] 04 - CommonsChunkPlugin
+- [x] 04 - CommonsChunkPlugin
+    - [x] além de adicionar o plugin é necesário também adicionar os pacotes importados ao entry
 - [ ] 05 - Gerando a página principal automaticamente
 - [ ] 06 - Code splitting e Lazy loading
 - [ ] 07 - System.import vs import
