@@ -104,7 +104,9 @@ Repositório dos cursos da alura
     - [x] jquery importado mas não presente no escopo global
 - [x] 02 - Sobre a importação de scripts
     - [x] a importação do `node_modules` não precisa conter `.js` no arquivo
-- [ ] 03 - Lidando com dependências globais
+- [x] 03 - Lidando com dependências globais
+    - [x] importando jquery de forma global em `webpack.ProvidePlugin`
+    - [x] removido o import em `app.js` pois o jQuery é provido de forma global  pelo webpack
 - [ ] 04 - Test your might!
 - [ ] 05 - Jogo dos erros!
 - [ ] 06 - O que aprendemos?

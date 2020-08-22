@@ -3,10 +3,16 @@ const babiliPlugin = require('babili-webpack-plugin')
 const etwpp = require('extract-text-webpack-plugin')
 const ocawpp = require('optimize-css-assets-webpack-plugin');
 const cssnano = require('cssnano')
+const webpack = require('webpack')
 
 let plugins = []
 
 plugins.push(new etwpp('styles.css'))
+
+plugins.push(new webpack.ProvidePlugin({
+    '$':'jquery/dist/jquery.js',
+    'jQuery': 'jquery/dist/jquery.js'
+}))
 
 if(process.env.NODE_ENV == 'production'){
     plugins.push(new babiliPlugin())
