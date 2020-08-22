@@ -144,9 +144,9 @@ Repositório dos cursos da alura
         - [x] utilização do plugin `webpack.DefinePlugin`
     - [x] utilização da variável definida em `webpack.config.js` em `NegociacaoService.js`
 - [x] 11 - API de desenvolvimento e de produção
-- [ ] 12 - O que aprendemos?
-- [ ] 13 - Consolidando seu conhecimento
-- [ ] 14 - Considerações finais
-- [ ] 15 - Download do projeto final
-- [ ] 16 - Entendendo o que fizemos
+- [x] 12 - O que aprendemos?
+- [x] 13 - Consolidando seu conhecimento
+- [x] 14 - Considerações finais
+- [x] 15 - Download do projeto final
+- [x] 16 - Entendendo o que fizemos
 ## Typescript (concluído)
