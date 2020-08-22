@@ -102,7 +102,8 @@ Repositório dos cursos da alura
     - [x] importar `bootstrap/js/modal.js` (erro: falta jQuery)
     - [x] instalando `npm install jquery@3.2.1 --save`
     - [x] jquery importado mas não presente no escopo global
-- [ ] 02 - Sobre a importação de scripts
+- [x] 02 - Sobre a importação de scripts
+    - [x] a importação do `node_modules` não precisa conter `.js` no arquivo
 - [ ] 03 - Lidando com dependências globais
 - [ ] 04 - Test your might!
 - [ ] 05 - Jogo dos erros!
