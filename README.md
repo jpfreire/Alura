@@ -73,6 +73,10 @@ Repositório dos cursos da alura
     - [x] - instalado o pacote do  bootstrap `npm install bootstrap@3.3.7 --save`
 - [x] 02 - Gerenciamento de dependências frontend
 - [ ] 03 - Importando Bootstrap como um módulo
+    - [x] - Adicionar os imports do bootstrap e tema em `app.js`
+    - [x] - instalar o css-loader e o style-loader `npm install css-loader@0.28.4 style-loader@0.18.2 --save-dev`
+    - [x] - instalar o url-loader e o file-loader `npm install url-loader@0.5.9 file-loader@0.11.2 --save-dev`
+    - [x] - adicionadas configurações dos loaders em `webpack.config.js`
 - [ ] 04 - A importação que não rolou
 - [ ] 05 - Importando um CSS qualquer
 - [ ] 06 - Diferentes importações

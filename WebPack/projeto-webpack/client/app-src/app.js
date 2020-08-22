@@ -1,5 +1,8 @@
 import { NegociacaoController } from './controllers/NegociacaoController.js';
 import { Negociacao } from './domain/index.js';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap-theme.css';
+
 
 const controller = new NegociacaoController();
 const negociacao = new Negociacao(new Date(), 1, 200);
@@ -15,4 +18,6 @@ const config = {
 };
 
 fetch('http://localhost:3000/negociacoes', config)
-    .then(() => console.log('Dado enviado com sucesso'));
+    .then(() => console.log('Dado enviado com sucesso'))
+    .catch((err)=>console.error(err));
+    
