@@ -80,7 +80,9 @@ Repositório dos cursos da alura
 - [x] 04 - A importação que não rolou
     - [x] - erro no `webpack.config.js`: os módulos devem ser separados por !
     - [x] - não deve ser usado o diretório corrente para indicar './...' a carga de um arquivo em `node_module`
-- [ ] 05 - Importando um CSS qualquer
+- [x] 05 - Importando um CSS qualquer
+    - [x] - arquivo `main.css` adicionado ao projeto
+    - [x] - arquivo importado em `app.js`
 - [ ] 06 - Diferentes importações
 - [ ] 07 - Resolvendo o FOUC (Flash of Unstyled Content)
 - [ ] 08 - Um apanhando sobre importações
