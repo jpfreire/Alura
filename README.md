@@ -89,9 +89,7 @@ Repositório dos cursos da alura
     - [x] - arquivo `index.html` ajustado com link para `styles.css`
     - [x] - `npm install extract-text-webpack-plugin@3.0.0 --save-dev`
     - [x] - `webpack.config.js` configurado com plugin
-
-
-- [ ] 08 - Um apanhando sobre importações
+- [x] 08 - Um apanhando sobre importações
 - [ ] 09 - Resolvemos um problema e criamos outro, mas tem solução!
 - [ ] 10 - O que aprendemos?
 - [ ] 11 - Sobre Webpack Dev Server
