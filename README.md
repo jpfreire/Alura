@@ -131,7 +131,10 @@ Repositório dos cursos da alura
 - [x] 06 - Code splitting e Lazy loading
     - [x] adição de `System.import` no carregamento do serviço em `NegociacaoController` 
     - [x] remoção do carregamento estático no index
-- [ ] 07 - System.import vs import
+- [x] 07 - System.import vs import
+    - [x] ajustando `System.import` para `import` em `NegociacaoController` (futuro padrao ecmascript, mas dá problema no babel)
+    - [x] `npm install babel-plugin-syntax-dynamic-import@6.18.0 --save-dev`
+    - [x] ajuste necessário em `.babelrc`
 - [ ] 08 - Sobre code splitting e lazy loading
 - [ ] 09 - Quais são os arquivos para distribuição?
 - [ ] 10 - Alterando o endereço da API no build de produção
