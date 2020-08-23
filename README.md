@@ -198,10 +198,9 @@ Repositório dos cursos da alura
 - [x] 02 - Criando o primeiro componente
     - [x] criado componente `<ap-photo>` com `PhotoComponent`
 - [x] 03 - Tornando uma classe um componente
-    
+- [x] 04 - Declarando o componente no módulo da aplicação
     o componente precisa pertencer a um módulo, facilitando a inclusão dos componentes interligados.
     - [x] adicionado o componente na declaração do módulo em `app.module.ts`
-- [ ] 04 - Declarando o componente no módulo da aplicação
 - [ ] 05 - Inbound properties: passando dados para o componente
 - [ ] 06 - Sobre a inbound property
 - [ ] 07 - Organizando nosso código em módulos
