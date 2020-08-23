@@ -167,7 +167,7 @@ Repositório dos cursos da alura
     - [x] `ng serve --open`
 - [x] 07 - Erro no comando: ng serve --open
     - [x] `npm install rxjs@6.0.0 --save`
-- [ ] 08 - Comandos iniciais
+- [x] 08 - Comandos iniciais
 - [ ] 09 - Entendendo a estrutura
 - [ ] 10 - Primeiro contato com data binding
 - [ ] 11 - Adequando o template gerado e mais data binding
