@@ -173,7 +173,10 @@ Repositório dos cursos da alura
     - [x] `app.component.ts` é o arquivo com o componente principal inicial
     - [x] `index.html` possui a tag app-root definida no arquivo acima
     - [x] o componente precisa ser defininido pela anotação `@Component`, cujos principais atributos são: selector, templateUrl, styleUrls.
-- [ ] 10 - Primeiro contato com data binding
+- [x] 10 - Primeiro contato com data binding
+    - [x] apresentado angular expression: {{ title }}
+    - [x] apresentado _data binding_
+    - [x] angularCLI já vem com _browser sync_
 - [ ] 11 - Adequando o template gerado e mais data binding
 - [ ] 12 - Fixando data binding
 - [ ] 13 - Convenções de código
