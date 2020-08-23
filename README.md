@@ -185,7 +185,7 @@ Repositório dos cursos da alura
     - [x] em nome do arquivo do componente em caixa baixa: `nome.component.ts`
     - [x] a classe do componente em _PascalCase_ 
     - [x] o nome do arquivo html e css serão o mesmo do componente finalizando em `.html` e `.css` respectivamente
-- [ ] 14 - Convenções do Angular
+- [x] 14 - Convenções do Angular
 - [ ] 15 - Consolidando seu conhecimento
 - [ ] 16 - O que aprendemos?
 ## Typescript (concluído)
