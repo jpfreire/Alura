@@ -151,5 +151,6 @@ Repositório dos cursos da alura
 - [x] 16 - Entendendo o que fizemos
 
 ## Angular parte 1: Fundamentos
+### AULA 01 - Bem começado, metade feito
 
 ## Typescript (concluído)
