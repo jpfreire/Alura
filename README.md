@@ -157,7 +157,7 @@ Repositório dos cursos da alura
   - [x] Node
   - [x] VS Code
 - [x] 03 - Motivação para uso de uma SPA
-- [ ] 04 - Considerações sobre o uso do Angular
+- [x] 04 - Considerações sobre o uso do Angular
 - [ ] 05 - Angularjs vs Angular
 - [ ] 06 - Angular CLI, instalação e criação do projeto
 - [ ] 07 - Erro no comando: ng serve --open
