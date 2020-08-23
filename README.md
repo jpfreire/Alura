@@ -207,7 +207,7 @@ Repositório dos cursos da alura
     quando o valor são passado da página para o componete não se usam os colchetes ficando os componentes de forma simples `<ap-photo url="...">`
 
     a anotação `@Input` define que uma propriedade do componente é _inbound property_, assim recebendo valores da página
-- [ ] 06 - Sobre a inbound property
+- [x] 06 - Sobre a inbound property
 - [ ] 07 - Organizando nosso código em módulos
 - [ ] 08 - Sobre a criação de um component
 - [ ] 09 - Utilizando a primeira diretiva
