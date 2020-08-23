@@ -190,8 +190,11 @@ Repositório dos cursos da alura
 - [x] 16 - O que aprendemos?
 
 ### AULA 02 - Criando o primeiro componente
- 
-- [ ] 01 - Adicionando Bootstrap ao projeto
+- [x] 01 - Adicionando Bootstrap ao projeto
+    
+    para adicionar bibliotecas é preciso colocá-las no processo de build, um css global é preciso ser indicado dentro de `angular.json`
+    - [x] `npm install bootstrap@4.1.1`
+    - [x] stop/start no angularCLI e tudo certo👍
 - [ ] 02 - Criando o primeiro componente
 - [ ] 03 - Tornando uma classe um componente
 - [ ] 04 - Declarando o componente no módulo da aplicação
