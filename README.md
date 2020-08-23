@@ -186,6 +186,6 @@ Repositório dos cursos da alura
     - [x] a classe do componente em _PascalCase_ 
     - [x] o nome do arquivo html e css serão o mesmo do componente finalizando em `.html` e `.css` respectivamente
 - [x] 14 - Convenções do Angular
-- [ ] 15 - Consolidando seu conhecimento
-- [ ] 16 - O que aprendemos?
+- [x] 15 - Consolidando seu conhecimento
+- [x] 16 - O que aprendemos?
 ## Typescript (concluído)
