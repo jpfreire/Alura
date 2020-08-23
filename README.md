@@ -217,3 +217,17 @@ Repositório dos cursos da alura
     uma diretiva muda o comportamento de um componente, o `*ngFor` é utilizada como atributo da tag ap-photo
 - [x] 10 - Consolidando seu conhecimento
 - [x] 11 - O que aprendemos?
+
+### AULA 03 -Integração com Web API's
+- [ ] 01 - Projeto da aula anterior
+- [ ] 02 - SPAs e consumo de APIs
+- [ ] 03 - (Obrigatório) Baixando e subindo o servidor da API
+- [ ] 04 - Nomenclatura do servidor
+- [ ] 05 - HttpClient e injeção de dependência
+- [ ] 06 - Importando o HttpClient
+- [ ] 07 - Consumindo dados da API
+- [ ] 08 - Isolando a acesso em serviços
+- [ ] 09 - Tipando nossa API
+- [ ] 10 - Ciclo de vida de um componente
+- [ ] 11 - Consolidando seu conhecimento
+- [ ] 12 - O que aprendemos?
