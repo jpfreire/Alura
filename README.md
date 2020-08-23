@@ -152,5 +152,20 @@ Repositório dos cursos da alura
 
 ## Angular parte 1: Fundamentos
 ### AULA 01 - Bem começado, metade feito
-
+- [x] 01 - Introdução
+- [ ] 02 - (Obrigatório) Infraestrutura do treinamento
+- [ ] 03 - Motivação para uso de uma SPA
+- [ ] 04 - Considerações sobre o uso do Angular
+- [ ] 05 - Angularjs vs Angular
+- [ ] 06 - Angular CLI, instalação e criação do projeto
+- [ ] 07 - Erro no comando: ng serve --open
+- [ ] 08 - Comandos iniciais
+- [ ] 09 - Entendendo a estrutura
+- [ ] 10 - Primeiro contato com data binding
+- [ ] 11 - Adequando o template gerado e mais data binding
+- [ ] 12 - Fixando data binding
+- [ ] 13 - Convenções de código
+- [ ] 14 - Convenções do Angular
+- [ ] 15 - Consolidando seu conhecimento
+- [ ] 16 - O que aprendemos?
 ## Typescript (concluído)
