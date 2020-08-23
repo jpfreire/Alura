@@ -153,7 +153,9 @@ Repositório dos cursos da alura
 ## Angular parte 1: Fundamentos
 ### AULA 01 - Bem começado, metade feito
 - [x] 01 - Introdução
-- [ ] 02 - (Obrigatório) Infraestrutura do treinamento
+- [x] 02 - (Obrigatório) Infraestrutura do treinamento
+  - [x] Node
+  - [x] VS Code
 - [ ] 03 - Motivação para uso de uma SPA
 - [ ] 04 - Considerações sobre o uso do Angular
 - [ ] 05 - Angularjs vs Angular
