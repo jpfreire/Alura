@@ -228,7 +228,7 @@ Repositório dos cursos da alura
     - [x] `npm install`
     - [ ] não foi necessário: `npm install --unsafe-perm -g sqlite3`
     - [x] `npm start`
-- [ ] 04 - Nomenclatura do servidor
+- [x] 04 - Nomenclatura do servidor
 - [ ] 05 - HttpClient e injeção de dependência
 - [ ] 06 - Importando o HttpClient
 - [ ] 07 - Consumindo dados da API
