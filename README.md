@@ -215,5 +215,5 @@ Repositório dos cursos da alura
 - [x] 09 - Utilizando a primeira diretiva
 
     uma diretiva muda o comportamento de um componente, o `*ngFor` é utilizada como atributo da tag ap-photo
-- [ ] 10 - Consolidando seu conhecimento
-- [ ] 11 - O que aprendemos?
+- [x] 10 - Consolidando seu conhecimento
+- [x] 11 - O que aprendemos?
