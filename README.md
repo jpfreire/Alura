@@ -168,7 +168,11 @@ Repositório dos cursos da alura
 - [x] 07 - Erro no comando: ng serve --open
     - [x] `npm install rxjs@6.0.0 --save`
 - [x] 08 - Comandos iniciais
-- [ ] 09 - Entendendo a estrutura
+- [x] 09 - Entendendo a estrutura
+    - [x] tudo é um componente
+    - [x] `app.component.ts` é o arquivo com o componente principal inicial
+    - [x] `index.html` possui a tag app-root definida no arquivo acima
+    - [x] o componente precisa ser defininido pela anotação `@Component`, cujos principais atributos são: selector, templateUrl, styleUrls.
 - [ ] 10 - Primeiro contato com data binding
 - [ ] 11 - Adequando o template gerado e mais data binding
 - [ ] 12 - Fixando data binding
