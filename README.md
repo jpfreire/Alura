@@ -219,7 +219,7 @@ Repositório dos cursos da alura
 - [x] 11 - O que aprendemos?
 
 ### AULA 03 -Integração com Web API's
-- [ ] 01 - Projeto da aula anterior
+- [x] 01 - Projeto da aula anterior
 - [ ] 02 - SPAs e consumo de APIs
 - [ ] 03 - (Obrigatório) Baixando e subindo o servidor da API
 - [ ] 04 - Nomenclatura do servidor
