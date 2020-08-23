@@ -212,6 +212,8 @@ Repositório dos cursos da alura
     
     o módulo precisa ser anotado com `@NgModule` declarando os componetes na propriedade `declarations` e em `exports` os componentes acessíveis por quem usa o módulo.
 - [x] 08 - Sobre a criação de um component
-- [ ] 09 - Utilizando a primeira diretiva
+- [x] 09 - Utilizando a primeira diretiva
+
+    uma diretiva muda o comportamento de um componente, o `*ngFor` é utilizada como atributo da tag ap-photo
 - [ ] 10 - Consolidando seu conhecimento
 - [ ] 11 - O que aprendemos?

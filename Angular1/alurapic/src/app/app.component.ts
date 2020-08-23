@@ -7,5 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  photos = [
+    {
+      url: 'https://source.unsplash.com/800x600/?lion',
+      descricao: 'Leão'
+    },
+    {
+      url: 'https://source.unsplash.com/800x600/?nature',
+      descricao: 'Natureza'
+    }
+  ];
 
 }
