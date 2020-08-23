@@ -195,7 +195,8 @@ Repositório dos cursos da alura
     para adicionar bibliotecas é preciso colocá-las no processo de build, um css global é preciso ser indicado dentro de `angular.json`
     - [x] `npm install bootstrap@4.1.1`
     - [x] stop/start no angularCLI e tudo certo👍
-- [ ] 02 - Criando o primeiro componente
+- [x] 02 - Criando o primeiro componente
+    - [x] criado componente `<ap-photo>` com `PhotoComponent`
 - [ ] 03 - Tornando uma classe um componente
 - [ ] 04 - Declarando o componente no módulo da aplicação
 - [ ] 05 - Inbound properties: passando dados para o componente
