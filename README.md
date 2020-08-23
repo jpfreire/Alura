@@ -181,7 +181,10 @@ Repositório dos cursos da alura
     - [x] envolver o nome atributo em [colchetes] para fazer _one-way data binding_
     - [x] dentro de tag pode ser usado  o _double mustash_{{ }}
 - [x] 12 - Fixando data binding
-- [ ] 13 - Convenções de código
+- [x] 13 - Convenções de código
+    - [x] em nome do arquivo do componente em caixa baixa: `nome.component.ts`
+    - [x] a classe do componente em _PascalCase_ 
+    - [x] o nome do arquivo html e css serão o mesmo do componente finalizando em `.html` e `.css` respectivamente
 - [ ] 14 - Convenções do Angular
 - [ ] 15 - Consolidando seu conhecimento
 - [ ] 16 - O que aprendemos?
