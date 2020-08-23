@@ -201,7 +201,12 @@ Repositório dos cursos da alura
 - [x] 04 - Declarando o componente no módulo da aplicação
     o componente precisa pertencer a um módulo, facilitando a inclusão dos componentes interligados.
     - [x] adicionado o componente na declaração do módulo em `app.module.ts`
-- [ ] 05 - Inbound properties: passando dados para o componente
+- [x] 05 - Inbound properties: passando dados para o componente
+
+    os colchetes são utilizados quando os valores devem ser lidos do componente para a página `<img [src]="...">`
+    quando o valor são passado da página para o componete não se usam os colchetes ficando os componentes de forma simples `<ap-photo url="...">`
+
+    a anotação `@Input` define que uma propriedade do componente é _inbound property_, assim recebendo valores da página
 - [ ] 06 - Sobre a inbound property
 - [ ] 07 - Organizando nosso código em módulos
 - [ ] 08 - Sobre a criação de um component
