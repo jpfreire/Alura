@@ -197,7 +197,7 @@ Repositório dos cursos da alura
     - [x] stop/start no angularCLI e tudo certo👍
 - [x] 02 - Criando o primeiro componente
     - [x] criado componente `<ap-photo>` com `PhotoComponent`
-- [ ] 03 - Tornando uma classe um componente
+- [x] 03 - Tornando uma classe um componente
 - [ ] 04 - Declarando o componente no módulo da aplicação
 - [ ] 05 - Inbound properties: passando dados para o componente
 - [ ] 06 - Sobre a inbound property
