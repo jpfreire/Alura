@@ -208,7 +208,9 @@ Repositório dos cursos da alura
 
     a anotação `@Input` define que uma propriedade do componente é _inbound property_, assim recebendo valores da página
 - [x] 06 - Sobre a inbound property
-- [ ] 07 - Organizando nosso código em módulos
+- [x] 07 - Organizando nosso código em módulos
+    
+    o módulo precisa ser anotado com `@NgModule` declarando os componetes na propriedade `declarations` e em `exports` os componentes acessíveis por quem usa o módulo.
 - [ ] 08 - Sobre a criação de um component
 - [ ] 09 - Utilizando a primeira diretiva
 - [ ] 10 - Consolidando seu conhecimento
