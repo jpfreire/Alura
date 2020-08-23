@@ -221,7 +221,13 @@ Repositório dos cursos da alura
 ### AULA 03 -Integração com Web API's
 - [x] 01 - Projeto da aula anterior
 - [x] 02 - SPAs e consumo de APIs
-- [ ] 03 - (Obrigatório) Baixando e subindo o servidor da API
+- [x] 03 - (Obrigatório) Baixando e subindo o servidor da API
+    
+    comandos executados:
+    - [x] `cd api`
+    - [x] `npm install`
+    - [ ] não foi necessário: `npm install --unsafe-perm -g sqlite3`
+    - [x] `npm start`
 - [ ] 04 - Nomenclatura do servidor
 - [ ] 05 - HttpClient e injeção de dependência
 - [ ] 06 - Importando o HttpClient
