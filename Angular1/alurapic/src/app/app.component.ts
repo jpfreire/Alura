@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  descricao = 'leão/leoa';
+  url = 'https://source.unsplash.com/800x600/?lion';
 }

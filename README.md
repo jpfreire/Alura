@@ -177,7 +177,9 @@ Repositório dos cursos da alura
     - [x] apresentado angular expression: {{ title }}
     - [x] apresentado _data binding_
     - [x] angularCLI já vem com _browser sync_
-- [ ] 11 - Adequando o template gerado e mais data binding
+- [x] 11 - Adequando o template gerado e mais data binding
+    - [x] envolver o nome atributo em [colchetes] para fazer _one-way data binding_
+    - [x] dentro de tag pode ser usado  o _double mustash_{{ }}
 - [ ] 12 - Fixando data binding
 - [ ] 13 - Convenções de código
 - [ ] 14 - Convenções do Angular
