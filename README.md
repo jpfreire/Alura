@@ -149,4 +149,7 @@ Repositório dos cursos da alura
 - [x] 14 - Considerações finais
 - [x] 15 - Download do projeto final
 - [x] 16 - Entendendo o que fizemos
+
+## Angular parte 1: Fundamentos
+
 ## Typescript (concluído)
