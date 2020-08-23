@@ -165,7 +165,8 @@ Repositório dos cursos da alura
     - [x] `ng new alurapic`
     - [x] `cd alurapic`
     - [x] `ng serve --open`
-- [ ] 07 - Erro no comando: ng serve --open
+- [x] 07 - Erro no comando: ng serve --open
+    - [x] `npm install rxjs@6.0.0 --save`
 - [ ] 08 - Comandos iniciais
 - [ ] 09 - Entendendo a estrutura
 - [ ] 10 - Primeiro contato com data binding
