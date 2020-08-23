@@ -154,12 +154,17 @@ Repositório dos cursos da alura
 ### AULA 01 - Bem começado, metade feito
 - [x] 01 - Introdução
 - [x] 02 - (Obrigatório) Infraestrutura do treinamento
-  - [x] Node
-  - [x] VS Code
+    - [x] Node
+    - [x] VS Code
 - [x] 03 - Motivação para uso de uma SPA
 - [x] 04 - Considerações sobre o uso do Angular
 - [x] 05 - Angularjs vs Angular
-- [ ] 06 - Angular CLI, instalação e criação do projeto
+- [x] 06 - Angular CLI, instalação e criação do projeto
+    - [x] `npm install -g @angular/cli@6.0.7`
+    - [x] `ng --version`
+    - [x] `ng new alurapic`
+    - [x] `cd alurapic`
+    - [x] `ng serve --open`
 - [ ] 07 - Erro no comando: ng serve --open
 - [ ] 08 - Comandos iniciais
 - [ ] 09 - Entendendo a estrutura
