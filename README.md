@@ -188,4 +188,17 @@ Repositório dos cursos da alura
 - [x] 14 - Convenções do Angular
 - [x] 15 - Consolidando seu conhecimento
 - [x] 16 - O que aprendemos?
-## Typescript (concluído)
+
+### AULA 02 - Criando o primeiro componente
+ 
+- [ ] 01 - Adicionando Bootstrap ao projeto
+- [ ] 02 - Criando o primeiro componente
+- [ ] 03 - Tornando uma classe um componente
+- [ ] 04 - Declarando o componente no módulo da aplicação
+- [ ] 05 - Inbound properties: passando dados para o componente
+- [ ] 06 - Sobre a inbound property
+- [ ] 07 - Organizando nosso código em módulos
+- [ ] 08 - Sobre a criação de um component
+- [ ] 09 - Utilizando a primeira diretiva
+- [ ] 10 - Consolidando seu conhecimento
+- [ ] 11 - O que aprendemos?
