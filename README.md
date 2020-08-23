@@ -156,7 +156,7 @@ Repositório dos cursos da alura
 - [x] 02 - (Obrigatório) Infraestrutura do treinamento
   - [x] Node
   - [x] VS Code
-- [ ] 03 - Motivação para uso de uma SPA
+- [x] 03 - Motivação para uso de uma SPA
 - [ ] 04 - Considerações sobre o uso do Angular
 - [ ] 05 - Angularjs vs Angular
 - [ ] 06 - Angular CLI, instalação e criação do projeto
