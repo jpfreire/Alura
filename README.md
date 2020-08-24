@@ -268,6 +268,9 @@ Repositório dos cursos da alura
     - [x] adicionado parâmetro ao segmento de rota (`:userName`)
     - [x] parametros capturados em `PhotoListComponent.constructor(activatedRoute: ActivatedRoute)` 
     - [x] valor recuperado através de `this.activatedRoute.snapshot.params.userName`
-- [ ] 11 - Qual rota?
+- [x] 11 - Qual rota?
+
+    Quando a rota solicitada não se encaixa em nenhuma rota definida se houver sido definia a rota que receberá o chamado é
+    `{ path: '**', component: ABComponent }`
 - [ ] 12 - Consolidando seu conhecimento
 - [ ] 13 - O que aprendemos?
