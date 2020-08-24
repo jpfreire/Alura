@@ -272,5 +272,5 @@ Repositório dos cursos da alura
 
     Quando a rota solicitada não se encaixa em nenhuma rota definida se houver sido definia a rota que receberá o chamado é
     `{ path: '**', component: ABComponent }`
-- [ ] 12 - Consolidando seu conhecimento
-- [ ] 13 - O que aprendemos?
+- [x] 12 - Consolidando seu conhecimento
+- [x] 13 - O que aprendemos?
