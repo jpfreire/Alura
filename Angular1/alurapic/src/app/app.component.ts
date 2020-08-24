@@ -9,9 +9,13 @@ import { HttpClient } from '@angular/common/http';
 })
 export class AppComponent {
   title = 'app';
-  photos = [ ];
+  photos: Object[] = [];
   constructor(readonly http:HttpClient){
-    console.log(http);
+    http.get<Object[]>(`http://localhost:3000/flavio/photos`)
+    .subscribe((photos)=>{
+      console.log(photos);
+      this.photos = photos;
+    })
   }
 
 }
