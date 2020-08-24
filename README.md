@@ -248,7 +248,7 @@ Repositório dos cursos da alura
 - [x] 12 - O que aprendemos?
 
 ###  AULA 04 - Single Page Applications e rotas
-- [ ] 01 - Projeto da aula anterior
+- [x] 01 - Projeto da aula anterior
 - [ ] 02 - Organizando ainda mais nossa aplicação
 - [ ] 03 - Gerar componente pelo CLI
 - [ ] 04 - Separar código
