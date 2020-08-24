@@ -218,7 +218,7 @@ Repositório dos cursos da alura
 - [x] 10 - Consolidando seu conhecimento
 - [x] 11 - O que aprendemos?
 
-### AULA 03 -Integração com Web API's
+### AULA 03 - Integração com Web API's
 - [x] 01 - Projeto da aula anterior
 - [x] 02 - SPAs e consumo de APIs
 - [x] 03 - (Obrigatório) Baixando e subindo o servidor da API
@@ -246,3 +246,18 @@ Repositório dos cursos da alura
     acesso ao serviço de fotos movido para o método `AppComponent.ngInit`  para que o acesso seja feito após a instanciação da classe e da injeção das _inbound properties_
 - [x] 11 - Consolidando seu conhecimento
 - [x] 12 - O que aprendemos?
+
+###  AULA 04 - Single Page Applications e rotas
+- [ ] 01 - Projeto da aula anterior
+- [ ] 02 - Organizando ainda mais nossa aplicação
+- [ ] 03 - Gerar componente pelo CLI
+- [ ] 04 - Separar código
+- [ ] 05 - BrowserModule e CommonModule
+- [ ] 06 - Sobre módulos
+- [ ] 07 - Single Page Application e Rotas
+- [ ] 08 - Lidando com rotas inexistentes
+- [ ] 09 - Sobre roteamento
+- [ ] 10 - Segmentos de rotas
+- [ ] 11 - Qual rota?
+- [ ] 12 - Consolidando seu conhecimento
+- [ ] 13 - O que aprendemos?
