@@ -264,7 +264,10 @@ Repositório dos cursos da alura
 - [x] 08 - Lidando com rotas inexistentes
     - [x] criado módulo de erro para receber rotas não exsitentes 
 - [x] 09 - Sobre roteamento
-- [ ] 10 - Segmentos de rotas
+- [x] 10 - Segmentos de rotas
+    - [x] adicionado parâmetro ao segmento de rota (`:userName`)
+    - [x] parametros capturados em `PhotoListComponent.constructor(activatedRoute: ActivatedRoute)` 
+    - [x] valor recuperado através de `this.activatedRoute.snapshot.params.userName`
 - [ ] 11 - Qual rota?
 - [ ] 12 - Consolidando seu conhecimento
 - [ ] 13 - O que aprendemos?
