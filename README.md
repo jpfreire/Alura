@@ -277,7 +277,7 @@ Repositório dos cursos da alura
 
 ### AULA 05 - Novo componente, novos conceitos
 - [x] 01 - Projeto da aula anterior
-- [ ] 02 - Melhorando a apresentação da lista
+- [x] 02 - Melhorando a apresentação da lista
 - [ ] 03 - Componente exclusivo para listar fotos
 - [ ] 04 - Implementando a lógica do Grid
 - [ ] 05 - A função Array.slice
