@@ -254,7 +254,8 @@ Repositório dos cursos da alura
     - [x] ng generate component `photos/photo-list`
 - [x] 03 - Gerar componente pelo CLI
 - [x] 04 - Separar código
-- [ ] 05 - BrowserModule e CommonModule
+- [x] 05 - BrowserModule e CommonModule
+    - [x] `CommonsModule` importado em `PhotosModule` para que as diretivas angular funcionem nos componentes internos
 - [ ] 06 - Sobre módulos
 - [ ] 07 - Single Page Application e Rotas
 - [ ] 08 - Lidando com rotas inexistentes
