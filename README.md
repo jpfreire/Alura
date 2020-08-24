@@ -261,7 +261,8 @@ Repositório dos cursos da alura
     - [x] criado componente `photo-form`
     - [x] criado componente de rotas: `AppRoutingModule` com as rotas
     - [x] ajustado o componente principal para utilização das rotas
-- [ ] 08 - Lidando com rotas inexistentes
+- [x] 08 - Lidando com rotas inexistentes
+    - [x] criado módulo de erro para receber rotas não exsitentes 
 - [ ] 09 - Sobre roteamento
 - [ ] 10 - Segmentos de rotas
 - [ ] 11 - Qual rota?
