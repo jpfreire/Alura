@@ -239,7 +239,8 @@ Repositório dos cursos da alura
 
     - [x] criado o `PhotoService` anotado como `@Injectable` para que o seja possível injetar no componente principal
     
-- [ ] 09 - Tipando nossa API
+- [x] 09 - Tipando nossa API
+    - [x] criada inteface Photo e associada ao retorno do serviço implicitamente através da tipagem do retorno do `http.get<Photo[]>`
 - [ ] 10 - Ciclo de vida de um componente
 - [ ] 11 - Consolidando seu conhecimento
 - [ ] 12 - O que aprendemos?
