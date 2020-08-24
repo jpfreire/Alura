@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+
 
 @Component({
   selector: 'app-root',
@@ -7,15 +9,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
-  photos = [
-    {
-      url: 'https://source.unsplash.com/800x600/?lion',
-      descricao: 'Leão'
-    },
-    {
-      url: 'https://source.unsplash.com/800x600/?nature',
-      descricao: 'Natureza'
-    }
-  ];
+  photos = [ ];
+  constructor(readonly http:HttpClient){
+    console.log(http);
+  }
 
 }

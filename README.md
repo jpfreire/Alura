@@ -229,7 +229,10 @@ Repositório dos cursos da alura
     - [ ] não foi necessário: `npm install --unsafe-perm -g sqlite3`
     - [x] `npm start`
 - [x] 04 - Nomenclatura do servidor
-- [ ] 05 - HttpClient e injeção de dependência
+- [x] 05 - HttpClient e injeção de dependência
+    
+    adição do módulo `HttpClientModule` aos imports do módulo principal.
+    Após os ajustes em `app.module.ts` o vscode passou a apresentar os imports corretamente.
 - [ ] 06 - Importando o HttpClient
 - [ ] 07 - Consumindo dados da API
 - [ ] 08 - Isolando a acesso em serviços
