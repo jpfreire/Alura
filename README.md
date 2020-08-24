@@ -253,7 +253,7 @@ Repositório dos cursos da alura
     - [x] criado componente `photo-list` que ficará encarregado de exibir a lista de fotos; por este motivo o `PhotoComponent` não precisa mais estar no export do `PhotosModule` e nem no componente principal da aplicação
     - [x] ng generate component `photos/photo-list`
 - [x] 03 - Gerar componente pelo CLI
-- [ ] 04 - Separar código
+- [x] 04 - Separar código
 - [ ] 05 - BrowserModule e CommonModule
 - [ ] 06 - Sobre módulos
 - [ ] 07 - Single Page Application e Rotas
