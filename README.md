@@ -257,7 +257,10 @@ Repositório dos cursos da alura
 - [x] 05 - BrowserModule e CommonModule
     - [x] `CommonsModule` importado em `PhotosModule` para que as diretivas angular funcionem nos componentes internos
 - [x] 06 - Sobre módulos
-- [ ] 07 - Single Page Application e Rotas
+- [x] 07 - Single Page Application e Rotas
+    - [x] criado componente `photo-form`
+    - [x] criado componente de rotas: `AppRoutingModule` com as rotas
+    - [x] ajustado o componente principal para utilização das rotas
 - [ ] 08 - Lidando com rotas inexistentes
 - [ ] 09 - Sobre roteamento
 - [ ] 10 - Segmentos de rotas
