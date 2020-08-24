@@ -244,5 +244,5 @@ Repositório dos cursos da alura
 - [x] 10 - Ciclo de vida de um componente
 
     acesso ao serviço de fotos movido para o método `AppComponent.ngInit`  para que o acesso seja feito após a instanciação da classe e da injeção das _inbound properties_
-- [ ] 11 - Consolidando seu conhecimento
-- [ ] 12 - O que aprendemos?
+- [x] 11 - Consolidando seu conhecimento
+- [x] 12 - O que aprendemos?
