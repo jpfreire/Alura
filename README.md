@@ -249,7 +249,9 @@ Repositório dos cursos da alura
 
 ###  AULA 04 - Single Page Applications e rotas
 - [x] 01 - Projeto da aula anterior
-- [ ] 02 - Organizando ainda mais nossa aplicação
+- [x] 02 - Organizando ainda mais nossa aplicação
+    - [x] criado componente `photo-list` que ficará encarregado de exibir a lista de fotos; por este motivo o `PhotoComponent` não precisa mais estar no export do `PhotosModule` e nem no componente principal da aplicação
+    - [x] ng generate component `photos/photo-list`
 - [ ] 03 - Gerar componente pelo CLI
 - [ ] 04 - Separar código
 - [ ] 05 - BrowserModule e CommonModule
