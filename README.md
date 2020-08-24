@@ -241,6 +241,8 @@ Repositório dos cursos da alura
     
 - [x] 09 - Tipando nossa API
     - [x] criada inteface Photo e associada ao retorno do serviço implicitamente através da tipagem do retorno do `http.get<Photo[]>`
-- [ ] 10 - Ciclo de vida de um componente
+- [x] 10 - Ciclo de vida de um componente
+
+    acesso ao serviço de fotos movido para o método `AppComponent.ngInit`  para que o acesso seja feito após a instanciação da classe e da injeção das _inbound properties_
 - [ ] 11 - Consolidando seu conhecimento
 - [ ] 12 - O que aprendemos?
