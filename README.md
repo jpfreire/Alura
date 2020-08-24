@@ -274,3 +274,15 @@ Repositório dos cursos da alura
     `{ path: '**', component: ABComponent }`
 - [x] 12 - Consolidando seu conhecimento
 - [x] 13 - O que aprendemos?
+
+### AULA 05 - Novo componente, novos conceitos
+- [ ] 01 - Projeto da aula anterior
+- [ ] 02 - Melhorando a apresentação da lista
+- [ ] 03 - Componente exclusivo para listar fotos
+- [ ] 04 - Implementando a lógica do Grid
+- [ ] 05 - A função Array.slice
+- [ ] 06 - Um pouco mais sobre Array.slice
+- [ ] 07 - Change Detection
+- [ ] 08 - Sobre a interface OnChanges
+- [ ] 09 - Consolidando seu conhecimento
+- [ ] 10 - O que aprendemos?
