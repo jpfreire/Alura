@@ -263,7 +263,7 @@ Repositório dos cursos da alura
     - [x] ajustado o componente principal para utilização das rotas
 - [x] 08 - Lidando com rotas inexistentes
     - [x] criado módulo de erro para receber rotas não exsitentes 
-- [ ] 09 - Sobre roteamento
+- [x] 09 - Sobre roteamento
 - [ ] 10 - Segmentos de rotas
 - [ ] 11 - Qual rota?
 - [ ] 12 - Consolidando seu conhecimento
