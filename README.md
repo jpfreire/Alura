@@ -233,7 +233,7 @@ Repositório dos cursos da alura
     
     adição do módulo `HttpClientModule` aos imports do módulo principal.
     Após os ajustes em `app.module.ts` o vscode passou a apresentar os imports corretamente.
-- [ ] 06 - Importando o HttpClient
+- [x] 06 - Importando o HttpClient
 - [ ] 07 - Consumindo dados da API
 - [ ] 08 - Isolando a acesso em serviços
 - [ ] 09 - Tipando nossa API
