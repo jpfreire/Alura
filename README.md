@@ -235,7 +235,10 @@ Repositório dos cursos da alura
     Após os ajustes em `app.module.ts` o vscode passou a apresentar os imports corretamente.
 - [x] 06 - Importando o HttpClient
 - [x] 07 - Consumindo dados da API
-- [ ] 08 - Isolando a acesso em serviços
+- [x] 08 - Isolando a acesso em serviços
+
+    - [x] criado o `PhotoService` anotado como `@Injectable` para que o seja possível injetar no componente principal
+    
 - [ ] 09 - Tipando nossa API
 - [ ] 10 - Ciclo de vida de um componente
 - [ ] 11 - Consolidando seu conhecimento
