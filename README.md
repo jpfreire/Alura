@@ -276,7 +276,7 @@ Repositório dos cursos da alura
 - [x] 13 - O que aprendemos?
 
 ### AULA 05 - Novo componente, novos conceitos
-- [ ] 01 - Projeto da aula anterior
+- [x] 01 - Projeto da aula anterior
 - [ ] 02 - Melhorando a apresentação da lista
 - [ ] 03 - Componente exclusivo para listar fotos
 - [ ] 04 - Implementando a lógica do Grid
