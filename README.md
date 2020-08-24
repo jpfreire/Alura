@@ -256,7 +256,7 @@ Repositório dos cursos da alura
 - [x] 04 - Separar código
 - [x] 05 - BrowserModule e CommonModule
     - [x] `CommonsModule` importado em `PhotosModule` para que as diretivas angular funcionem nos componentes internos
-- [ ] 06 - Sobre módulos
+- [x] 06 - Sobre módulos
 - [ ] 07 - Single Page Application e Rotas
 - [ ] 08 - Lidando com rotas inexistentes
 - [ ] 09 - Sobre roteamento
