@@ -290,3 +290,16 @@ Repositório dos cursos da alura
 - [x] 08 - Sobre a interface OnChanges
 - [x] 09 - Consolidando seu conhecimento
 - [x] 10 - O que aprendemos?
+
+### AULA 06 - Melhorando a experiência do usuário
+- [ ] 01 - Projeto da aula anterior
+- [ ] 02 - Binding de eventos
+- [ ] 03 - Pipe e implementação
+- [ ] 04 - Criando nosso próprio pipe
+- [ ] 05 - Resolvers
+- [ ] 06 - Implementando Resolvers
+- [ ] 07 - RxJS e seu Subject
+- [ ] 08 - Padrão debounce com RxJS
+- [ ] 09 - Paginação de dados
+- [ ] 10 - LoadButton
+- [ ] 11 - Consolidando seu conhecimento
