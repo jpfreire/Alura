@@ -300,7 +300,7 @@ Repositório dos cursos da alura
     - [x] criado pipe em `photo-list\filtrar-pela-descricao.pipe.ts`
     - [x] deve implementar `PipeTransform`
     - [x] exemplo de utilização: `<app-photos [photos]="photos | filtrarPelaDescricao: filtro"></app-photos>`
-- [ ] 04 - Criando nosso próprio pipe
+- [x] 04 - Criando nosso próprio pipe
 - [ ] 05 - Resolvers
 - [ ] 06 - Implementando Resolvers
 - [ ] 07 - RxJS e seu Subject
