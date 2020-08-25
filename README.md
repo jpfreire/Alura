@@ -296,7 +296,10 @@ Repositório dos cursos da alura
 - [x] 02 - Binding de eventos
     
     o bind da view para o componente feito no evento é feito através de parênteses: <... (keyup)="x=$event.target.value"><...>
-- [ ] 03 - Pipe e implementação
+- [x] 03 - Pipe e implementação
+    - [x] criado pipe em `photo-list\filtrar-pela-descricao.pipe.ts`
+    - [x] deve implementar `PipeTransform`
+    - [x] exemplo de utilização: `<app-photos [photos]="photos | filtrarPelaDescricao: filtro"></app-photos>`
 - [ ] 04 - Criando nosso próprio pipe
 - [ ] 05 - Resolvers
 - [ ] 06 - Implementando Resolvers

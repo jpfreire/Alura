@@ -13,7 +13,7 @@ export class PhotoListComponent implements OnInit {
 
   private photos: Photo[] = [];
 
-  filter = '';
+  filtro = '';
 
   constructor(readonly photoService: PhotoService,
     readonly activatedRoute: ActivatedRoute) {}
@@ -24,11 +24,10 @@ export class PhotoListComponent implements OnInit {
     this.photoService.listFromUser(userName)
     .subscribe(fotos => {
       console.log('definiu photos');
-      
+
       this.photos = fotos;
     });
     console.log('subscrito');
-    
   }
 
 }
