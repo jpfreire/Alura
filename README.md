@@ -282,7 +282,7 @@ Repositório dos cursos da alura
     
     criado componente que irá gerenciar a apresentacao: `ng generate component photos/photo-list/photos`
 - [x] 04 - Implementando a lógica do Grid
-- [ ] 05 - A função Array.slice
+- [x] 05 - A função Array.slice
 - [ ] 06 - Um pouco mais sobre Array.slice
 - [ ] 07 - Change Detection
 - [ ] 08 - Sobre a interface OnChanges
