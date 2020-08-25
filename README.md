@@ -281,7 +281,7 @@ Repositório dos cursos da alura
 - [x] 03 - Componente exclusivo para listar fotos
     
     criado componente que irá gerenciar a apresentacao: `ng generate component photos/photo-list/photos`
-- [ ] 04 - Implementando a lógica do Grid
+- [x] 04 - Implementando a lógica do Grid
 - [ ] 05 - A função Array.slice
 - [ ] 06 - Um pouco mais sobre Array.slice
 - [ ] 07 - Change Detection
