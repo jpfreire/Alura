@@ -293,7 +293,9 @@ Repositório dos cursos da alura
 
 ### AULA 06 - Melhorando a experiência do usuário
 - [x] 01 - Projeto da aula anterior
-- [ ] 02 - Binding de eventos
+- [x] 02 - Binding de eventos
+    
+    o bind da view para o componente feito no evento é feito através de parênteses: <... (keyup)="x=$event.target.value"><...>
 - [ ] 03 - Pipe e implementação
 - [ ] 04 - Criando nosso próprio pipe
 - [ ] 05 - Resolvers
