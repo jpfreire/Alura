@@ -292,7 +292,7 @@ Repositório dos cursos da alura
 - [x] 10 - O que aprendemos?
 
 ### AULA 06 - Melhorando a experiência do usuário
-- [ ] 01 - Projeto da aula anterior
+- [x] 01 - Projeto da aula anterior
 - [ ] 02 - Binding de eventos
 - [ ] 03 - Pipe e implementação
 - [ ] 04 - Criando nosso próprio pipe
