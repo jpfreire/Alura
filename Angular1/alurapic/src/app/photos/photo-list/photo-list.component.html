@@ -3,4 +3,5 @@
         class="rounded" autofocus
         (keyup)="filtro=$event.target.value"></form>
 </div>
+<div class="text-center" *ngIf="!photos.length">Sem Fotos</div>
 <app-photos [photos]="photos | filtrarPelaDescricao: filtro"></app-photos>

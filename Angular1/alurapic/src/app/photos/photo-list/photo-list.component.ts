@@ -19,15 +19,16 @@ export class PhotoListComponent implements OnInit {
     readonly activatedRoute: ActivatedRoute) {}
 
   ngOnInit(): void {
-    const userName = this.activatedRoute.snapshot.params.userName;
-    console.log('app-photo-list consultando serviço de foto');
-    this.photoService.listFromUser(userName)
-    .subscribe(fotos => {
-      console.log('definiu photos');
+    // const userName = this.activatedRoute.snapshot.params.userName;
+    // console.log('app-photo-list consultando serviço de foto');
+    // this.photoService.listFromUser(userName)
+    // .subscribe(fotos => {
+    //   console.log('definiu photos');
 
-      this.photos = fotos;
-    });
-    console.log('subscrito');
+    //   this.photos = fotos;
+    // });
+    // console.log('subscrito');
+    this.photos = this.activatedRoute.snapshot.data.photos;
   }
 
 }

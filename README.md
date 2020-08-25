@@ -301,7 +301,12 @@ Repositório dos cursos da alura
     - [x] deve implementar `PipeTransform`
     - [x] exemplo de utilização: `<app-photos [photos]="photos | filtrarPelaDescricao: filtro"></app-photos>`
 - [x] 04 - Criando nosso próprio pipe
-- [ ] 05 - Resolvers
+- [x] 05 - Resolvers
+
+    o Resolver é um componente que atua antes do componente ser ativado.
+    - [x] criado `PhotoListResolver implements Resolve<Observable<Photo[]>>`
+    - [x] módulo de rota atualizado com a propriedade `resolve: {photos: PhotoListResolver}` 
+    - [x] `PhotoListComponent` recebe os dados carregados da rota através da propriedade `this.activatedRoute.snapshot.data.photos` ao invés de utilizar o serviço
 - [ ] 06 - Implementando Resolvers
 - [ ] 07 - RxJS e seu Subject
 - [ ] 08 - Padrão debounce com RxJS
