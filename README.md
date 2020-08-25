@@ -278,7 +278,9 @@ Repositório dos cursos da alura
 ### AULA 05 - Novo componente, novos conceitos
 - [x] 01 - Projeto da aula anterior
 - [x] 02 - Melhorando a apresentação da lista
-- [ ] 03 - Componente exclusivo para listar fotos
+- [x] 03 - Componente exclusivo para listar fotos
+    
+    criado componente que irá gerenciar a apresentacao: `ng generate component photos/photo-list/photos`
 - [ ] 04 - Implementando a lógica do Grid
 - [ ] 05 - A função Array.slice
 - [ ] 06 - Um pouco mais sobre Array.slice
