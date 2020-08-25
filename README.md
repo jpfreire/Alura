@@ -288,5 +288,5 @@ Repositório dos cursos da alura
 
     a mudança de template de `PhotosComponent` para o subcomponente `PhotoListComponent` fez com que a renderização parasse de funcionar: o template filho não recebeu a mudança que ocorreu após a inicializaçao. Com isto foi preciso atualizar o componente filho com o a captura de mudança através do método `ngOnChanges`.
 - [x] 08 - Sobre a interface OnChanges
-- [ ] 09 - Consolidando seu conhecimento
-- [ ] 10 - O que aprendemos?
+- [x] 09 - Consolidando seu conhecimento
+- [x] 10 - O que aprendemos?
