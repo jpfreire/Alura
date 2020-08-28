@@ -1,0 +1,6 @@
+<div class="text-center" *ngIf="hasMore; else semDados">
+  <button class="btn btn-primary">Load More</button>
+</div>
+<ng-template #semDados>
+  <p class="text-center text-muted">Não há mais itens a carregar</p>
+</ng-template>

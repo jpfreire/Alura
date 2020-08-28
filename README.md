@@ -319,5 +319,11 @@ Repositório dos cursos da alura
 - [x] 08 - Padrão debounce com RxJS
 - [x] 09 - Paginação de dados
     - [x] método criado `PhotoService.listFromUserPaginated(userName: string, page: number)`
-- [ ] 10 - LoadButton
+- [x] 10 - LoadButton
+    - [x] Criado componente `<app-load-button>` 
+    
+    o componete utiliza a condição `*ngIf="hasMore; else idTemplate"` para exibir/ocultar o botão e utiliza `<ng-template #idTemplate>` para oculta/exibir a mensagem 'Não há mais itens a carregar'
+
+    - [x] `PhotoService` adicionado novamente em `PhotoListComponent` (removido em 06.05)
+    - [x] Bind do componente criado e ajuste de reatribuição de variável necessária pois o _Angular_ só percebe que um novo componente foi adicionado caso a variável seja uma nova, por isso a definição `this.photos = this.photos.concat(fotos)` ao invés de push no array
 - [ ] 11 - Consolidando seu conhecimento

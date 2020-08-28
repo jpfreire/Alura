@@ -16,20 +16,32 @@ export class PhotoListComponent implements OnInit, OnDestroy {
   private photos: Photo[] = [];
 
   filtro = '';
-
   debounce = new Subject<string>();
+  temMaisFotosListComponent = true;
+  currentPage = 1;
+  userName = '';
 
   constructor(readonly photoService: PhotoService,
     readonly activatedRoute: ActivatedRoute) {}
 
 
   ngOnInit(): void {
+    this.userName = this.activatedRoute.snapshot.params.userName;
     this.photos = this.activatedRoute.snapshot.data.photos;
     this.debounce.pipe(debounceTime(500)).subscribe(filtro => this.filtro = filtro);
   }
 
   ngOnDestroy(): void {
     this.debounce.unsubscribe();
+  }
+
+  load(): void {
+    this.photoService.listFromUserPaginated(this.userName,  ++this.currentPage)
+    .subscribe(fotos => {
+      this.photos = this.photos.concat(fotos);
+
+      this.temMaisFotosListComponent = fotos.length > 0;
+    });
   }
 
 }

@@ -5,3 +5,7 @@
 </div>
 <div class="text-center" *ngIf="!photos.length">Sem Fotos</div>
 <app-photos [photos]="photos | filtrarPelaDescricao: filtro"></app-photos>
+<app-load-button 
+[hasMore]="temMaisFotosListComponent"
+(click)="load()"
+></app-load-button>
