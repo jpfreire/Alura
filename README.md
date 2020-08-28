@@ -326,4 +326,20 @@ Repositório dos cursos da alura
 
     - [x] `PhotoService` adicionado novamente em `PhotoListComponent` (removido em 06.05)
     - [x] Bind do componente criado e ajuste de reatribuição de variável necessária pois o _Angular_ só percebe que um novo componente foi adicionado caso a variável seja uma nova, por isso a definição `this.photos = this.photos.concat(fotos)` ao invés de push no array
-- [x] 11 - Consolidando seu conhecimento.
+- [x] 11 - Consolidando seu conhecimento
+
+### AULA 07 - Lapidando ainda mais nossa aplicação
+- [ ] 01 - Projeto da aula anterior
+- [ ] 02 - Submódulos
+- [ ] 03 - Integração com Font Awesome
+- [ ] 04 - Component container e ng-content
+- [ ] 05 - Desaparecimento de elementos
+- [ ] 06 - Componentizando o filtro
+- [ ] 07 - Output property
+- [ ] 08 - Sobre output property
+- [ ] 09 - Criando a primeira diretiva
+- [ ] 10 - Terminando a implementação da diretiva
+- [ ] 11 - Sobre diretivas
+- [ ] 12 - Considerações finais
+- [ ] 13 - Consolidando seu conhecimento
+- [ ] 14 - Projeto completo
