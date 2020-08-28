@@ -317,6 +317,7 @@ Repositório dos cursos da alura
         _Subject_ em `photo-list.component.ts` transmitindo os valores recebidos através de `this.debounce.subscribe(filtro => this.filtro = filtro);` 
     - [x] adicionado `debounceTime(300)` (termo da elétrônica) utilizado para adicionar retardo e acumular a entrada repassando os dado em no tempo especificado.
 - [x] 08 - Padrão debounce com RxJS
-- [ ] 09 - Paginação de dados
+- [x] 09 - Paginação de dados
+    - [x] método criado `PhotoService.listFromUserPaginated(userName: string, page: number)`
 - [ ] 10 - LoadButton
 - [ ] 11 - Consolidando seu conhecimento
