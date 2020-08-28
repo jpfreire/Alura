@@ -308,7 +308,14 @@ Repositório dos cursos da alura
     - [x] módulo de rota atualizado com a propriedade `resolve: {photos: PhotoListResolver}` 
     - [x] `PhotoListComponent` recebe os dados carregados da rota através da propriedade `this.activatedRoute.snapshot.data.photos` ao invés de utilizar o serviço
 - [x] 06 - Implementando Resolvers
-- [ ] 07 - RxJS e seu Subject
+- [x] 07 - RxJS e seu Subject
+
+    - [x] criado `debounce: rxjs.Subject<string>` para atuar como _Observable_ e _Subject_ na modificação do filtro atuando como:
+        
+        _Observer_ em `photo-list.component.html` recebendo valores através de `(keyup)="debounce.next($event.target.value)"`
+
+        _Subject_ em `photo-list.component.ts` transmitindo os valores recebidos através de `this.debounce.subscribe(filtro => this.filtro = filtro);` 
+    - [x] adicionado `debounceTime(300)` (termo da elétrônica) utilizado para adicionar retardo e acumular a entrada repassando os dado em no tempo especificado.
 - [ ] 08 - Padrão debounce com RxJS
 - [ ] 09 - Paginação de dados
 - [ ] 10 - LoadButton
