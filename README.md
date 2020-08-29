@@ -330,7 +330,9 @@ Repositório dos cursos da alura
 
 ### AULA 07 - Lapidando ainda mais nossa aplicação
 - [x] 01 - Projeto da aula anterior
-- [ ] 02 - Submódulos
+- [x] 02 - Submódulos
+    - [x] criados módulos: `PhotoModule`, `PhotoFormModule`, `PhotoListModule` 
+    - [x] ajustado o `PhotosModule` para importar os módulos ao invés das classes
 - [ ] 03 - Integração com Font Awesome
 - [ ] 04 - Component container e ng-content
 - [ ] 05 - Desaparecimento de elementos
