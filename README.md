@@ -337,7 +337,10 @@ Repositório dos cursos da alura
     - [x] instalado `npm install font-awesome@4.7.0`
     - [x] `angular.json` ajustado para incluir a fonte
     - [x] inclusão da fonte em `photo-list.component.html`
-- [ ] 04 - Component container e ng-content
+- [x] 04 - Component container e ng-content
+    - [x] criado `CardComponent` para encapsular um `card` do `bootstrap`
+    - [x] criado `CardModule` para que o componente possa ser exportador por mais de um componentes na mesma aplicação
+    - [x] `CardModule` foi importado em `PhotoListModule` componente no qual pertence o `PhotoComponent` onde é usado
 - [ ] 05 - Desaparecimento de elementos
 - [ ] 06 - Componentizando o filtro
 - [ ] 07 - Output property
