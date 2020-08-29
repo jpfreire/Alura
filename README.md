@@ -329,7 +329,7 @@ Repositório dos cursos da alura
 - [x] 11 - Consolidando seu conhecimento
 
 ### AULA 07 - Lapidando ainda mais nossa aplicação
-- [ ] 01 - Projeto da aula anterior
+- [x] 01 - Projeto da aula anterior
 - [ ] 02 - Submódulos
 - [ ] 03 - Integração com Font Awesome
 - [ ] 04 - Component container e ng-content
