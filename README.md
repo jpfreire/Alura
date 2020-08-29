@@ -333,7 +333,10 @@ Repositório dos cursos da alura
 - [x] 02 - Submódulos
     - [x] criados módulos: `PhotoModule`, `PhotoFormModule`, `PhotoListModule` 
     - [x] ajustado o `PhotosModule` para importar os módulos ao invés das classes
-- [ ] 03 - Integração com Font Awesome
+- [x] 03 - Integração com Font Awesome
+    - [x] instalado `npm install font-awesome@4.7.0`
+    - [x] `angular.json` ajustado para incluir a fonte
+    - [x] inclusão da fonte em `photo-list.component.html`
 - [ ] 04 - Component container e ng-content
 - [ ] 05 - Desaparecimento de elementos
 - [ ] 06 - Componentizando o filtro
