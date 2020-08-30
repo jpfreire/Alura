@@ -342,7 +342,9 @@ Repositório dos cursos da alura
     - [x] criado `CardModule` para que o componente possa ser exportador por mais de um componentes na mesma aplicação
     - [x] `CardModule` foi importado em `PhotoListModule` componente no qual pertence o `PhotoComponent` onde é usado
 - [x] 05 - Desaparecimento de elementos
-- [ ] 06 - Componentizando o filtro
+- [x] 06 - Componentizando o filtro
+
+    filtro transferido para o `photo-list\SearchComponent` simplificando o  `PhotoListComponent` e seu template, mas quebrou a funcionalidade pois não não há comunicação do componente de busca com o pai
 - [ ] 07 - Output property
 - [ ] 08 - Sobre output property
 - [ ] 09 - Criando a primeira diretiva
