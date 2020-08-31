@@ -1,4 +1,5 @@
-<app-search></app-search>
+<app-search
+(onDebouncedTyping)="filtro = $event"></app-search>
 
 <div class="text-center" *ngIf="!photos.length">Sem Fotos</div>
 <app-photos [photos]="photos | filtrarPelaDescricao: filtro"></app-photos>

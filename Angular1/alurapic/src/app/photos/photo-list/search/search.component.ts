@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, EventEmitter, Output } from '@angular/core';
 
 import { Subject } from 'rxjs';
 import { debounceTime } from 'rxjs/operators';
@@ -11,12 +11,16 @@ import { debounceTime } from 'rxjs/operators';
 })
 export class SearchComponent implements OnInit, OnDestroy {
 
+  @Output() onDebouncedTyping = new EventEmitter<string>();
+
   debounce = new Subject<string>();
 
   constructor() { }
 
   ngOnInit(): void {
-    // this.debounce.pipe(debounceTime(500)).subscribe(filtro => this.filtro = filtro);
+    this.debounce.pipe(debounceTime(500))
+    .subscribe(txtDigitado => {this.onDebouncedTyping.emit(txtDigitado);
+    console.log(txtDigitado)});
   }
 
   ngOnDestroy(): void {
