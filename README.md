@@ -348,7 +348,9 @@ Repositório dos cursos da alura
 - [x] 07 - Output property
     - [x] criado evento `onDebouncedTyping` em `SearchComponent` para emitir os eventos de digitação do campo para o componente pai
 - [x] 08 - Sobre output property
-- [ ] 09 - Criando a primeira diretiva
+- [x] 09 - Criando a primeira diretiva
+    -[x] criado módulo `ng g m shared/directives/darkenOnHover`
+    -[x] criada diretiva `ng g d shared/directives/darken-on-hover/darkenOnHover --module=/shared/directives/darken-on-hover/darken-on-hover.module.ts`
 - [ ] 10 - Terminando a implementação da diretiva
 - [ ] 11 - Sobre diretivas
 - [ ] 12 - Considerações finais
