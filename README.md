@@ -347,7 +347,7 @@ Repositório dos cursos da alura
     filtro transferido para o `photo-list\SearchComponent` simplificando o  `PhotoListComponent` e seu template, mas quebrou a funcionalidade pois não não há comunicação do componente de busca com o pai
 - [x] 07 - Output property
     - [x] criado evento `onDebouncedTyping` em `SearchComponent` para emitir os eventos de digitação do campo para o componente pai
-- [ ] 08 - Sobre output property
+- [x] 08 - Sobre output property
 - [ ] 09 - Criando a primeira diretiva
 - [ ] 10 - Terminando a implementação da diretiva
 - [ ] 11 - Sobre diretivas
