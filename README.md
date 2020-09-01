@@ -351,7 +351,11 @@ Repositório dos cursos da alura
 - [x] 09 - Criando a primeira diretiva
     -[x] criado módulo `ng g m shared/directives/darkenOnHover`
     -[x] criada diretiva `ng g d shared/directives/darken-on-hover/darkenOnHover --module=/shared/directives/darken-on-hover/darken-on-hover.module.ts`
-- [ ] 10 - Terminando a implementação da diretiva
+- [x] 10 - Terminando a implementação da diretiva
+    - [x] criados atributos `el:ElementRef`, para armazenar a referência ao elemento, e o `rer:Renderer`, para manipular o elemento mesmo quando não houver um DOM disponível (server side rendering)
+    - [x] criados métodos anotados com `@HostListener('mouseover')` para que o angular invoque o método quando o elemento emitir o evento especificado
+    - [x] adicionado o módulo `DarkenOnHoverModule` ao import do módulo do elemento que utiliza a diretiva
+    - [x] criada _inbound property_ `brightness` para receber o valor do brilho por parâmetro: `<div ... darkenOnHover brightness="50%">`
 - [ ] 11 - Sobre diretivas
 - [ ] 12 - Considerações finais
 - [ ] 13 - Consolidando seu conhecimento
