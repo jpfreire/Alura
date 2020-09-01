@@ -360,3 +360,20 @@ Repositório dos cursos da alura
 - [x] 12 - Considerações finais
 - [x] 13 - Consolidando seu conhecimento
 - [x] 14 - Projeto completo
+
+## Angular parte 2: Autenticação, Forms e lazy loading
+### AULA 01 - O componente para login
+- [x] 01 - Projeto da aula
+- [x] 02 - Atenção!
+- [ ] 03 - O componente de login
+- [ ] 04 - Validação de formulários
+- [ ] 05 - Importando o módulo de validação
+- [ ] 06 - Componentizando mensagens de validação
+- [ ] 07 - Enviando credenciais para a API
+- [ ] 08 - Redirecionamento pós login
+- [ ] 09 - Redirecionando depois do login
+- [ ] 10 - ViewChild: obtendo referências do template
+- [ ] 11 - Focus automático
+- [ ] 12 - Detectando a plataforma de execução
+- [ ] 13 - Consolidando seu conhecimento
+- [ ] 14 - O que aprendemos?
