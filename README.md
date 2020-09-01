@@ -375,7 +375,7 @@ Repositório dos cursos da alura
     O objeto `FormGroup` agrupa e calcula o status de todos os objetos filhos, informando se o grupo está válido ou inválido.
 
     O `FormBuilder` foi utilizado para criar o `FormGroup` com os componentes do tamplate mapeados através do atributo `formControlName`: `userName` e `password`
-- [ ] 05 - Importando o módulo de validação
+- [x] 05 - Importando o módulo de validação
 - [ ] 06 - Componentizando mensagens de validação
 - [ ] 07 - Enviando credenciais para a API
 - [ ] 08 - Redirecionamento pós login
