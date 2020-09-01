@@ -365,7 +365,9 @@ Repositório dos cursos da alura
 ### AULA 01 - O componente para login
 - [x] 01 - Projeto da aula
 - [x] 02 - Atenção!
-- [ ] 03 - O componente de login
+- [x] 03 - O componente de login
+
+    sendo o login um compoente de página não precisa de selector <app-...> pois não será utilizado dentro de outro component, apenas o próprio template foi definido.
 - [ ] 04 - Validação de formulários
 - [ ] 05 - Importando o módulo de validação
 - [ ] 06 - Componentizando mensagens de validação
