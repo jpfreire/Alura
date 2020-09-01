@@ -368,7 +368,13 @@ Repositório dos cursos da alura
 - [x] 03 - O componente de login
 
     sendo o login um compoente de página não precisa de selector <app-...> pois não será utilizado dentro de outro component, apenas o próprio template foi definido.
-- [ ] 04 - Validação de formulários
+- [x] 04 - Validação de formulários
+
+    utilizando o _Model Driven Forms_ a validação fica nos componentes e não no template. O `ReactiveFormsModule` contém diretivas e infraestrutura para validação de formulários.
+
+    O objeto `FormGroup` agrupa e calcula o status de todos os objetos filhos, informando se o grupo está válido ou inválido.
+
+    O `FormBuilder` foi utilizado para criar o `FormGroup` com os componentes do tamplate mapeados através do atributo `formControlName`: `userName` e `password`
 - [ ] 05 - Importando o módulo de validação
 - [ ] 06 - Componentizando mensagens de validação
 - [ ] 07 - Enviando credenciais para a API
