@@ -377,7 +377,7 @@ Repositório dos cursos da alura
     O `FormBuilder` foi utilizado para criar o `FormGroup` com os componentes do tamplate mapeados através do atributo `formControlName`: `userName` e `password`
 - [x] 05 - Importando o módulo de validação
 - [x] 06 - Componentizando mensagens de validação
-- [ ] 07 - Enviando credenciais para a API
+- [x] 07 - Enviando credenciais para a API
 - [ ] 08 - Redirecionamento pós login
 - [ ] 09 - Redirecionando depois do login
 - [ ] 10 - ViewChild: obtendo referências do template
