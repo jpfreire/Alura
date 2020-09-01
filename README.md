@@ -356,7 +356,7 @@ Repositório dos cursos da alura
     - [x] criados métodos anotados com `@HostListener('mouseover')` para que o angular invoque o método quando o elemento emitir o evento especificado
     - [x] adicionado o módulo `DarkenOnHoverModule` ao import do módulo do elemento que utiliza a diretiva
     - [x] criada _inbound property_ `brightness` para receber o valor do brilho por parâmetro: `<div ... darkenOnHover brightness="50%">`
-- [ ] 11 - Sobre diretivas
-- [ ] 12 - Considerações finais
-- [ ] 13 - Consolidando seu conhecimento
-- [ ] 14 - Projeto completo
+- [x] 11 - Sobre diretivas
+- [x] 12 - Considerações finais
+- [x] 13 - Consolidando seu conhecimento
+- [x] 14 - Projeto completo
