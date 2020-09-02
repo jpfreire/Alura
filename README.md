@@ -395,7 +395,9 @@ Repositório dos cursos da alura
 
 ### AULA 02 - Autenticação e o papel do token
 - [x] 01 - Projeto da aula anterior
-- [ ] 02 - Acesso do header de resposta
+- [x] 02 - Acesso do header de resposta
+
+    para acessar o _token_ nos cabeçalhos da requisição foi utilizado o método `pipe`, que não consome a resposta http, em conjunto com o método `tap` do `rxjs\operators`: itera sobre os objetos retornando ao final um `Observable` identico ao da entrada
 - [ ] 03 - Acessando o headers
 - [ ] 04 - Armazenamento do token
 - [ ] 05 - Local de armazenamento do token
