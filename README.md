@@ -408,5 +408,19 @@ Repositório dos cursos da alura
 - [x] 08 - Cabeçalho da aplicação
     - [x] criado componente do cabeçalho da aplicação dentro de core/header
     - [x] criado o módulo core para que o `HeaderComponent` possa ser exportado e usado no `<app-root>` (componente principal da aplicação)
-- [ ] 09 - Consolidando seu conhecimento
-- [ ] 10 - O que aprendemos?
+- [x] 09 - Consolidando seu conhecimento
+- [x] 10 - O que aprendemos?
+
+### AULA 03 - Usuário logado e proteção de rotas
+- [ ] 01 - Projeto da aula anterior
+- [ ] 02 - Separação de responsabilidades
+- [ ] 03 - O papel do BehaviorSubject
+- [ ] 04 - Entendendo BehaviorSubject
+- [ ] 05 - Async pipe
+- [ ] 06 - O uso do Async pipe
+- [ ] 07 - Implementação do logout
+- [ ] 08 - Guarda de rotas
+- [ ] 09 - O guarda de rotas
+- [ ] 10 - A diretiva routerLink
+- [ ] 11 - Consolidando seu conhecimento
+- [ ] 12 - O que aprendemos?
