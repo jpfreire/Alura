@@ -385,6 +385,10 @@ Repositório dos cursos da alura
     
     através de `@ViewChild('userNameInput')` o angular injeta um `ElementRef<T>`  encontrado pela variável de referência do template  `<input #userNameInput`
 - [x] 11 - Focus automático
-- [ ] 12 - Detectando a plataforma de execução
+- [x] 12 - Detectando a plataforma de execução
+
+    criado `PlatformDetectorService`para detectar se o angular esta rodando no navegador.
+
+    A função `isPlatformBrowser` do angular recebe um id de plataforma que foi criado através da injeção no construtor do serviço: `@Inject(PLATFORM_ID) private platformID: string`
 - [ ] 13 - Consolidando seu conhecimento
 - [ ] 14 - O que aprendemos?
