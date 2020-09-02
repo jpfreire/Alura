@@ -412,8 +412,12 @@ Repositório dos cursos da alura
 - [x] 10 - O que aprendemos?
 
 ### AULA 03 - Usuário logado e proteção de rotas
-- [ ] 01 - Projeto da aula anterior
-- [ ] 02 - Separação de responsabilidades
+- [x] 01 - Projeto da aula anterior
+- [x] 02 - Separação de responsabilidades
+    - [x] `npm install jwt-decode@2.2.0` pra decodificar o token
+    - [x] criado o `UserService` que decodifica o token através do `jwt-decode`
+    - [x] criado uma propriedade do tipo `Subject` para emitir o usuário logado
+    - [x] `AuthService` atualizado para gravar o token com o `UserService`
 - [ ] 03 - O papel do BehaviorSubject
 - [ ] 04 - Entendendo BehaviorSubject
 - [ ] 05 - Async pipe
