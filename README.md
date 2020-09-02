@@ -378,7 +378,8 @@ Repositório dos cursos da alura
 - [x] 05 - Importando o módulo de validação
 - [x] 06 - Componentizando mensagens de validação
 - [x] 07 - Enviando credenciais para a API
-- [ ] 08 - Redirecionamento pós login
+- [x] 08 - Redirecionamento pós login
+    - utilizado o componente de rotas para navegar `this.router.navigate(['user', userName])`
 - [ ] 09 - Redirecionando depois do login
 - [ ] 10 - ViewChild: obtendo referências do template
 - [ ] 11 - Focus automático
