@@ -399,7 +399,9 @@ Repositório dos cursos da alura
 
     para acessar o _token_ nos cabeçalhos da requisição foi utilizado o método `pipe`, que não consome a resposta http, em conjunto com o método `tap` do `rxjs\operators`: itera sobre os objetos retornando ao final um `Observable` identico ao da entrada
 - [x] 03 - Acessando o headers
-- [ ] 04 - Armazenamento do token
+- [x] 04 - Armazenamento do token
+    
+    criado serviço que armazena o token no `window.localStorage` 
 - [ ] 05 - Local de armazenamento do token
 - [ ] 06 - Segurança do token
 - [ ] 07 - Sobre o token
