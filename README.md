@@ -423,9 +423,11 @@ Repositório dos cursos da alura
     o `BehaviorSubject` armazena o último valor até que algum `Observable` possa consumir o valor emitido
     - `HeaderComponent` precisou de 2 objetos para resolver o problema: 
         - um objeto `User` para exibir as propriedades no template;
-        - outro objeto do tipo `Observable<User>` para  atualizar o objeto utilizado no templlate.
-- [ ] 04 - Entendendo BehaviorSubject
-- [ ] 05 - Async pipe
+        - outro objeto do tipo `Observable<User>` para  atualizar o objeto utilizado no template.
+- [x] 04 - Entendendo BehaviorSubject
+- [x] 05 - Async pipe
+
+    adicionando `| async` no template podemos utilizar um `Observable` eliminando o código de atualização na classe do componente
 - [ ] 06 - O uso do Async pipe
 - [ ] 07 - Implementação do logout
 - [ ] 08 - Guarda de rotas
