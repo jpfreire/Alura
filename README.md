@@ -390,5 +390,17 @@ Repositório dos cursos da alura
     criado `PlatformDetectorService`para detectar se o angular esta rodando no navegador.
 
     A função `isPlatformBrowser` do angular recebe um id de plataforma que foi criado através da injeção no construtor do serviço: `@Inject(PLATFORM_ID) private platformID: string`
-- [ ] 13 - Consolidando seu conhecimento
-- [ ] 14 - O que aprendemos?
+- [x] 13 - Consolidando seu conhecimento
+- [x] 14 - O que aprendemos?
+
+### AULA 02 - Autenticação e o papel do token
+- [x] 01 - Projeto da aula anterior
+- [ ] 02 - Acesso do header de resposta
+- [ ] 03 - Acessando o headers
+- [ ] 04 - Armazenamento do token
+- [ ] 05 - Local de armazenamento do token
+- [ ] 06 - Segurança do token
+- [ ] 07 - Sobre o token
+- [ ] 08 - Cabeçalho da aplicação
+- [ ] 09 - Consolidando seu conhecimento
+- [ ] 10 - O que aprendemos?
