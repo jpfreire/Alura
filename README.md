@@ -418,7 +418,12 @@ Repositório dos cursos da alura
     - [x] criado o `UserService` que decodifica o token através do `jwt-decode`
     - [x] criado uma propriedade do tipo `Subject` para emitir o usuário logado
     - [x] `AuthService` atualizado para gravar o token com o `UserService`
-- [ ] 03 - O papel do BehaviorSubject
+- [x] 03 - O papel do BehaviorSubject
+
+    o `BehaviorSubject` armazena o último valor até que algum `Observable` possa consumir o valor emitido
+    - `HeaderComponent` precisou de 2 objetos para resolver o problema: 
+        - um objeto `User` para exibir as propriedades no template;
+        - outro objeto do tipo `Observable<User>` para  atualizar o objeto utilizado no templlate.
 - [ ] 04 - Entendendo BehaviorSubject
 - [ ] 05 - Async pipe
 - [ ] 06 - O uso do Async pipe
