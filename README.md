@@ -380,7 +380,7 @@ Repositório dos cursos da alura
 - [x] 07 - Enviando credenciais para a API
 - [x] 08 - Redirecionamento pós login
     - utilizado o componente de rotas para navegar `this.router.navigate(['user', userName])`
-- [ ] 09 - Redirecionando depois do login
+- [x] 09 - Redirecionando depois do login
 - [ ] 10 - ViewChild: obtendo referências do template
 - [ ] 11 - Focus automático
 - [ ] 12 - Detectando a plataforma de execução
