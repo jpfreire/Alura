@@ -381,7 +381,9 @@ Repositório dos cursos da alura
 - [x] 08 - Redirecionamento pós login
     - utilizado o componente de rotas para navegar `this.router.navigate(['user', userName])`
 - [x] 09 - Redirecionando depois do login
-- [ ] 10 - ViewChild: obtendo referências do template
+- [x] 10 - ViewChild: obtendo referências do template
+    
+    através de `@ViewChild('userNameInput')` o angular injeta um `ElementRef<T>`  encontrado pela variável de referência do template  `<input #userNameInput`
 - [ ] 11 - Focus automático
 - [ ] 12 - Detectando a plataforma de execução
 - [ ] 13 - Consolidando seu conhecimento
