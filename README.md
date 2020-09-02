@@ -384,7 +384,7 @@ Repositório dos cursos da alura
 - [x] 10 - ViewChild: obtendo referências do template
     
     através de `@ViewChild('userNameInput')` o angular injeta um `ElementRef<T>`  encontrado pela variável de referência do template  `<input #userNameInput`
-- [ ] 11 - Focus automático
+- [x] 11 - Focus automático
 - [ ] 12 - Detectando a plataforma de execução
 - [ ] 13 - Consolidando seu conhecimento
 - [ ] 14 - O que aprendemos?
