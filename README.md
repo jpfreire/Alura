@@ -402,9 +402,11 @@ Repositório dos cursos da alura
 - [x] 04 - Armazenamento do token
     
     criado serviço que armazena o token no `window.localStorage` 
-- [ ] 05 - Local de armazenamento do token
-- [ ] 06 - Segurança do token
-- [ ] 07 - Sobre o token
-- [ ] 08 - Cabeçalho da aplicação
+- [x] 05 - Local de armazenamento do token
+- [x] 06 - Segurança do token
+- [x] 07 - Sobre o token
+- [x] 08 - Cabeçalho da aplicação
+    - [x] criado componente do cabeçalho da aplicação dentro de core/header
+    - [x] criado o módulo core para que o `HeaderComponent` possa ser exportado e usado no `<app-root>` (componente principal da aplicação)
 - [ ] 09 - Consolidando seu conhecimento
 - [ ] 10 - O que aprendemos?
