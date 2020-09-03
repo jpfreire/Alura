@@ -451,7 +451,10 @@ Repositório dos cursos da alura
 - [x] 03 - Validação do formulário
 
     reutilizado o componente `app-vmessage`
-- [ ] 04 - Criando nosso próprio validador
+- [x] 04 - Criando nosso próprio validador
+    - [x] criado `lowerCaseValidator(control: AbstractControl)`
+
+        a função retorna um objeto javascript com uma propriedade `{loweCase:...}` que pode ser acessada no template através de `*ngIf="signupForm.get('userName').errors?.lowerCase"`
 - [ ] 05 - Criação de validador
 - [ ] 06 - Validador assíncrono
 - [ ] 07 - Criação de validador assíncronos

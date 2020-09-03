@@ -37,7 +37,7 @@
         *ngIf="signupForm.get('userName').errors?.maxlength"
         text="Maximum lenght is 20!"></app-vmessage>
         <app-vmessage 
-        *ngIf="signupForm.get('userName').errors?.pattern"
+        *ngIf="signupForm.get('userName').errors?.lowerCase"
         text="Lower case, _ and numbers only!"></app-vmessage>
     </div>
 
