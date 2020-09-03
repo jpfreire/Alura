@@ -4,6 +4,7 @@
       <div *ngIf="(user$ | async) as user; else loginLink">
           <i class="fa fa-user-circle"></i>
           <a class="ml-2">{{user?.name}}</a>
+          <a (click)="logout()" class="ml-2">Logout</a>
       </div>
 
       <ng-template #loginLink>

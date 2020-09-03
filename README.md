@@ -428,8 +428,8 @@ Repositório dos cursos da alura
 - [x] 05 - Async pipe
 
     adicionando `| async` no template podemos utilizar um `Observable` eliminando o código de atualização na classe do componente
-- [ ] 06 - O uso do Async pipe
-- [ ] 07 - Implementação do logout
+- [x] 06 - O uso do Async pipe
+- [x] 07 - Implementação do logout
 - [ ] 08 - Guarda de rotas
 - [ ] 09 - O guarda de rotas
 - [ ] 10 - A diretiva routerLink

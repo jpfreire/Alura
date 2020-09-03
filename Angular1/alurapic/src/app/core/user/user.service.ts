@@ -11,7 +11,7 @@ export class UserService {
 
   private userSubject = new BehaviorSubject<User>(null);
 
-  constructor(private tokenService:TokenService) { 
+  constructor(private tokenService: TokenService) {
     if (this.tokenService.hasToken()) {
       this.decodeAndNotify();
     }
@@ -22,7 +22,7 @@ export class UserService {
     this.decodeAndNotify();
   }
 
-  getUser(){
+  getUser() {
     return this.userSubject.asObservable();
   }
 
@@ -33,5 +33,10 @@ export class UserService {
     console.log(user);
     console.groupEnd();
     this.userSubject.next(user);
+  }
+
+  logout(){
+    this.tokenService.remove();
+    this.userSubject.next(null);
   }
 }
