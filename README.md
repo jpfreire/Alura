@@ -443,7 +443,11 @@ Repositório dos cursos da alura
 ### AULA 04 - Registro de novos usuários
 
 - [x] 01 - Projeto da aula anterior
-- [ ] 02 - O componente de registro
+- [x] 02 - O componente de registro
+    - [x] criado o `SignUpComponent`
+    - [x] associado em `app.routing.modules.ts`
+    - [x] declarado em `home.module.ts``
+    - [x] importado o `FormsModule` para silenciar o erro do angular por não estar associado o ReactFormModule
 - [ ] 03 - Validação do formulário
 - [ ] 04 - Criando nosso próprio validador
 - [ ] 05 - Criação de validador
