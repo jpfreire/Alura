@@ -430,8 +430,12 @@ Repositório dos cursos da alura
     adicionando `| async` no template podemos utilizar um `Observable` eliminando o código de atualização na classe do componente
 - [x] 06 - O uso do Async pipe
 - [x] 07 - Implementação do logout
-- [ ] 08 - Guarda de rotas
-- [ ] 09 - O guarda de rotas
-- [ ] 10 - A diretiva routerLink
+- [x] 08 - Guarda de rotas
+
+    O guarda de rotas foi criado como um serviço que implementa `CanActivate` para que possa ser injetado em `app.routing.module.ts` no item do array de rotas: `canActivate: [AuthGuardService]`
+- [x] 09 - O guarda de rotas
+- [x] 10 - A diretiva routerLink
+
+    faz o redirecionamento do link no template seja feito sem o recarregamento a página
 - [ ] 11 - Consolidando seu conhecimento
 - [ ] 12 - O que aprendemos?
