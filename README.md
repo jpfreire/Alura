@@ -437,5 +437,19 @@ Repositório dos cursos da alura
 - [x] 10 - A diretiva routerLink
 
     faz o redirecionamento do link no template seja feito sem o recarregamento a página
-- [ ] 11 - Consolidando seu conhecimento
-- [ ] 12 - O que aprendemos?
+- [x] 11 - Consolidando seu conhecimento
+- [x] 12 - O que aprendemos?
+
+### AULA 04 - Registro de novos usuários
+
+- [x] 01 - Projeto da aula anterior
+- [ ] 02 - O componente de registro
+- [ ] 03 - Validação do formulário
+- [ ] 04 - Criando nosso próprio validador
+- [ ] 05 - Criação de validador
+- [ ] 06 - Validador assíncrono
+- [ ] 07 - Criação de validador assíncronos
+- [ ] 08 - Submissão dos dados
+- [ ] 09 - Sobre a classe FormGroup
+- [ ] 10 - Consolidando seu conhecimento
+- [ ] 11 - O que aprendemos?
