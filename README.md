@@ -448,7 +448,9 @@ Repositório dos cursos da alura
     - [x] associado em `app.routing.modules.ts`
     - [x] declarado em `home.module.ts``
     - [x] importado o `FormsModule` para silenciar o erro do angular por não estar associado o ReactFormModule
-- [ ] 03 - Validação do formulário
+- [x] 03 - Validação do formulário
+
+    reutilizado o componente `app-vmessage`
 - [ ] 04 - Criando nosso próprio validador
 - [ ] 05 - Criação de validador
 - [ ] 06 - Validador assíncrono
