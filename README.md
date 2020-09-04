@@ -441,7 +441,6 @@ Repositório dos cursos da alura
 - [x] 12 - O que aprendemos?
 
 ### AULA 04 - Registro de novos usuários
-
 - [x] 01 - Projeto da aula anterior
 - [x] 02 - O componente de registro
     - [x] criado o `SignUpComponent`
@@ -455,8 +454,15 @@ Repositório dos cursos da alura
     - [x] criado `lowerCaseValidator(control: AbstractControl)`
 
         a função retorna um objeto javascript com uma propriedade `{loweCase:...}` que pode ser acessada no template através de `*ngIf="signupForm.get('userName').errors?.lowerCase"`
-- [ ] 05 - Criação de validador
-- [ ] 06 - Validador assíncrono
+- [x] 05 - Criação de validador
+- [x] 06 - Validador assíncrono
+    - [x] criado `SignUpService`  para acessar a API do backend que indica se um usuário já foi registrado
+    - [x] criado o validador `UserNotTakenValidatorService` que validará utilizando o serviço criado.
+        
+        Pelo fato de *validadores* não suportarem injeção de dependência ele precisou ser criado como Serviço.
+
+        O método `switchMap` foi utilizado no retorno da API ao invés de `map` pois pode cancelar uma requisição ainda em curso (no caso de uma nova chamada ao _backend_ somente a mais recente será considerada)
+    - [x] em `SignUpComponent` o validador foi colocado como terceiro parametro pois validadores assíncronos não seguem juntos aos síncronos
 - [ ] 07 - Criação de validador assíncronos
 - [ ] 08 - Submissão dos dados
 - [ ] 09 - Sobre a classe FormGroup
