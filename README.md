@@ -459,12 +459,14 @@ Repositório dos cursos da alura
     - [x] criado `SignUpService`  para acessar a API do backend que indica se um usuário já foi registrado
     - [x] criado o validador `UserNotTakenValidatorService` que validará utilizando o serviço criado.
         
-        Pelo fato de *validadores* não suportarem injeção de dependência ele precisou ser criado como Serviço.
+        Os *validadores* não suportarem injeção de dependência, por esse motivo precisamos criá-los como Serviço, quando houver necessidade de acesso a algum outro serviço.
 
-        O método `switchMap` foi utilizado no retorno da API ao invés de `map` pois pode cancelar uma requisição ainda em curso (no caso de uma nova chamada ao _backend_ somente a mais recente será considerada)
-    - [x] em `SignUpComponent` o validador foi colocado como terceiro parametro pois validadores assíncronos não seguem juntos aos síncronos
-- [ ] 07 - Criação de validador assíncronos
-- [ ] 08 - Submissão dos dados
+        O método `switchMap` foi utilizado no retorno da API ao invés de `map` pois tem a capacidade de cancelar uma requisição ainda em curso (no caso de uma nova chamada ao _backend_ somente a mais recente será considerada)
+    - [x] em `SignUpComponent` o validador foi colocado como terceiro parâmetro pois validadores assíncronos não seguem juntos aos síncronos
+- [x] 07 - Criação de validador assíncronos
+- [x] 08 - Submissão dos dados
+    - [x] `signup()` acessando o _backend_ para criação de novo usuário
+    - [x] criada interface `NewUser` para tipar o retorno do _backend_
 - [ ] 09 - Sobre a classe FormGroup
 - [ ] 10 - Consolidando seu conhecimento
 - [ ] 11 - O que aprendemos?

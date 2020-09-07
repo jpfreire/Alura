@@ -32,7 +32,14 @@ api.register = async (req, res) => {
 api.checkUserNameTaken = async (req, res) => {
     const { userName } = req.params;
     const user = await new UserDao(req.db).findByName(userName);
+    await sleep(2000);
     res.json(!!user);
 };
+
+function sleep(ms) {
+    return new Promise((resolve) => {
+      setTimeout(resolve, ms);
+    });
+  } 
 
 module.exports = api;
