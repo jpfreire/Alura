@@ -434,9 +434,9 @@ Repositório dos cursos da alura
 
     O guarda de rotas foi criado como um serviço que implementa `CanActivate` para que possa ser injetado em `app.routing.module.ts` no item do array de rotas: `canActivate: [AuthGuardService]`
 - [x] 09 - O guarda de rotas
-- [x] 10 - A diretiva routerLink
+- [x] 10 - A diretiva `routerLink`
 
-    faz o redirecionamento do link no template seja feito sem o recarregamento a página
+    faz o redirecionamento do link no template seja feito sem o recarregamento a página ex: `[routerLink]="['signup']"`
 - [x] 11 - Consolidando seu conhecimento
 - [x] 12 - O que aprendemos?
 
@@ -467,14 +467,18 @@ Repositório dos cursos da alura
 - [x] 08 - Submissão dos dados
     - [x] `signup()` acessando o _backend_ para criação de novo usuário
     - [x] criada interface `NewUser` para tipar o retorno do _backend_
-- [ ] 09 - Sobre a classe FormGroup
-- [ ] 10 - Consolidando seu conhecimento
-- [ ] 11 - O que aprendemos?
+- [x] 09 - Sobre a classe FormGroup
+- [x] 10 - Consolidando seu conhecimento
+- [x] 11 - O que aprendemos?
 
 ### AULA 05 - Rotas filhas e lazy loading
 
-- [ ] 01 - Projeto da aula anterior
-- [ ] 02 - Rotas filhas
+- [x] 01 - Projeto da aula anterior
+- [x] 02 - Rotas filhas
+
+    Ao adicionar rotas filhas em `app.routing.module.ts` o componente pai precisa adicionar `<router-outlet></router-outlet>` para que os componentes filhos  sejam exibidos
+
+    se houver uma rota filha definida como mesmo caminho da rota pai, o componente pai é exibido primeiro e em seguida o filho na tag `<router-outlet>` do componente pai
 - [ ] 03 - Qual rota?
 - [ ] 04 - Build do projeto
 - [ ] 05 - Lazy loading e code splitting
