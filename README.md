@@ -479,8 +479,10 @@ Repositório dos cursos da alura
     Ao adicionar rotas filhas em `app.routing.module.ts` o componente pai precisa adicionar `<router-outlet></router-outlet>` para que os componentes filhos  sejam exibidos
 
     se houver uma rota filha definida como mesmo caminho da rota pai, o componente pai é exibido primeiro e em seguida o filho na tag `<router-outlet>` do componente pai
-- [ ] 03 - Qual rota?
-- [ ] 04 - Build do projeto
+- [x] 03 - Qual rota?
+- [x] 04 - Build do projeto
+
+    devido à incompatibilidade da _History API_ foi adicionada a configuração `{ useHash: true }` ao módulo de rotas
 - [ ] 05 - Lazy loading e code splitting
 - [ ] 06 - Implementando o Lazy loading
 - [ ] 07 - Refinando o uso de serviços

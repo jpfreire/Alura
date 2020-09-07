@@ -12,7 +12,7 @@ import { debounceTime } from 'rxjs/operators';
 })
 export class PhotoListComponent implements OnInit {
 
-  private photos: Photo[] = [];
+  photos: Photo[] = [];
 
   filtro = '';
 
