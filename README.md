@@ -470,3 +470,18 @@ Repositório dos cursos da alura
 - [ ] 09 - Sobre a classe FormGroup
 - [ ] 10 - Consolidando seu conhecimento
 - [ ] 11 - O que aprendemos?
+
+### AULA 05 - Rotas filhas e lazy loading
+
+- [ ] 01 - Projeto da aula anterior
+- [ ] 02 - Rotas filhas
+- [ ] 03 - Qual rota?
+- [ ] 04 - Build do projeto
+- [ ] 05 - Lazy loading e code splitting
+- [ ] 06 - Implementando o Lazy loading
+- [ ] 07 - Refinando o uso de serviços
+- [ ] 08 - Interceptadores e envio do token
+- [ ] 09 - Consolidando seu conhecimento
+- [ ] 10 - Considerações finais
+- [ ] 11 - Projeto completo
+- [ ] 12 - O que aprendemos?
