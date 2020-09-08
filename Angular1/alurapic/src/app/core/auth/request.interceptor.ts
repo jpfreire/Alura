@@ -1,0 +1,23 @@
+import { HttpInterceptor, HttpRequest, HttpHandler, HttpEvent } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { Injectable } from '@angular/core';
+import { TokenService } from '../token/token.service';
+
+@Injectable()
+export class RequestInterceptor implements HttpInterceptor {
+    constructor(private ts: TokenService) {
+
+    }
+    intercept(req: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
+        if(this.ts.hasToken()) {
+            const token = this.ts.getToken();
+            req = req.clone({
+                setHeaders: {
+                    'x-access-token': token
+                }
+            });
+        }
+        return next.handle(req);
+    }
+
+}

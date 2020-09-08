@@ -494,7 +494,19 @@ Repositório dos cursos da alura
     `@Injectable({providedIn: 'root'})` pois o serviço só é utilizado em `SignUpComponent`
     - [x] em `SignUpComponent` o validador foi adicionado como provider na anotação do componente: `providers: [UserNotTakenValidatorService]`, assim apenas neste componente o serviço está disponível
     - [x] o `SignUpService` foi disponibilizado em `home.module.ts`, assim ele está disponível em todos os componentes do módulo _home_
-- [ ] 08 - Interceptadores e envio do token
+- [x] 08 - Interceptadores e envio do token
+    `RequestInterceptor` criado implpementando `HttpInterceptor` para adicionar o token ao cabeçalho
+
+    Adicionado ao CoreModule como _provider_ para que possa tratar o _request_, foi marcado como `multi: true` para repassar a outros interceptores caso venham a ser criados:
+    ```javascript
+        providers: [
+            {
+                provide: HTTP_INTERCEPTORS,
+                useClass: RequestInterceptor,
+                multi: true
+            }
+        ]
+    ```
 - [ ] 09 - Consolidando seu conhecimento
 - [ ] 10 - Considerações finais
 - [ ] 11 - Projeto completo
