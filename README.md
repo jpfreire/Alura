@@ -513,3 +513,19 @@ Repositório dos cursos da alura
 - [x] 12 - O que aprendemos?
 
 ## Angular parte 3: upload, build e novos componentes
+
+    
+### AULA 01 - Upload de fotos
+
+- [x] 01 - Projeto da aula anterior
+- [x] 02 - Este curso é uma continuação
+- [ ] 03 - Rodapé
+- [ ] 04 - O formulário upload de fotos
+- [ ] 05 - Validando o formulário
+- [ ] 06 - Obtendo os dados do formulário
+- [ ] 07 - Upload da foto
+- [ ] 08 - Sobre o upload
+- [ ] 09 - Arquivo selecionado
+- [ ] 10 - FormData
+- [ ] 11 - Adequando a exibição das fotos
+- [ ] 12 - Consolidando seu conhecimento
