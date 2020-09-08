@@ -507,7 +507,9 @@ Repositório dos cursos da alura
             }
         ]
     ```
-- [ ] 09 - Consolidando seu conhecimento
-- [ ] 10 - Considerações finais
-- [ ] 11 - Projeto completo
-- [ ] 12 - O que aprendemos?
+- [x] 09 - Consolidando seu conhecimento
+- [x] 10 - Considerações finais
+- [x] 11 - Projeto completo
+- [x] 12 - O que aprendemos?
+
+## Angular parte 3: upload, build e novos componentes
