@@ -489,7 +489,11 @@ Repositório dos cursos da alura
     - [x] para criar o _lazy load_ foi ajustado o arquivo principal de rotas `app.routing.module.ts` movendo as rotas para os módulos pertinente: `home.routing.module.ts`
     - [x] removido o import do módulo em _lazy load_ em `app.module.ts` para que não seja carregado antecipadamente pelo angular
     - [x] `ng build --prod` gera o arquivo `main.js` e outro  `0.<hash>.js` com o módulo home
-- [ ] 07 - Refinando o uso de serviços
+- [x] 07 - Refinando o uso de serviços
+    - [x] em `UserNotTakenValidatorService` pois não fazia sentido utilizar 
+    `@Injectable({providedIn: 'root'})` pois o serviço só é utilizado em `SignUpComponent`
+    - [x] em `SignUpComponent` o validador foi adicionado como provider na anotação do componente: `providers: [UserNotTakenValidatorService]`, assim apenas neste componente o serviço está disponível
+    - [x] o `SignUpService` foi disponibilizado em `home.module.ts`, assim ele está disponível em todos os componentes do módulo _home_
 - [ ] 08 - Interceptadores e envio do token
 - [ ] 09 - Consolidando seu conhecimento
 - [ ] 10 - Considerações finais
