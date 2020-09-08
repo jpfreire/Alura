@@ -482,9 +482,13 @@ Repositório dos cursos da alura
 - [x] 03 - Qual rota?
 - [x] 04 - Build do projeto
 
-    devido à incompatibilidade da _History API_ foi adicionada a configuração `{ useHash: true }` ao módulo de rotas
-- [ ] 05 - Lazy loading e code splitting
-- [ ] 06 - Implementando o Lazy loading
+    devido à incompatibilidade da _History API_ foi adicionada a configuração `{ useHash: true }` ao módulo de rotas.
+    - ajustada a visibilidade da propriedade utilizada no componente photo-list
+- [x] 05 - Lazy loading e code splitting
+- [x] 06 - Implementando o Lazy loading
+    - [x] para criar o _lazy load_ foi ajustado o arquivo principal de rotas `app.routing.module.ts` movendo as rotas para os módulos pertinente: `home.routing.module.ts`
+    - [x] removido o import do módulo em _lazy load_ em `app.module.ts` para que não seja carregado antecipadamente pelo angular
+    - [x] `ng build --prod` gera o arquivo `main.js` e outro  `0.<hash>.js` com o módulo home
 - [ ] 07 - Refinando o uso de serviços
 - [ ] 08 - Interceptadores e envio do token
 - [ ] 09 - Consolidando seu conhecimento
