@@ -514,12 +514,13 @@ Repositório dos cursos da alura
 
 ## Angular parte 3: upload, build e novos componentes
 
-    
 ### AULA 01 - Upload de fotos
 
 - [x] 01 - Projeto da aula anterior
 - [x] 02 - Este curso é uma continuação
-- [ ] 03 - Rodapé
+- [x] 03 - Rodapé
+
+    criado de forma similar ao header `(observable$ | async) as user` revisitado no template
 - [ ] 04 - O formulário upload de fotos
 - [ ] 05 - Validando o formulário
 - [ ] 06 - Obtendo os dados do formulário
