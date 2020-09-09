@@ -521,7 +521,9 @@ Repositório dos cursos da alura
 - [x] 03 - Rodapé
 
     criado de forma similar ao header `(observable$ | async) as user` revisitado no template
-- [ ] 04 - O formulário upload de fotos
+- [x] 04 - O formulário upload de fotos
+
+    `PhotoFormModule` ajustado para `ReactiveFormsModule, VmessageModule, FormsModule` adicionados para uso na validação do formulário
 - [ ] 05 - Validando o formulário
 - [ ] 06 - Obtendo os dados do formulário
 - [ ] 07 - Upload da foto
