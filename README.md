@@ -524,7 +524,7 @@ Repositório dos cursos da alura
 - [x] 04 - O formulário upload de fotos
 
     `PhotoFormModule` ajustado para `ReactiveFormsModule, VmessageModule, FormsModule` adicionados para uso na validação do formulário
-- [ ] 05 - Validando o formulário
+- [x] 05 - Validando o formulário
 - [ ] 06 - Obtendo os dados do formulário
 - [ ] 07 - Upload da foto
 - [ ] 08 - Sobre o upload
