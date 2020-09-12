@@ -544,13 +544,15 @@ Repositório dos cursos da alura
 - [x] 01 - Projeto da aula anterior
 - [x] 02 - Um botão mais elegante
 
-    ao colocar `#fileInput` num component podemos utilizar `(click)="fileInput.click()"`
+    ao colocar `#fileInput` num component podemos utilizar `(click)="fileInput.click()"` acessando métodos e propriedades do componente 
 - [x] 03 - Preview de imagens
 
     criado o _preview_ com a utilização de `new FileReader().readAsDataURL(file)` que emite um evento `onload` com o resultado da conversão da imagem em uma url do tipo [data](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URIs) que representa a imagem em `base64` que pode ser prevista no navegador
-- [ ] 04 - Sobre variável de templates
-- [ ] 05 - *ngIf e else
-- [ ] 06 - Escondendo um elemento
-- [ ] 07 - Seleção automática de arquivos
+- [x] 04 - Sobre variável de templates
+- [x] 05 - *ngIf e else
+- [x] 06 - Escondendo um elemento
+- [x] 07 - Seleção automática de arquivos
+
+    criada a diretiva `appImediateClick` utilizando `PlatformDetectorService` para detectar se a diretiva está sendo executada no navegador
 - [ ] 08 - Bloqueando acesso não autenticado
 - [ ] 09 - Consolidando seu conhecimento
