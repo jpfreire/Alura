@@ -531,8 +531,10 @@ Repositório dos cursos da alura
 - [x] 07 - Upload da foto
 
     para salvar o arquivo é preciso passar o arquivo como segundo parâmetro do _post_ dentro de um `FormData`
-- [ ] 08 - Sobre o upload
-- [ ] 09 - Arquivo selecionado
-- [ ] 10 - FormData
-- [ ] 11 - Adequando a exibição das fotos
+- [x] 08 - Sobre o upload
+- [x] 09 - Arquivo selecionado
+- [x] 10 - FormData
+- [x] 11 - Adequando a exibição das fotos
+
+    propriedade `url` transformada em _getter_ e _setter_ para ajustar a url da imagem conforme o tipo de conteúdo
 - [ ] 12 - Consolidando seu conhecimento
