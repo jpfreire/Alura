@@ -8,7 +8,7 @@ const API = 'http://localhost:3000';
     providedIn: 'root'
 })
 export class PhotoService {
-    constructor(readonly http: HttpClient) {
+    constructor(private http: HttpClient) {
 
     }
 
@@ -19,5 +19,8 @@ export class PhotoService {
     listFromUserPaginated(userName: string, page: number) {
         const params = new HttpParams().append('page', page.toString())
         return this.http.get<Photo[]>(`${API}/${userName}/photos`, {params});
+    }
+
+    upload(description: string, allowComments: boolean, file: File) {
     }
 }

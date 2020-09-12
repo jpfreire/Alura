@@ -525,7 +525,9 @@ Repositório dos cursos da alura
 
     `PhotoFormModule` ajustado para `ReactiveFormsModule, VmessageModule, FormsModule` adicionados para uso na validação do formulário
 - [x] 05 - Validando o formulário
-- [ ] 06 - Obtendo os dados do formulário
+- [x] 06 - Obtendo os dados do formulário
+
+    adicionado o _event bind_ `(change)="file = $event.target.files[0]"` para salvar o conteúdo do arquivo no atributo `file: File` do componente.
 - [ ] 07 - Upload da foto
 - [ ] 08 - Sobre o upload
 - [ ] 09 - Arquivo selecionado
