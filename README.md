@@ -540,8 +540,11 @@ Repositório dos cursos da alura
 - [x] 12 - Consolidando seu conhecimento
 
 ### AULA 02 - Lapidando o upload
-- [ ] 01 - Projeto da aula anterior
-- [ ] 02 - Um botão mais elegante
+
+- [x] 01 - Projeto da aula anterior
+- [x] 02 - Um botão mais elegante
+
+    ao colocar `#fileInput` num component podemos utilizar `(click)="fileInput.click()"`
 - [ ] 03 - Preview de imagens
 - [ ] 04 - Sobre variável de templates
 - [ ] 05 - *ngIf e else
