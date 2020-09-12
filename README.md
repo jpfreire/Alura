@@ -545,7 +545,9 @@ Repositório dos cursos da alura
 - [x] 02 - Um botão mais elegante
 
     ao colocar `#fileInput` num component podemos utilizar `(click)="fileInput.click()"`
-- [ ] 03 - Preview de imagens
+- [x] 03 - Preview de imagens
+
+    criado o _preview_ com a utilização de `new FileReader().readAsDataURL(file)` que emite um evento `onload` com o resultado da conversão da imagem em uma url do tipo [data](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URIs) que representa a imagem em `base64` que pode ser prevista no navegador
 - [ ] 04 - Sobre variável de templates
 - [ ] 05 - *ngIf e else
 - [ ] 06 - Escondendo um elemento
