@@ -537,4 +537,15 @@ Repositório dos cursos da alura
 - [x] 11 - Adequando a exibição das fotos
 
     propriedade `url` transformada em _getter_ e _setter_ para ajustar a url da imagem conforme o tipo de conteúdo
-- [ ] 12 - Consolidando seu conhecimento
+- [x] 12 - Consolidando seu conhecimento
+
+### AULA 02 - Lapidando o upload
+- [ ] 01 - Projeto da aula anterior
+- [ ] 02 - Um botão mais elegante
+- [ ] 03 - Preview de imagens
+- [ ] 04 - Sobre variável de templates
+- [ ] 05 - *ngIf e else
+- [ ] 06 - Escondendo um elemento
+- [ ] 07 - Seleção automática de arquivos
+- [ ] 08 - Bloqueando acesso não autenticado
+- [ ] 09 - Consolidando seu conhecimento
