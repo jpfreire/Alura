@@ -528,7 +528,9 @@ Repositório dos cursos da alura
 - [x] 06 - Obtendo os dados do formulário
 
     adicionado o _event bind_ `(change)="file = $event.target.files[0]"` para salvar o conteúdo do arquivo no atributo `file: File` do componente.
-- [ ] 07 - Upload da foto
+- [x] 07 - Upload da foto
+
+    para salvar o arquivo é preciso passar o arquivo como segundo parâmetro do _post_ dentro de um `FormData`
 - [ ] 08 - Sobre o upload
 - [ ] 09 - Arquivo selecionado
 - [ ] 10 - FormData
