@@ -558,3 +558,14 @@ Repositório dos cursos da alura
 
     renomeado `AuthGuardService` para `LoginGuardService` e criado um novo `AuthGuard` testando se o usuário está logado e em caso de negativo o redireciona para a página inicial
 - [x] 09 - Consolidando seu conhecimento
+
+### AULA 03 - Detalhes da foto
+
+- [x] 01 - Projeto da aula anterior
+- [ ] 02 - Rotas parametrizadas
+- [ ] 03 - Extraindo parâmetros de rotas
+- [ ] 04 - Segmento de rota
+- [ ] 05 - Buscando a foto selecionada da API
+- [ ] 06 - Serviço para obtenção de segmentos de rotas
+- [ ] 07 - Como fazer?
+- [ ] 08 - Consolidando seu conhecimento
