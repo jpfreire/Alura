@@ -565,7 +565,9 @@ Repositório dos cursos da alura
 - [x] 02 - Rotas parametrizadas
 
     criado componente `PhotoDetailsComponent` e adicionada a rota paremetrizada `{path: 'p/:photoId', component: PhotoDetailsComponent}`
-- [ ] 03 - Extraindo parâmetros de rotas
+- [x] 03 - Extraindo parâmetros de rotas
+    - [x] adicionado link para o detalhe através de `<a [routerLink] = "['/p', photo.id]> ...</a>"` necessitando o impor de `RouterModule` em `PhotoListModule`
+    - [x] através da propriedade injetada `ActivatedRoute` podemos obter o parâmetro `:photoId` da rota: `this.route.snapshot.params.photoId`
 - [ ] 04 - Segmento de rota
 - [ ] 05 - Buscando a foto selecionada da API
 - [ ] 06 - Serviço para obtenção de segmentos de rotas
