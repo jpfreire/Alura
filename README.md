@@ -432,7 +432,7 @@ Repositório dos cursos da alura
 - [x] 07 - Implementação do logout
 - [x] 08 - Guarda de rotas
 
-    O guarda de rotas foi criado como um serviço que implementa `CanActivate` para que possa ser injetado em `app.routing.module.ts` no item do array de rotas: `canActivate: [AuthGuardService]`
+    O guarda de rotas foi criado como um serviço que implementa `CanActivate` para que possa receber por injeção de dependência `UserService` e `Router`. Sendo  utilizado em `app.routing.module.ts` no item do array de rotas: `canActivate: [AuthGuardService]`
 - [x] 09 - O guarda de rotas
 - [x] 10 - A diretiva `routerLink`
 
@@ -554,5 +554,7 @@ Repositório dos cursos da alura
 - [x] 07 - Seleção automática de arquivos
 
     criada a diretiva `appImediateClick` utilizando `PlatformDetectorService` para detectar se a diretiva está sendo executada no navegador
-- [ ] 08 - Bloqueando acesso não autenticado
-- [ ] 09 - Consolidando seu conhecimento
+- [x] 08 - Bloqueando acesso não autenticado
+
+    renomeado `AuthGuardService` para `LoginGuardService` e criado um novo `AuthGuard` testando se o usuário está logado e em caso de negativo o redireciona para a página inicial
+- [x] 09 - Consolidando seu conhecimento
