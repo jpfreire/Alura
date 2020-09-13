@@ -562,7 +562,9 @@ Repositório dos cursos da alura
 ### AULA 03 - Detalhes da foto
 
 - [x] 01 - Projeto da aula anterior
-- [ ] 02 - Rotas parametrizadas
+- [x] 02 - Rotas parametrizadas
+
+    criado componente `PhotoDetailsComponent` e adicionada a rota paremetrizada `{path: 'p/:photoId', component: PhotoDetailsComponent}`
 - [ ] 03 - Extraindo parâmetros de rotas
 - [ ] 04 - Segmento de rota
 - [ ] 05 - Buscando a foto selecionada da API
