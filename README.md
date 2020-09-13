@@ -568,8 +568,12 @@ Repositório dos cursos da alura
 - [x] 03 - Extraindo parâmetros de rotas
     - [x] adicionado link para o detalhe através de `<a [routerLink] = "['/p', photo.id]> ...</a>"` necessitando o impor de `RouterModule` em `PhotoListModule`
     - [x] através da propriedade injetada `ActivatedRoute` podemos obter o parâmetro `:photoId` da rota: `this.route.snapshot.params.photoId`
-- [ ] 04 - Segmento de rota
-- [ ] 05 - Buscando a foto selecionada da API
+- [x] 04 - Segmento de rota
+- [x] 05 - Buscando a foto selecionada da API
+
+    template do componente utilizando _async pipe_ `*ngIf="(photo$ | async) as photo"` previne que seja disparado um erro de _undefined_ devido à diferença de tempo entre a exibição do template e a chamada ao _backend_
+
+    criado o método `PhotoService.findById(photoId: string)`
 - [ ] 06 - Serviço para obtenção de segmentos de rotas
 - [ ] 07 - Como fazer?
 - [ ] 08 - Consolidando seu conhecimento
