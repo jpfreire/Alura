@@ -574,6 +574,20 @@ Repositório dos cursos da alura
     template do componente utilizando _async pipe_ `*ngIf="(photo$ | async) as photo"` previne que seja disparado um erro de _undefined_ devido à diferença de tempo entre a exibição do template e a chamada ao _backend_
 
     criado o método `PhotoService.findById(photoId: string)`
-- [ ] 06 - Serviço para obtenção de segmentos de rotas
-- [ ] 07 - Como fazer?
-- [ ] 08 - Consolidando seu conhecimento
+- [x] 06 - Serviço para obtenção de segmentos de rotas
+- [x] 07 - Como fazer?
+- [x] 08 - Consolidando seu conhecimento
+
+### AULA 04 - Comentando fotos
+- [x] 01 - Projeto da aula anterior
+- [ ] 02 - Buscando comentários
+- [ ] 03 - Comentários como componente
+- [ ] 04 - Sobre componentização
+- [ ] 05 - Validação
+- [ ] 06 - Comentando fotos
+- [ ] 07 - Lidando com o refresh de comentários
+- [ ] 08 - Um problema não esperado
+- [ ] 09 - Análise de código
+- [ ] 10 - Lapidando a experiência do usuário
+- [ ] 11 - Sobre o template
+- [ ] 12 - Consolidando seu conhecimento
