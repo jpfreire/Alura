@@ -583,8 +583,10 @@ Repositório dos cursos da alura
 - [x] 02 - Buscando comentários
 
     - [x] criada a interface `PhotoComments`
-    - [x] criado o método `PhotoService.getComments(photoId:number): Observable<PhotoComments[]>` 
-- [ ] 03 - Comentários como componente
+    - [x] criado o método `PhotoService.getComments(photoId:number): Observable<PhotoComments[]>`
+- [x] 03 - Comentários como componente
+
+    criado componente `PhotoCommentsComponent` para a exibição dos comentários, retirando do `PhotoDetailsComponent` a responsabilidade de exibir os comentários
 - [ ] 04 - Sobre componentização
 - [ ] 05 - Validação
 - [ ] 06 - Comentando fotos
