@@ -580,7 +580,10 @@ Repositório dos cursos da alura
 
 ### AULA 04 - Comentando fotos
 - [x] 01 - Projeto da aula anterior
-- [ ] 02 - Buscando comentários
+- [x] 02 - Buscando comentários
+
+    - [x] criada a interface `PhotoComments`
+    - [x] criado o método `PhotoService.getComments(photoId:number): Observable<PhotoComments[]>` 
 - [ ] 03 - Comentários como componente
 - [ ] 04 - Sobre componentização
 - [ ] 05 - Validação
