@@ -587,8 +587,12 @@ Repositório dos cursos da alura
 - [x] 03 - Comentários como componente
 
     criado componente `PhotoCommentsComponent` para a exibição dos comentários, retirando do `PhotoDetailsComponent` a responsabilidade de exibir os comentários
-- [ ] 04 - Sobre componentização
-- [ ] 05 - Validação
+- [x] 04 - Sobre componentização
+- [x] 05 - Validação
+
+    revisitando `FormGroup`:
+    - no template `[formGroup]="commentForm"` e declarar os componentes de input através de `formControlName="comment"`
+    - no componente declarar `commentForm: FormGroup` e criar no `ngOnInit(){this.formBuilder.group({...})}` com os componentes declarados
 - [ ] 06 - Comentando fotos
 - [ ] 07 - Lidando com o refresh de comentários
 - [ ] 08 - Um problema não esperado
