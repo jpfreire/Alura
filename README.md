@@ -593,7 +593,9 @@ Repositório dos cursos da alura
     revisitando `FormGroup`:
     - no template `[formGroup]="commentForm"` e declarar os componentes de input através de `formControlName="comment"`
     - no componente declarar `commentForm: FormGroup` e criar no `ngOnInit(){this.formBuilder.group({...})}` com os componentes declarados
-- [ ] 06 - Comentando fotos
+- [x] 06 - Comentando fotos
+
+    submit template, _post_ adicionado ao serviço e chamada adicionada ao componente
 - [ ] 07 - Lidando com o refresh de comentários
 - [ ] 08 - Um problema não esperado
 - [ ] 09 - Análise de código
