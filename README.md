@@ -596,7 +596,31 @@ Repositório dos cursos da alura
 - [x] 06 - Comentando fotos
 
     submit template, _post_ adicionado ao serviço e chamada adicionada ao componente
-- [ ] 07 - Lidando com o refresh de comentários
+- [x] 07 - Lidando com o refresh de comentários
+
+    Ao adicionar um comentário nos inscrevemos recebemos um `Observable`, que utilizamos para atualizar os comentários do template: `this.comments$`. Que gerou um cascata de subscribe:
+
+    ```TypeScript
+    this.photoService.addComments(this.photoId, comment).
+    subscribe(() => {
+      this.comments$ = this.photoService.getComments(this.photoId);
+      this.comments$.
+      subscribe((comments) => {
+        this.commentForm.reset();
+        console.log('comments read');
+      }, (err) => {console.log('Error fetching comments', err );
+      });
+      ```
+
+    Para evitar uma cadeia de _subscribe_ foram utilizados os métodos `pipe(switchMap( => ...))` pois o retorno do `addComment` não possui informação dos comentários já inseridos assim podemos descartar o retorno ao utilizar o `switchMap` transformando em um `Observable<PhotoComment[]>`:
+
+    ```typescript
+    this.comments$ = this.photoService.addComments(this.photoId, comment).
+    pipe(switchMap(() =>  this.photoService.getComments(this.photoId)));
+    ```
+
+    o operador `pipe(tap(...))` foi utilizado após o último `pipe` para executar uma ação sem alterar o retorno do objeto observado do método `addComments`
+    
 - [ ] 08 - Um problema não esperado
 - [ ] 09 - Análise de código
 - [ ] 10 - Lapidando a experiência do usuário
