@@ -621,7 +621,11 @@ Repositório dos cursos da alura
 
     o operador `pipe(tap(...))` foi utilizado após o último `pipe` para executar uma ação sem alterar o retorno do objeto observado do método `addComments`
     
-- [ ] 08 - Um problema não esperado
+- [x] 08 - Um problema não esperado
+
+    Ao mudar a url da listagem de fotos estávamos identificando que o a lista não mudava conforme esperado, ex: ao carregar `/user/flavio` e em seguida mudar para `/user/jpfreire` a lista de fotos permanecia a mesma.
+
+    O problema acontecia com a utilziação dos parâmetros de rota de forma estática: `activatedRoute.snapshot.params`, mudando para a subscrição ao objeto `activatedRoute.params.subscribe(params => {...})` temos uma solução que reage dinamicamente à mudança na rota.
 - [ ] 09 - Análise de código
 - [ ] 10 - Lapidando a experiência do usuário
 - [ ] 11 - Sobre o template
