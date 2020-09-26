@@ -644,7 +644,12 @@ Repositório dos cursos da alura
 - [x] 03 - Remoção de fotos
 
     adicionado método `PhotoService.removePhoto()` e `PhotoDetailsComponent.remove()`
-- [ ] 04 - Ocultando elementos que requerem permissão
+- [x] 04 - Ocultando elementos que requerem permissão
+
+    diretiva `appPhotoOwnerOnly` criada com a propriedade `ownedPhoto`, que deve ser atribuída logo em seguida:
+    ```html
+    <i appPhotoOwnerOnly [ownedPhoto]="photo"></i>
+    ```
 - [ ] 05 - Revisão - O Pipe Async
 - [ ] 06 - Sobre liberação de recursos
 - [ ] 07 - Criando nosso próprio tipos
