@@ -659,8 +659,8 @@ Repositório dos cursos da alura
 
 - [x] 01 - Projeto da aula anterior
 - [x] 02 - Modelando dados do componente
-- [ ] 03 - O modificador readonly
-- [ ] 04 - A camada de serviço do componente
+- [x] 03 - O modificador readonly
+- [x] 04 - A camada de serviço do componente
 - [ ] 05 - Revisão sobre Subject
 - [ ] 06 - Implementando o componente
 - [ ] 07 - Utilizando o novo componente
