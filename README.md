@@ -677,3 +677,14 @@ Repositório dos cursos da alura
 
     ajuste nas rotas para redirecionar para `not-found` quando uma imagem não é encontrada no banco de dados.
 - [ ] 11 - Consolidando seu conhecimento
+
+### AULA 07 - Curtindo fotos
+
+- [x] 01 - Projeto da aula anterior
+- [ ] 02 - Exibindo apenas quando logado
+- [ ] 03 - Revisando o papel do serviço Renderer
+- [ ] 04 - Preparando o serviço
+- [ ] 05 - Criando Observables com of
+- [ ] 06 - Curtindo fotos
+- [ ] 07 - Um pouco mais sobre Rxjs
+- [ ] 08 - Consolidando seu conhecimento
