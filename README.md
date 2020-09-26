@@ -661,7 +661,9 @@ Repositório dos cursos da alura
 - [x] 02 - Modelando dados do componente
 - [x] 03 - O modificador readonly
 - [x] 04 - A camada de serviço do componente
-- [ ] 05 - Revisão sobre Subject
+- [x] 05 - Revisão sobre Subject
+
+    um `Observable` emite os eventos através do método `next()` 🤷‍♂️
 - [ ] 06 - Implementando o componente
 - [ ] 07 - Utilizando o novo componente
 - [ ] 08 - Revisão sobre comunicação entre componentes
