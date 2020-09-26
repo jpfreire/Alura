@@ -673,5 +673,7 @@ Repositório dos cursos da alura
     - [x] Comunicação entre elemento filho e pai pode ser realizada por meio de _output properties_ (anotado com `@Output`: um instância de `EventEmitter`).
     - [x] Comunicação entre um elemento pai e um filho pode ser realizada través de _inbound properties_ (anotados com `@Input`)
 - [x] 09 - Lapidando o componente
-- [ ] 10 - Um pequeno detalhe
+- [x] 10 - Um pequeno detalhe
+
+    ajuste nas rotas para redirecionar para `not-found` quando uma imagem não é encontrada no banco de dados.
 - [ ] 11 - Consolidando seu conhecimento
