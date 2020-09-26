@@ -657,8 +657,8 @@ Repositório dos cursos da alura
 
 ### AULA 06 - Componente de notificação
 
-- [ ] 01 - Projeto da aula anterior
-- [ ] 02 - Modelando dados do componente
+- [x] 01 - Projeto da aula anterior
+- [x] 02 - Modelando dados do componente
 - [ ] 03 - O modificador readonly
 - [ ] 04 - A camada de serviço do componente
 - [ ] 05 - Revisão sobre Subject
