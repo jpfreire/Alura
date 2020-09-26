@@ -7,7 +7,7 @@ import { Alert, AlertType } from './alert';
 })
 export class AlertService {
 
-  alertSubject: Subject<Alert>;
+  alertSubject = new Subject<Alert>() ;
 
   constructor() { }
 

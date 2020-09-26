@@ -664,7 +664,7 @@ Repositório dos cursos da alura
 - [x] 05 - Revisão sobre Subject
 
     um `Observable` emite os eventos através do método `next()` 🤷‍♂️
-- [ ] 06 - Implementando o componente
+- [x] 06 - Implementando o componente
 - [ ] 07 - Utilizando o novo componente
 - [ ] 08 - Revisão sobre comunicação entre componentes
 - [ ] 09 - Lapidando o componente
