@@ -626,7 +626,18 @@ Repositório dos cursos da alura
     Ao mudar a url da listagem de fotos estávamos identificando que o a lista não mudava conforme esperado, ex: ao carregar `/user/flavio` e em seguida mudar para `/user/jpfreire` a lista de fotos permanecia a mesma.
 
     O problema acontecia com a utilziação dos parâmetros de rota de forma estática: `activatedRoute.snapshot.params`, mudando para a subscrição ao objeto `activatedRoute.params.subscribe(params => {...})` temos uma solução que reage dinamicamente à mudança na rota.
-- [ ] 09 - Análise de código
-- [ ] 10 - Lapidando a experiência do usuário
-- [ ] 11 - Sobre o template
-- [ ] 12 - Consolidando seu conhecimento
+- [x] 09 - Análise de código
+- [x] 10 - Lapidando a experiência do usuário
+- [x] 11 - Sobre o template
+- [x] 12 - Consolidando seu conhecimento
+
+### AULA 05 - Remoção de fotos e novos componentes
+
+- [ ] 01 - Projeto da aula anterior
+- [ ] 02 - Permissão de comentários
+- [ ] 03 - Remoção de fotos
+- [ ] 04 - Ocultando elementos que requerem permissão
+- [ ] 05 - Revisão - O Pipe Async
+- [ ] 06 - Sobre liberação de recursos
+- [ ] 07 - Criando nosso próprio tipos
+- [ ] 08 - Consolidando seu conhecimento
