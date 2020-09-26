@@ -633,8 +633,14 @@ Repositório dos cursos da alura
 
 ### AULA 05 - Remoção de fotos e novos componentes
 
-- [ ] 01 - Projeto da aula anterior
-- [ ] 02 - Permissão de comentários
+- [x] 01 - Projeto da aula anterior
+- [x] 02 - Permissão de comentários
+
+    revisitando `ngIf` com cláusula `else`:
+    ```html
+    <app-photo-comments ... *ngIf="photo.allowComments; else warning" ></app-photo-comments>
+    <ng-template #warning> ... </ng-template>
+    ```
 - [ ] 03 - Remoção de fotos
 - [ ] 04 - Ocultando elementos que requerem permissão
 - [ ] 05 - Revisão - O Pipe Async
