@@ -7,7 +7,7 @@ import { AlertService } from './alert.service';
   templateUrl: './alert.component.html',
   styleUrls: ['./alert.component.css']
 })
-export class AlertComponent implements OnInit {
+export class AlertComponent {
 
   @Input() timeout = 3000;
   alerts: Alert[] = [];
@@ -19,7 +19,7 @@ export class AlertComponent implements OnInit {
         return;
       }
       this.alerts.push(alert);
-      setTimeout(this.removeAlert(alert), timeout);
+      setTimeout(() => this.removeAlert(alert), this.timeout);
     });
   }
 

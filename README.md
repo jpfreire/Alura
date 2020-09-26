@@ -665,7 +665,7 @@ Repositório dos cursos da alura
 
     um `Observable` emite os eventos através do método `next()` 🤷‍♂️
 - [x] 06 - Implementando o componente
-- [ ] 07 - Utilizando o novo componente
+- [x] 07 - Utilizando o novo componente
 - [ ] 08 - Revisão sobre comunicação entre componentes
 - [ ] 09 - Lapidando o componente
 - [ ] 10 - Um pequeno detalhe

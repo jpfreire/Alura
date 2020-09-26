@@ -6,7 +6,7 @@ import { AlertComponent } from './alert.component';
   imports: [
     CommonModule
   ],
-  declarations: [],
+  declarations: [AlertComponent],
   exports: [AlertComponent]
 })
 export class AlertModule { }
