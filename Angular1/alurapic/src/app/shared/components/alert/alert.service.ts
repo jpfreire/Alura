@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { NavigationStart, Router } from '@angular/router';
 import { Subject } from 'rxjs';
 import { Alert, AlertType } from './alert';
 
@@ -9,29 +10,48 @@ export class AlertService {
 
   alertSubject = new Subject<Alert>() ;
 
-  constructor() { }
+  keepAfterRouteChange = false;
 
-  success(message: string) {
-    this.alert(AlertType.SUCCESS, message);
+  constructor( private router: Router) { 
+    this.router.events.subscribe(event => {
+      if (event instanceof NavigationStart) {
+        if(this.keepAfterRouteChange) {
+          this.keepAfterRouteChange = false;
+        } else {
+          this.clear();
+        }
+      }
+    });
   }
 
-  danger(message: string) {
-    this.alert(AlertType.DANGER, message);
+  clear() {
+    this.alertSubject.next(null);
+  }
+  success(message: string, keepAfterRouteChange = false) {
+    this._alert(AlertType.SUCCESS, message, keepAfterRouteChange);
   }
 
-  warning(message: string) {
-    this.alert(AlertType.WARNING, message);
+  danger(message: string, keepAfterRouteChange = false) {
+    this._alert(AlertType.DANGER, message, keepAfterRouteChange);
+  }
+  erro(message: string, keepAfterRouteChange = false) {
+    this._alert(AlertType.ERROR, message, keepAfterRouteChange);
   }
 
-  erro(message: string) {
-    this.alert(AlertType.ERROR, message);
+  warning(message: string, keepAfterRouteChange = false) {
+    this._alert(AlertType.WARNING, message, keepAfterRouteChange);
   }
 
-  info(message: string) {
-    this.alert(AlertType.INFO, message);
+  alert(message: string, keepAfterRouteChange = false) {
+    this._alert(AlertType.ALERT, message, keepAfterRouteChange);
   }
 
-  private alert(alertType: AlertType, message:string ) {
+  info(message: string, keepAfterRouteChange = false) {
+    this._alert(AlertType.INFO, message, keepAfterRouteChange);
+  }
+
+  private _alert(alertType: AlertType, message: string, keepAfterRouteChange = false) {
+    this.keepAfterRouteChange = keepAfterRouteChange;
     this.alertSubject.next(new Alert(alertType, message));
   }
 

@@ -666,7 +666,12 @@ Repositório dos cursos da alura
     um `Observable` emite os eventos através do método `next()` 🤷‍♂️
 - [x] 06 - Implementando o componente
 - [x] 07 - Utilizando o novo componente
-- [ ] 08 - Revisão sobre comunicação entre componentes
-- [ ] 09 - Lapidando o componente
+- [x] 08 - Revisão sobre comunicação entre componentes
+
+    - [x] Variáveis de template podem ser utilizadas para realizar a comunicação entre elementos irmãos na hierarquia de componentes.
+    Essas referências podem ser acessadas em qualquer lugar do template, inclusive serem passadas como parâmetros de métodos chamados por eventos.
+    - [x] Comunicação entre elemento filho e pai pode ser realizada por meio de _output properties_ (anotado com `@Output`: um instância de `EventEmitter`).
+    - [x] Comunicação entre um elemento pai e um filho pode ser realizada través de _inbound properties_ (anotados com `@Input`)
+- [x] 09 - Lapidando o componente
 - [ ] 10 - Um pequeno detalhe
 - [ ] 11 - Consolidando seu conhecimento
