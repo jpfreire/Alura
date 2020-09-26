@@ -650,7 +650,21 @@ Repositório dos cursos da alura
     ```html
     <i appPhotoOwnerOnly [ownedPhoto]="photo"></i>
     ```
-- [ ] 05 - Revisão - O Pipe Async
-- [ ] 06 - Sobre liberação de recursos
-- [ ] 07 - Criando nosso próprio tipos
-- [ ] 08 - Consolidando seu conhecimento
+- [x] 05 - Revisão - O Pipe Async
+- [x] 06 - Sobre liberação de recursos
+- [x] 07 - Criando nosso próprio tipos
+- [x] 08 - Consolidando seu conhecimento
+
+### AULA 06 - Componente de notificação
+
+- [ ] 01 - Projeto da aula anterior
+- [ ] 02 - Modelando dados do componente
+- [ ] 03 - O modificador readonly
+- [ ] 04 - A camada de serviço do componente
+- [ ] 05 - Revisão sobre Subject
+- [ ] 06 - Implementando o componente
+- [ ] 07 - Utilizando o novo componente
+- [ ] 08 - Revisão sobre comunicação entre componentes
+- [ ] 09 - Lapidando o componente
+- [ ] 10 - Um pequeno detalhe
+- [ ] 11 - Consolidando seu conhecimento
