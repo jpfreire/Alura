@@ -641,7 +641,9 @@ Repositório dos cursos da alura
     <app-photo-comments ... *ngIf="photo.allowComments; else warning" ></app-photo-comments>
     <ng-template #warning> ... </ng-template>
     ```
-- [ ] 03 - Remoção de fotos
+- [x] 03 - Remoção de fotos
+
+    adicionado método `PhotoService.removePhoto()` e `PhotoDetailsComponent.remove()`
 - [ ] 04 - Ocultando elementos que requerem permissão
 - [ ] 05 - Revisão - O Pipe Async
 - [ ] 06 - Sobre liberação de recursos
