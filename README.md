@@ -681,7 +681,9 @@ Repositório dos cursos da alura
 ### AULA 07 - Curtindo fotos
 
 - [x] 01 - Projeto da aula anterior
-- [ ] 02 - Exibindo apenas quando logado
+- [x] 02 - Exibindo apenas quando logado
+
+    funcionalidade criada através da diretiva `ShowIfLoggedDirective`
 - [ ] 03 - Revisando o papel do serviço Renderer
 - [ ] 04 - Preparando o serviço
 - [ ] 05 - Criando Observables com of
