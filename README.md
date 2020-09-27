@@ -702,3 +702,16 @@ Repositório dos cursos da alura
 - [x] 03 - Considerações gerais
 - [x] 04 - Consolidando seu conhecimento
 - [x] 05 - Projeto final
+
+## Angular parte 4: lapidando o projeto
+
+### AULA 01 - Alteração do title
+
+- [ ] 01 - Projeto da aula anterior
+- [ ] 02 - Este curso é uma continuação
+- [ ] 03 - O Serviço Title
+- [ ] 04 - Um serviço dedicado para mudanças de título
+- [ ] 05 - Interagindo com o sistema de rotas
+- [ ] 06 - Dados arbitrários em rotas
+- [ ] 07 - Sobre rotas
+- [ ] 08 - Consolidando seu conhecimento
