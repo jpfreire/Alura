@@ -707,7 +707,7 @@ Repositório dos cursos da alura
 
 ### AULA 01 - Alteração do title
 
-- [ ] 01 - Projeto da aula anterior
+- [x] 01 - Projeto da aula anterior
 - [ ] 02 - Este curso é uma continuação
 - [ ] 03 - O Serviço Title
 - [ ] 04 - Um serviço dedicado para mudanças de título
