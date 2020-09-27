@@ -56,11 +56,11 @@ export class PhotoService {
     like(photoId: number) {
         const url = API + `/photos/${photoId}/like`;
         const body = {};
-        
+
         return this.http.post(url, body, {observe: 'response'}).
         pipe(map(res => true)).
         pipe(catchError(
             err =>
-            err.status === '304' ? of(false) : throwError(err)));
+            err.status === 304 ? of(false) : throwError(err)));
     }
 }

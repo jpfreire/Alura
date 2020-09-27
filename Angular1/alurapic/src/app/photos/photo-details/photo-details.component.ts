@@ -47,4 +47,14 @@ export class PhotoDetailsComponent implements OnInit {
     });
   }
 
+  like() {
+    console.log(`Foto curtida: ${this.photoId}`);
+    this.photoService.like(this.photoId).
+    subscribe(liked => {
+      if (liked) {
+        this.photo$ = this.photoService.findById(this.photoId);
+      }
+    });
+  }
+
 }

@@ -688,7 +688,7 @@ Repositório dos cursos da alura
 - [x] 04 - Preparando o serviço
 
     o método `PhotoService.like(photoId)` utiliza `pipe(catchError( err => ...)` para tratar o a resposta do _backend_ retornando um _Observable_ com valor falso caso a resposta http seja 304; ou passando adiante o erro capturado `throwError(err)`.
-- [ ] 05 - Criando Observables com of
-- [ ] 06 - Curtindo fotos
+- [x] 05 - Criando Observables com of
+- [x] 06 - Curtindo fotos
 - [ ] 07 - Um pouco mais sobre Rxjs
 - [ ] 08 - Consolidando seu conhecimento
