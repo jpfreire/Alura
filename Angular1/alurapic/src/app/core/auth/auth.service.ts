@@ -2,8 +2,9 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { tap } from 'rxjs/operators';
 import { UserService } from '../user/user.service';
+import { environment } from 'src/environments/environment';
 
-const URL = 'http://localhost:3000'
+const URL = environment.ApiURL;
 @Injectable({
   providedIn: 'root'
 })
