@@ -699,6 +699,6 @@ Repositório dos cursos da alura
 - [x] 02 - Diferenciando ambientes de deploy
 
     o angular provê um arquivo que pode ser utilizado para alternar entre ambientes: `src/environments/environment.ts` e `alurapic/src/environments/environment.prod.ts` a escolha do arquivo é dada no parâmetro do comando `ng build` com ou sem a flag `--prod`
-- [ ] 03 - Considerações gerais
-- [ ] 04 - Consolidando seu conhecimento
-- [ ] 05 - Projeto final
+- [x] 03 - Considerações gerais
+- [x] 04 - Consolidando seu conhecimento
+- [x] 05 - Projeto final
