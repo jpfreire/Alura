@@ -684,8 +684,10 @@ Repositório dos cursos da alura
 - [x] 02 - Exibindo apenas quando logado
 
     funcionalidade criada através da diretiva `ShowIfLoggedDirective`
-- [ ] 03 - Revisando o papel do serviço Renderer
-- [ ] 04 - Preparando o serviço
+- [x] 03 - Revisando o papel do serviço Renderer
+- [x] 04 - Preparando o serviço
+
+    o método `PhotoService.like(photoId)` utiliza `pipe(catchError( err => ...)` para tratar o a resposta do _backend_ retornando um _Observable_ com valor falso caso a resposta http seja 304; ou passando adiante o erro capturado `throwError(err)`.
 - [ ] 05 - Criando Observables com of
 - [ ] 06 - Curtindo fotos
 - [ ] 07 - Um pouco mais sobre Rxjs
