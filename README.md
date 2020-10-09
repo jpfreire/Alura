@@ -708,10 +708,22 @@ Repositório dos cursos da alura
 ### AULA 01 - Alteração do title
 
 - [x] 01 - Projeto da aula anterior
-- [ ] 02 - Este curso é uma continuação
-- [ ] 03 - O Serviço Title
-- [ ] 04 - Um serviço dedicado para mudanças de título
-- [ ] 05 - Interagindo com o sistema de rotas
+- [x] 02 - Este curso é uma continuação
+- [x] 03 - O Serviço Title
+
+    `Title` pode ser utilizado para definir o título, pois num _single page application_ a rota não muda e nenhuma página nova é carregada.
+- [x] 04 - Um serviço dedicado para mudanças de título
+- [x] 05 - Interagindo com o sistema de rotas
+
+    Para criar uma solução global de mudança do título será utilizado o componente raiz da aplicação: `AppComponent`.
+    
+    O sistema de rotas foi utilizado para passar o título da página no atributo `data`.
+
+    No componente `AppComponent` foram injetados:
+    - `Router` que possui um `Observable` que emite os eventos de mudança de rota 
+    - `Title` que fará a troca do título com o campo `data` coletado da rota
+    - `ActivatedRoute` que contém o campo `data` com o título da página
+
 - [ ] 06 - Dados arbitrários em rotas
 - [ ] 07 - Sobre rotas
 - [ ] 08 - Consolidando seu conhecimento
