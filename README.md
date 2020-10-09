@@ -731,7 +731,17 @@ Repositório dos cursos da alura
 ### AULA 02 - Upload e progresso
 
 - [x] 01 - Projeto da aula anterior
-- [ ] 02 - Adequando a camada de serviço
+- [x] 02 - Adequando a camada de serviço
+
+    adicionado os parâmetros de `observe` e `reportProgress` abaixo o `Observable` criado com o método `post` emitirá eventos de atualização de upload:
+    ```typescript
+    return this.http.post(url,formData,
+            {
+                observe: 'events',
+                reportProgress: true
+            }
+        );
+    ```
 - [ ] 03 - Progresso
 - [ ] 04 - Exibindo o progresso
 - [ ] 05 - O operador finalize
