@@ -716,7 +716,7 @@ Repositório dos cursos da alura
 - [x] 05 - Interagindo com o sistema de rotas
 
     Para criar uma solução global de mudança do título será utilizado o componente raiz da aplicação: `AppComponent`.
-    
+
     O sistema de rotas foi utilizado para passar o título da página no atributo `data`.
 
     No componente `AppComponent` foram injetados:
@@ -724,6 +724,16 @@ Repositório dos cursos da alura
     - `Title` que fará a troca do título com o campo `data` coletado da rota
     - `ActivatedRoute` que contém o campo `data` com o título da página
 
-- [ ] 06 - Dados arbitrários em rotas
-- [ ] 07 - Sobre rotas
-- [ ] 08 - Consolidando seu conhecimento
+- [x] 06 - Dados arbitrários em rotas
+- [x] 07 - Sobre rotas
+- [x] 08 - Consolidando seu conhecimento
+
+### AULA 02 - Upload e progresso
+
+- [x] 01 - Projeto da aula anterior
+- [ ] 02 - Adequando a camada de serviço
+- [ ] 03 - Progresso
+- [ ] 04 - Exibindo o progresso
+- [ ] 05 - O operador finalize
+- [ ] 06 - Exibição do progresso
+- [ ] 07 - Consolidando seu conhecimento
