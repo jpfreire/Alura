@@ -742,8 +742,17 @@ Repositório dos cursos da alura
             }
         );
     ```
-- [ ] 03 - Progresso
-- [ ] 04 - Exibindo o progresso
+- [x] 03 - Progresso
+- [x] 04 - Exibindo o progresso
+
+    para exibir o progresso de um upload o evento recebido na subscrição deve acessar as propriedades `event.loaded` e `event.total`. Essas propriedades estarão presentes quando o evento emitido for do tipo `HttpEventType.UploadProgress`
+    ```typescript
+    .subscribe((event: HttpEvent<any>) => {
+      if ( event.type === HttpEventType.UploadProgress ) {
+        this.percentDone = Math.round(100 * event.loaded / event.total);
+      }
+    }
+    ```
 - [ ] 05 - O operador finalize
 - [ ] 06 - Exibição do progresso
 - [ ] 07 - Consolidando seu conhecimento
