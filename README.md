@@ -789,7 +789,20 @@ Repositório dos cursos da alura
     }]
     ```
 
-- [ ] 06 - Interceptador que nada faz
-- [ ] 07 - Sobre interceptador
-- [ ] 08 - Provider de interceptador
-- [ ] 09 - Consolidando seu conhecimento
+- [x] 06 - Interceptador que nada faz
+- [x] 07 - Sobre interceptador
+- [x] 08 - Provider de interceptador
+- [x] 09 - Consolidando seu conhecimento
+
+### AULA 04 - Menu da aplicação
+
+- [ ] 01 - Projeto da aula anterior
+- [ ] 02 - Preview do menu
+- [ ] 03 - O componente
+- [ ] 04 - Estilo e template
+- [ ] 05 - Acessibilidade
+- [ ] 06 - Menu da aplicação
+- [ ] 07 - O evento keyup
+- [ ] 08 - Foco de elementos com tab
+- [ ] 09 - ngClass
+- [ ] 10 - Consolidando seu conhecimento
