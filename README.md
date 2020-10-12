@@ -768,8 +768,13 @@ Repositório dos cursos da alura
     Será criado um serviço que utiliza um `Observable<LoadingType>` para comunicar o status de `LoadingType.LOADING` e `LoadingType.STOPPED`.
 
     Também será criado um componente para representar visualmente o status de carregamento.
-- [ ] 03 - O componente
-- [ ] 04 - Estilo
+- [x] 03 - O componente
+
+    Para simplificar as classes css no template, foi utilizada a representação de string do enum `LoadingType`, para isto foi utilizada a função `map` do `rxjs`, transformando o enum em string: `.pipe(map(loadingType => loadingType.valueOf()))`.
+
+    Para alterar uma classe css de um componente o angular precisa utilizar um atributo `ngClass`, que foi utilizado em conjunto a um  _pipe async_, que faz com que o html do componente escute as mudanças ocorridas no  atributo `loading$: Observable<string>`.
+
+- [x] 04 - Estilo 
 - [ ] 05 - Interceptador
 - [ ] 06 - Interceptador que nada faz
 - [ ] 07 - Sobre interceptador
