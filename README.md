@@ -753,6 +753,19 @@ Repositório dos cursos da alura
       }
     }
     ```
-- [ ] 05 - O operador finalize
-- [ ] 06 - Exibição do progresso
-- [ ] 07 - Consolidando seu conhecimento
+
+- [x] 05 - O operador finalize
+- [x] 06 - Exibição do progresso
+- [x] 07 - Consolidando seu conhecimento
+
+### AULA 03 - Indicador de trabalho
+
+- [x] 01 - Projeto da aula anterior
+- [ ] 02 - Indicador de trabalho
+- [ ] 03 - O componente
+- [ ] 04 - Estilo
+- [ ] 05 - Interceptador
+- [ ] 06 - Interceptador que nada faz
+- [ ] 07 - Sobre interceptador
+- [ ] 08 - Provider de interceptador
+- [ ] 09 - Consolidando seu conhecimento
