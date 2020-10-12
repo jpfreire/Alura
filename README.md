@@ -774,8 +774,21 @@ Repositório dos cursos da alura
 
     Para alterar uma classe css de um componente o angular precisa utilizar um atributo `ngClass`, que foi utilizado em conjunto a um  _pipe async_, que faz com que o html do componente escute as mudanças ocorridas no  atributo `loading$: Observable<string>`.
 
-- [x] 04 - Estilo 
-- [ ] 05 - Interceptador
+- [x] 04 - Estilo
+- [x] 05 - Interceptador
+
+    Criado o código do `LoadingInterceptor` que utiliza o serviço do `LoadingService` para emitir o status de requisição solicitada/finalizada.
+
+    é necessário declarar o _interceptor_ como provider no módulo:
+
+    ```typescript
+    providers: [{
+        provide: HTTP_INTERCEPTORS,
+        useClass: LoadingInterceptor,
+        multi: true
+    }]
+    ```
+
 - [ ] 06 - Interceptador que nada faz
 - [ ] 07 - Sobre interceptador
 - [ ] 08 - Provider de interceptador
