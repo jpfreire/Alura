@@ -761,7 +761,13 @@ Repositório dos cursos da alura
 ### AULA 03 - Indicador de trabalho
 
 - [x] 01 - Projeto da aula anterior
-- [ ] 02 - Indicador de trabalho
+- [x] 02 - Indicador de trabalho
+
+    para indicar o estado do carregamento das páginas será criado um _interceptor_: `loading.interceptor.ts` que irá escutar as requisições ajax.
+
+    Será criado um serviço que utiliza um `Observable<LoadingType>` para comunicar o status de `LoadingType.LOADING` e `LoadingType.STOPPED`.
+
+    Também será criado um componente para representar visualmente o status de carregamento.
 - [ ] 03 - O componente
 - [ ] 04 - Estilo
 - [ ] 05 - Interceptador
