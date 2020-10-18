@@ -804,7 +804,9 @@ Repositório dos cursos da alura
 - [x] 04 - Estilo e template
 
     foi utilizada a diretiva `[ngClass]="{ 'active-menu': isShown}"` com ativação da classe através da ligação como a propriedade da classe MenuComponent
-- [ ] 05 - Acessibilidade
+- [x] 05 - Acessibilidade
+
+    adicionado `tabindex="0"` e eventos de `(keyup.space)="toggle()"` par que o evento de exibição do menu seja ativado também via telcado
 - [ ] 06 - Menu da aplicação
 - [ ] 07 - O evento keyup
 - [ ] 08 - Foco de elementos com tab
