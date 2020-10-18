@@ -801,7 +801,9 @@ Repositório dos cursos da alura
 - [x] 03 - O componente
 
     criado o componente shared/componentes/menu e adicionado ao header.
-- [ ] 04 - Estilo e template
+- [x] 04 - Estilo e template
+
+    foi utilizada a diretiva `[ngClass]="{ 'active-menu': isShown}"` com ativação da classe através da ligação como a propriedade da classe MenuComponent
 - [ ] 05 - Acessibilidade
 - [ ] 06 - Menu da aplicação
 - [ ] 07 - O evento keyup

@@ -7,15 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
-  private isShow = false;
+  private isShown = false;
 
   constructor() { }
 
   ngOnInit() {
   }
 
-  toggle(){
-    this.isShow = ! this.isShow;
+  toggle() {
+    this.isShown = ! this.isShown;
   }
 
 }
