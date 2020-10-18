@@ -7,13 +7,15 @@ import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { FooterComponent } from './footer/footer.component';
 import { AlertModule } from '../shared/components/alert/alert.module';
 import { LoadingModule } from '../shared/components/loading/loading.module';
+import { MenuModule } from '../shared/components/menu/menu.module';
 
 @NgModule({
   imports: [
     CommonModule,
     RouterModule,
     AlertModule,
-    LoadingModule
+    LoadingModule,
+    MenuModule
   ],
   declarations: [HeaderComponent, FooterComponent],
   exports: [HeaderComponent, FooterComponent],

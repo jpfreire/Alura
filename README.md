@@ -796,9 +796,11 @@ Repositório dos cursos da alura
 
 ### AULA 04 - Menu da aplicação
 
-- [ ] 01 - Projeto da aula anterior
-- [ ] 02 - Preview do menu
-- [ ] 03 - O componente
+- [x] 01 - Projeto da aula anterior
+- [x] 02 - Preview do menu
+- [x] 03 - O componente
+
+    criado o componente shared/componentes/menu e adicionado ao header.
 - [ ] 04 - Estilo e template
 - [ ] 05 - Acessibilidade
 - [ ] 06 - Menu da aplicação
