@@ -812,7 +812,21 @@ Repositório dos cursos da alura
     ao criar o menu a diretiva `appShowIfLogged` não funciona como esperado pois a diretiva não é atualizada conforme o status de login do usuário.
 
     Para ajustar o problema foi preciso atualizar a diretiva utilizando uma subscrição em `userService.getUser()`
-- [ ] 07 - O evento keyup
-- [ ] 08 - Foco de elementos com tab
-- [ ] 09 - ngClass
-- [ ] 10 - Consolidando seu conhecimento
+- [x] 07 - O evento keyup
+- [x] 08 - Foco de elementos com tab
+- [x] 09 - ngClass
+- [x] 10 - Consolidando seu conhecimento
+
+### AULA 05 - Global error handler e log no server side
+
+- [x] 01 - Projeto da aula anterior
+- [ ] 02 - A questão do log em Single Page Applications
+- [ ] 03 - Global error handler
+- [ ] 04 - Estrutura de um custom ErrorHandler
+- [ ] 05 - Stacktrace padronizada entre navegadores
+- [ ] 06 - Exibindo mais informações
+- [ ] 07 - Stacktrace-js
+- [ ] 08 - Integração com o servidor
+- [ ] 09 - Injector
+- [ ] 10 - Redirecionamento
+- [ ] 11 - Consolidando seu conhecimento
