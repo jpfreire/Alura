@@ -807,7 +807,11 @@ Repositório dos cursos da alura
 - [x] 05 - Acessibilidade
 
     adicionado `tabindex="0"` e eventos de `(keyup.space)="toggle()"` par que o evento de exibição do menu seja ativado também via telcado
-- [ ] 06 - Menu da aplicação
+- [x] 06 - Menu da aplicação
+
+    ao criar o menu a diretiva `appShowIfLogged` não funciona como esperado pois a diretiva não é atualizada conforme o status de login do usuário.
+
+    Para ajustar o problema foi preciso atualizar a diretiva utilizando uma subscrição em `userService.getUser()`
 - [ ] 07 - O evento keyup
 - [ ] 08 - Foco de elementos com tab
 - [ ] 09 - ngClass

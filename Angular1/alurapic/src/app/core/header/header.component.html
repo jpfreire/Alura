@@ -6,9 +6,8 @@
       </a>
 
       <app-menu #menu>
-        <ul>
-            <li>Menu item 1</li>
-            <li>Menu item 2</li>
+        <ul class="list-unstyled">
+            <li appShowIfLogged [routerLink]="['p','add']">Upload</li>
         </ul>
       </app-menu>
       <div *ngIf="(user$ | async) as user; else loginLink">
