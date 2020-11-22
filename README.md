@@ -834,10 +834,15 @@ Repositório dos cursos da alura
 
 - [x] 06 - Exibindo mais informações
 
-    por se tratar e um provedor de tratamento de erro precisamos receber outros serviços através de injeção quando o errorHandler for utilizada. Assim utilizamos o método `Injector.get()` do angular para receber o `LocationStrategy` com o caminho atual da página e o `UserService` que informa o usuário logado.
+    por se tratar e um provedor de tratamento de erro precisamos receber outros serviços através de injeção quando o errorHandler for utilizada. Assim utilizamos o método `Injector.get()` do angular para receber o `LocationStrategy` com o caminho atual da página e o `UserService` que informa o usuário logadocd ./.
 
-- [ ] 07 - Stacktrace-js
-- [ ] 08 - Integração com o servidor
+- [x] 07 - Stacktrace-js
+- [x] 08 - Integração com o servidor
+
+    - Adicionado novo servidor na porta 7000 para receber os erros de logs.
+    - Criado tipo `ServerLog` para representar a API de log do servidor.
+    - Criado `ServerLogService` para enviar logs ao servidor
+
 - [ ] 09 - Injector
 - [ ] 10 - Redirecionamento
 - [ ] 11 - Consolidando seu conhecimento
