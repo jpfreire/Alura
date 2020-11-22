@@ -820,8 +820,11 @@ Repositório dos cursos da alura
 ### AULA 05 - Global error handler e log no server side
 
 - [x] 01 - Projeto da aula anterior
-- [ ] 02 - A questão do log em Single Page Applications
-- [ ] 03 - Global error handler
+- [x] 02 - A questão do log em Single Page Applications
+- [x] 03 - Global error handler
+
+    criada classe `GlobalErrorHandler` e adicionada como provider em `ErrorsModule`
+
 - [ ] 04 - Estrutura de um custom ErrorHandler
 - [ ] 05 - Stacktrace padronizada entre navegadores
 - [ ] 06 - Exibindo mais informações
