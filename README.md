@@ -832,7 +832,10 @@ Repositório dos cursos da alura
     `npm install stacktrace-js`
     `npm install @types/stacktrace-js`
 
-- [ ] 06 - Exibindo mais informações
+- [x] 06 - Exibindo mais informações
+
+    por se tratar e um provedor de tratamento de erro precisamos receber outros serviços através de injeção quando o errorHandler for utilizada. Assim utilizamos o método `Injector.get()` do angular para receber o `LocationStrategy` com o caminho atual da página e o `UserService` que informa o usuário logado.
+
 - [ ] 07 - Stacktrace-js
 - [ ] 08 - Integração com o servidor
 - [ ] 09 - Injector
