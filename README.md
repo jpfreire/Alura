@@ -825,8 +825,13 @@ Repositório dos cursos da alura
 
     criada classe `GlobalErrorHandler` e adicionada como provider em `ErrorsModule`
 
-- [ ] 04 - Estrutura de um custom ErrorHandler
-- [ ] 05 - Stacktrace padronizada entre navegadores
+- [x] 04 - Estrutura de um custom ErrorHandler
+- [x] 05 - Stacktrace padronizada entre navegadores
+
+    instalado o stacktrace-js e tipos para _intellisense_:
+    `npm install stacktrace-js`
+    `npm install @types/stacktrace-js`
+
 - [ ] 06 - Exibindo mais informações
 - [ ] 07 - Stacktrace-js
 - [ ] 08 - Integração com o servidor
