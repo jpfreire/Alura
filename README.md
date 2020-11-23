@@ -848,3 +848,14 @@ Repositório dos cursos da alura
 
     criado componente `GlobalErrorComponent` que receberá o usuário após o erro.
 - [x] 11 - Consolidando seu conhecimento
+
+### AULA 06 - Um pouco mais sobre validação
+
+- [x] 01 - Projeto da aula anterior
+- [ ] 02 - Validando na submissão
+- [ ] 03 - Detalhe
+- [ ] 04 - Validando ao deixar o campo
+- [ ] 05 - Validação crossfield
+- [ ] 06 - Parâmetro da função de validação crossfield
+- [ ] 07 - Sobre validação crossfield
+- [ ] 08 - Consolidando seu conhecimento
