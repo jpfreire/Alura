@@ -843,6 +843,8 @@ Repositório dos cursos da alura
     - Criado tipo `ServerLog` para representar a API de log do servidor.
     - Criado `ServerLogService` para enviar logs ao servidor
 
-- [ ] 09 - Injector
-- [ ] 10 - Redirecionamento
-- [ ] 11 - Consolidando seu conhecimento
+- [x] 09 - Injector
+- [x] 10 - Redirecionamento
+
+    criado componente `GlobalErrorComponent` que receberá o usuário após o erro.
+- [x] 11 - Consolidando seu conhecimento
