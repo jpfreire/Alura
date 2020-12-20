@@ -872,8 +872,10 @@ Repositório dos cursos da alura
 - [x] 02 - Removendo a rota da history API
 
     adicionado o parâmetro de substituição de url na navegação: `router.navigate([...], {replaceUrl: true})`
-- [ ] 03 - Substituindo rota na History API
-- [ ] 04 - Redirecionando após o login
+- [x] 03 - Substituindo rota na History API
+- [x] 04 - Redirecionando após o login
+
+    em `auth.guard.ts` foi adicionada à navegação: `{queryParams: { fromUrl: state.url}}` um objeto que especifica o parâmetro de navegação `fromUrl` com o valor da rota pretendida.
 - [ ] 05 - QueryParams
 - [ ] 06 - Obtendo QueryParams
 - [ ] 07 - Extraindo queryParams
