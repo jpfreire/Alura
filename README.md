@@ -862,6 +862,19 @@ Repositório dos cursos da alura
 - [x] 05 - Validação crossfield
 
     criada a função de validação em `username-password.validator.ts` que recebe como parâmetro um `FormGroup` ao invés de um `AbstractControl`
-- [ ] 06 - Parâmetro da função de validação crossfield
-- [ ] 07 - Sobre validação crossfield
+- [x] 06 - Parâmetro da função de validação crossfield
+- [x] 07 - Sobre validação crossfield
+- [x] 08 - Consolidando seu conhecimento
+
+### AULA 07 - Um pouco mais sobre navegação e rotas
+
+- [ ] 01 - Projeto da aula anterior
+- [ ] 02 - Removendo a rota da history API
+- [ ] 03 - Substituindo rota na History API
+- [ ] 04 - Redirecionando após o login
+- [ ] 05 - QueryParams
+- [ ] 06 - Obtendo QueryParams
+- [ ] 07 - Extraindo queryParams
 - [ ] 08 - Consolidando seu conhecimento
+- [ ] 09 - Considerações finais
+- [ ] 10 - Download projeto
