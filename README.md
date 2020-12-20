@@ -859,7 +859,9 @@ Repositório dos cursos da alura
 - [x] 04 - Validando ao deixar o campo
 
     adicionada a validação `signupForm.get('userName').touched` para que o formulário avise de falha na validação quando o usuário deixar o campo
-- [ ] 05 - Validação crossfield
+- [x] 05 - Validação crossfield
+
+    criada a função de validação em `username-password.validator.ts` que recebe como parâmetro um `FormGroup` ao invés de um `AbstractControl`
 - [ ] 06 - Parâmetro da função de validação crossfield
 - [ ] 07 - Sobre validação crossfield
 - [ ] 08 - Consolidando seu conhecimento
