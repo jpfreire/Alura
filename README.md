@@ -876,8 +876,10 @@ Repositório dos cursos da alura
 - [x] 04 - Redirecionando após o login
 
     em `auth.guard.ts` foi adicionada à navegação: `{queryParams: { fromUrl: state.url}}` um objeto que especifica o parâmetro de navegação `fromUrl` com o valor da rota pretendida.
-- [ ] 05 - QueryParams
-- [ ] 06 - Obtendo QueryParams
+- [x] 05 - QueryParams
+- [x] 06 - Obtendo QueryParams
+
+    parâmetro obtido através de `activatedRoute.queryParams.subscribe(...)` e utilizado através de `router.navigateByUrl`
 - [ ] 07 - Extraindo queryParams
 - [ ] 08 - Consolidando seu conhecimento
 - [ ] 09 - Considerações finais
