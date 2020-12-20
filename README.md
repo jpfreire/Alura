@@ -852,7 +852,9 @@ Repositório dos cursos da alura
 ### AULA 06 - Um pouco mais sobre validação
 
 - [x] 01 - Projeto da aula anterior
-- [ ] 02 - Validando na submissão
+- [x] 02 - Validando na submissão
+
+    adicionado `#form="ngForm"` para acessar o formulário e adicionar a restrição de validação somente ao submeter o formulário: `form.submitted`
 - [ ] 03 - Detalhe
 - [ ] 04 - Validando ao deixar o campo
 - [ ] 05 - Validação crossfield
