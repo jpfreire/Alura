@@ -855,8 +855,10 @@ Repositório dos cursos da alura
 - [x] 02 - Validando na submissão
 
     adicionado `#form="ngForm"` para acessar o formulário e adicionar a restrição de validação somente ao submeter o formulário: `form.submitted`
-- [ ] 03 - Detalhe
-- [ ] 04 - Validando ao deixar o campo
+- [x] 03 - Detalhe
+- [x] 04 - Validando ao deixar o campo
+
+    adicionada a validação `signupForm.get('userName').touched` para que o formulário avise de falha na validação quando o usuário deixar o campo
 - [ ] 05 - Validação crossfield
 - [ ] 06 - Parâmetro da função de validação crossfield
 - [ ] 07 - Sobre validação crossfield
