@@ -868,8 +868,10 @@ Repositório dos cursos da alura
 
 ### AULA 07 - Um pouco mais sobre navegação e rotas
 
-- [ ] 01 - Projeto da aula anterior
-- [ ] 02 - Removendo a rota da history API
+- [x] 01 - Projeto da aula anterior
+- [x] 02 - Removendo a rota da history API
+
+    adicionado o parâmetro de substituição de url na navegação: `router.navigate([...], {replaceUrl: true})`
 - [ ] 03 - Substituindo rota na History API
 - [ ] 04 - Redirecionando após o login
 - [ ] 05 - QueryParams
