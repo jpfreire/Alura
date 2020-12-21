@@ -880,7 +880,7 @@ Repositório dos cursos da alura
 - [x] 06 - Obtendo QueryParams
 
     parâmetro obtido através de `activatedRoute.queryParams.subscribe(...)` e utilizado através de `router.navigateByUrl`
-- [ ] 07 - Extraindo queryParams
-- [ ] 08 - Consolidando seu conhecimento
-- [ ] 09 - Considerações finais
-- [ ] 10 - Download projeto
+- [x] 07 - Extraindo queryParams
+- [x] 08 - Consolidando seu conhecimento
+- [x] 09 - Considerações finais
+- [x] 10 - Download projeto
